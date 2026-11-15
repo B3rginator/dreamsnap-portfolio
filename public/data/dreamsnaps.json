@@ -1,6 +1,26 @@
 {
   "dreamsnaps": [
     {
+      "id": 173,
+      "title": "Resort Realms",
+      "theme": "Resort Realms",
+      "date": "2026-11-04",
+      "endDate": "2026-11-11",
+      "description": "Vacation in the ultimate resort in any setting you choose! Design a New Orleans paradise with Tiana, a desert oasis with Aladdin and Jasmine, or a galactic space haven with Buzz and Stitch.",
+      "image": "/images/dreamsnaps/Resort.png",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Casual x3",
+        "Cute x1",
+        "Lavish x3",
+        "Calm x2"
+      ]
+    },
+    {
       "id": 172,
       "title": "Good or Evil?",
       "theme": "Good or Evil?",
@@ -138,6 +158,26 @@
         "Bold x2",
         "Playful x3",
         "Strong x2"
+      ]
+    },
+    {
+      "id": 165,
+      "title": "Wayfinder's Isle",
+      "theme": "Wayfinder's Isle",
+      "date": "2026-09-09",
+      "endDate": "2026-09-16",
+      "description": "Join Moana on a wayfinding adventure! Decorate your Valley like Motunui. Capture a sunlit island day or starlit night with glowing paths, sparkling waters, and tropical wonders.",
+      "image": "/images/dreamsnaps/Wayfinders-Isle.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Elegant x2",
+        "Moana x1",
+        "Lavish x3",
+        "Wondrous x3"
       ]
     },
     {

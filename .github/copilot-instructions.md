@@ -43,8 +43,8 @@ Når brugeren beder om at tilføje et DreamSnap, skal du følge denne procedure:
 }
 ```
 
-6. Udfyld kun værdier, som brugeren har oplyst.
-   - Spørg efter manglende nødvendige oplysninger i stedet for at opfinde score, ranking, dato eller rewards.
+6. Brug oplyste værdier; håndtér manglende resultattal som angivet nedenfor.
+   - Sæt manglende score, ranking og Moonstones til `0`; opfind ikke andre oplysninger.
    - Hvis brugeren ikke har valgt en titel, må du gerne foreslå en titel, men gør det tydeligt, at den er et forslag.
    - Brug datoformatet `YYYY-MM-DD`; `date` er startdatoen, og `endDate` er valgfri slutdato.
    - `description` er valgfri og skal kun udfyldes, hvis brugeren har oplyst en beskrivelse.
@@ -63,10 +63,10 @@ Når brugeren beder om at tilføje et DreamSnap, skal du følge denne procedure:
 - `date`: Challenge-startdato i `YYYY-MM-DD`; bruges til tidslinjesortering.
 - `endDate`: Valgfri challenge-slutdato i `YYYY-MM-DD`.
 - `description`: Valgfri challenge-beskrivelse.
-- `image`: Sti relativt til websitets public root, med filnavn baseret på titlen. Tag højde for Vite `base`-konfigurationen i frontend-koden.
-- `score`: DreamSnap-score som tal.
-- `ranking`: Placering som tal. Lavere tal betyder bedre placering.
-- `rewards.moonstones`: Antal modtagne Moonstones som tal.
+- `image`: Sti relativt til websitets public root, med filnavn baseret på titlen; brug en titelbaseret placeholder, hvis billedet mangler. Tag højde for Vite `base`-konfigurationen i frontend-koden.
+- `score`: DreamSnap-score som tal; brug `0`, hvis den mangler.
+- `ranking`: Placering som tal. Lavere tal betyder bedre placering; brug `0`, hvis den mangler.
+- `rewards.moonstones`: Antal modtagne Moonstones som tal; brug `0`, hvis de mangler.
 - `tags`: Array med nul eller flere tags.
 
 ## Sikkerhed og publicering
