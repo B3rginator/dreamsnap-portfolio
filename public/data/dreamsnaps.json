@@ -1,3 +1,18 @@
 {
-  "dreamsnaps": []
+  "dreamsnaps": [
+    {
+      "id": 1,
+      "title": "Good or Evil?",
+      "theme": "Good or Evil",
+      "brief": "Will you embrace virtue like Aurora or succumb to darkness like Maleficent? Show us the battle between good and evil within! Decorate and dress to show two parallel paths, and choose which aesthetic defines you.",
+      "date": "2026-11-04",
+      "image": "/images/dreamsnaps/001.jpg",
+      "score": 82.06,
+      "ranking": 5474,
+      "rewards": {
+        "moonstones": 4000
+      },
+      "tags": []
+    }
+  ]
 }

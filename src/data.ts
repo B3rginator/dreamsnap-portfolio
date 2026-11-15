@@ -2,6 +2,7 @@ export type DreamSnap = {
   id: number;
   title: string;
   theme: string;
+  brief: string;
   date: string;
   image: string;
   score: number;
@@ -45,6 +46,8 @@ function isDreamSnap(value: unknown): value is DreamSnap {
     value.title.trim().length > 0 &&
     typeof value.theme === 'string' &&
     value.theme.trim().length > 0 &&
+    typeof value.brief === 'string' &&
+    value.brief.trim().length > 0 &&
     isValidDate(value.date) &&
     typeof value.image === 'string' &&
     /^\/images\/dreamsnaps\/(?!.*\.\.)[^?#]+$/i.test(value.image) &&

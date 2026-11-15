@@ -30,6 +30,7 @@ Når brugeren beder om at tilføje et DreamSnap, skal du følge denne procedure:
   "id": 6,
   "title": "DreamSnap title",
   "theme": "Challenge theme",
+  "brief": "Challenge description from the game",
   "date": "2026-11-15",
   "image": "/images/dreamsnaps/006.jpg",
   "score": 0,
@@ -42,7 +43,7 @@ Når brugeren beder om at tilføje et DreamSnap, skal du følge denne procedure:
 ```
 
 6. Udfyld kun værdier, som brugeren har oplyst.
-   - Spørg efter manglende nødvendige oplysninger i stedet for at opfinde score, ranking, dato eller rewards.
+   - Spørg efter manglende nødvendige oplysninger i stedet for at opfinde score, ranking, dato, brief eller rewards.
    - Hvis brugeren ikke har valgt en titel, må du gerne foreslå en titel, men gør det tydeligt, at den er et forslag.
    - Brug datoformatet `YYYY-MM-DD`.
    - `score`, `ranking`, `id` og `moonstones` skal være numeriske værdier.
@@ -57,6 +58,7 @@ Når brugeren beder om at tilføje et DreamSnap, skal du følge denne procedure:
 - `id`: Unikt, stigende heltal. Genbrug aldrig et eksisterende ID.
 - `title`: Eget navn på billedet.
 - `theme`: Challenge-temaets navn.
+- `brief`: Challenge-beskrivelsen fra spillet; gengiv den præcist, hvis den findes i kilden.
 - `date`: Datoen for resultatet i `YYYY-MM-DD`.
 - `image`: Sti relativt til websitets public root, eksempelvis `/images/dreamsnaps/006.jpg`. Tag højde for Vite `base`-konfigurationen i frontend-koden.
 - `score`: DreamSnap-score som tal.

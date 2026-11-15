@@ -71,6 +71,7 @@ Eksempel:
       "id": 1,
       "title": "A Magical Winter",
       "theme": "Winter Wonderland",
+      "brief": "Create a magical winter scene.",
       "date": "2026-11-15",
       "image": "/images/dreamsnaps/001.jpg",
       "score": 4500,
@@ -91,6 +92,7 @@ Eksempel:
 | `id` | number | Unikt, stabilt ID |
 | `title` | string | Eget navn på DreamSnap |
 | `theme` | string | Challenge-tema |
+| `brief` | string | Challenge-beskrivelsen fra spillet |
 | `date` | string | Dato for resultatet i `YYYY-MM-DD` format |
 | `image` | string | Relativ URL til billedet |
 | `score` | number | Score |

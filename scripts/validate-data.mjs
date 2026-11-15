@@ -37,6 +37,7 @@ if (!data || !Array.isArray(data.dreamsnaps)) {
 
     if (typeof snap.title !== 'string' || !snap.title.trim()) errors.push(`${label}.title mangler.`);
     if (typeof snap.theme !== 'string' || !snap.theme.trim()) errors.push(`${label}.theme mangler.`);
+    if (typeof snap.brief !== 'string' || !snap.brief.trim()) errors.push(`${label}.brief mangler.`);
 
     const date = typeof snap.date === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(snap.date)
       ? new Date(`${snap.date}T12:00:00Z`)

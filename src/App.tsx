@@ -477,6 +477,8 @@ function App() {
               <p className="eyebrow">{selectedSnap.theme}</p>
               <h2 id="dialog-title">{selectedSnap.title}</h2>
               <p className="dialog-date">{formatDate(selectedSnap.date)}</p>
+              <h3 className="dialog-brief-title">Brief</h3>
+              <p className="dialog-brief">{selectedSnap.brief}</p>
               <dl className="detail-grid">
                 <div><dt>Score</dt><dd>{formatNumber(selectedSnap.score)}</dd></div>
                 <div><dt>Placering</dt><dd>{selectedSnap.ranking > 0 ? `#${formatNumber(selectedSnap.ranking)}` : '—'}</dd></div>
