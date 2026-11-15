@@ -594,15 +594,22 @@ function App() {
                       : `#${formatNumber(snap.ranking)}`;
                   return (
                     <li className="highscore-row" key={snap.id}>
-                      <span className={`rank-badge rank-${index + 1}`}>{String(index + 1).padStart(2, '0')}</span>
-                      <span className="highscore-copy">
-                        <strong>{snap.title}</strong>
-                        <span>
-                          {snap.theme !== snap.title && `${snap.theme} · `}
-                          {formatDateRange(snap.date, snap.endDate)}
+                      <button
+                        aria-haspopup="dialog"
+                        className="highscore-row-button"
+                        onClick={() => setSelectedSnap(snap)}
+                        type="button"
+                      >
+                        <span className={`rank-badge rank-${index + 1}`}>{String(index + 1).padStart(2, '0')}</span>
+                        <span className="highscore-copy">
+                          <strong>{snap.title}</strong>
+                          <span>
+                            {snap.theme !== snap.title && `${snap.theme} · `}
+                            {formatDateRange(snap.date, snap.endDate)}
+                          </span>
                         </span>
-                      </span>
-                      <span className="highscore-value">{score}</span>
+                        <span className="highscore-value">{score}</span>
+                      </button>
                     </li>
                   );
                 })}

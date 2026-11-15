@@ -748,14 +748,32 @@ select:focus-visible {
 }
 
 .highscore-row {
+  padding: 0;
+}
+
+.highscore-row-button {
   display: flex;
+  inline-size: 100%;
   min-block-size: 3.35rem;
   align-items: center;
   gap: 0.7rem;
   padding: 0.45rem 0.85rem;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  text-align: start;
 }
 
-.highscore-row:nth-child(-n + 3) {
+.highscore-row-button:hover {
+  background: #faf8fd;
+}
+
+.highscore-row-button:focus-visible {
+  outline-offset: -3px;
+}
+
+.highscore-row:nth-child(-n + 3) .highscore-row-button {
   min-block-size: 3.9rem;
   padding-block: 0.6rem;
 }
@@ -814,7 +832,6 @@ select:focus-visible {
 
 .highscore-value {
   flex: 0 0 auto;
-  margin-inline-start: auto;
   color: #7662b1;
   font-family: Manrope, sans-serif;
   font-size: 0.88rem;
