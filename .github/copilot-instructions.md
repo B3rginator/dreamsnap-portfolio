@@ -5,7 +5,7 @@ Disse instruktioner gælder for hele DreamSnaps-projektet.
 ## Projektets arkitektur
 
 - Projektet er en statisk hjemmeside, der deployes til GitHub Pages.
-- Repository'et er privat, men den publicerede hjemmeside er offentlig.
+- Repository'et er public.
 - Der findes ingen backend, database, login eller browserbaseret uploadfunktion.
 - Alt DreamSnap-indhold vedligeholdes gennem Git.
 - DreamSnap-metadata ligger i `public/data/dreamsnaps.json`.

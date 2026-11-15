@@ -157,3 +157,4 @@ Hvis to DreamSnaps har samme værdi, skal sorteringen have en stabil sekundær s
 - Billeder skal have beskrivende `alt`-tekst.
 - Undgå at tilføje unødvendige dependencies.
 - JSON skal valideres, og alle billedstier skal pege på eksisterende filer.
+- Brug modern web guidance skills
