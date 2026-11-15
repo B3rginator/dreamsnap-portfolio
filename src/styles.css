@@ -464,8 +464,38 @@ select:focus-visible {
   font-size: 0.73rem;
 }
 
-.sort-field {
+.sort-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
   margin-inline-start: auto;
+}
+
+.sort-field {
+  margin-inline-start: 0;
+}
+
+.participation-filter {
+  display: flex;
+  min-block-size: 2.75rem;
+  align-items: center;
+  gap: 0.45rem;
+  padding-inline: 0.7rem;
+  border: 1px solid #eae7ef;
+  border-radius: 0.7rem;
+  background: #fff;
+  color: #777386;
+  cursor: pointer;
+  font-size: 0.73rem;
+}
+
+.participation-filter input {
+  inline-size: 1rem;
+  aspect-ratio: 1;
+  margin: 0;
+  accent-color: var(--purple);
+  cursor: pointer;
 }
 
 .clear-filters {
@@ -1048,8 +1078,17 @@ select:focus-visible {
     max-inline-size: 100%;
   }
 
-  .sort-field {
+  .sort-controls {
+    grid-column: 1 / -1;
     margin-inline-start: 0;
+  }
+
+  .sort-field {
+    flex: 1 1 130px;
+  }
+
+  .participation-filter {
+    flex: 0 1 auto;
   }
 
   .snap-grid {

@@ -146,6 +146,7 @@ function App() {
   const [themeFilter, setThemeFilter] = useState('');
   const [tagFilter, setTagFilter] = useState('');
   const [sort, setSort] = useState<DreamSnapSort>('date');
+  const [participatedOnly, setParticipatedOnly] = useState(false);
   const [highscore, setHighscore] = useState<HighscoreKey>('score');
   const dialogRef = useRef<HTMLDialogElement>(null);
 
@@ -207,12 +208,13 @@ function App() {
         );
       return (
         matchesQuery &&
+        (!participatedOnly || snap.score > 0) &&
         (!themeFilter || snap.theme === themeFilter) &&
         (!tagFilter || snap.tags.some((tag) => getTagName(tag) === tagFilter))
       );
     });
     return sortDreamSnaps(filtered, sort);
-  }, [dreamsnaps, search, sort, tagFilter, themeFilter]);
+  }, [dreamsnaps, participatedOnly, search, sort, tagFilter, themeFilter]);
 
   const metrics = useMemo(() => {
     const total = dreamsnaps.length;
@@ -247,12 +249,13 @@ function App() {
     ).slice(0, 5);
   }, [dreamsnaps, highscore]);
 
-  const hasActiveFilter = Boolean(search.trim() || themeFilter || tagFilter);
+  const hasActiveFilter = Boolean(search.trim() || themeFilter || tagFilter || participatedOnly);
 
   function clearFilters() {
     setSearch('');
     setThemeFilter('');
     setTagFilter('');
+    setParticipatedOnly(false);
   }
 
   return (
@@ -347,15 +350,26 @@ function App() {
                   {tags.map((tag) => <option key={tag} value={tag}>{tag}</option>)}
                 </select>
               </label>
-              <label className="select-field sort-field">
-                <span className="visually-hidden">Sortér DreamSnaps</span>
-                <select onChange={(event) => setSort(event.target.value as DreamSnapSort)} value={sort}>
-                  <option value="date">Nyeste først</option>
-                  <option value="score">Højeste score</option>
-                  <option value="ranking">Bedste placering</option>
-                  <option value="moonstones">Flest Moonstones</option>
-                </select>
-              </label>
+              <div className="sort-controls">
+                <label className="select-field sort-field">
+                  <span className="visually-hidden">Sortér DreamSnaps</span>
+                  <select onChange={(event) => setSort(event.target.value as DreamSnapSort)} value={sort}>
+                    <option value="date">Nyeste først</option>
+                    <option value="score">Højeste score</option>
+                    <option value="ranking">Bedste placering</option>
+                    <option value="moonstones">Flest Moonstones</option>
+                  </select>
+                </label>
+                <label className="participation-filter">
+                  <input
+                    checked={participatedOnly}
+                    name="participatedOnly"
+                    onChange={(event) => setParticipatedOnly(event.target.checked)}
+                    type="checkbox"
+                  />
+                  <span>Kun mine deltagelser</span>
+                </label>
+              </div>
             </search>
 
             {hasActiveFilter && (
