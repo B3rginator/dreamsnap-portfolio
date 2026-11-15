@@ -15,9 +15,9 @@ type HighscoreKey = 'score' | 'ranking' | 'moonstones';
 const DREAMSNAPS_PAGE_SIZE = 12;
 
 const highscoreLabels: Record<HighscoreKey, string> = {
-  score: 'Højeste score',
-  ranking: 'Bedste placering',
-  moonstones: 'Flest Moonstones',
+  score: 'Highest score',
+  ranking: 'Best rank',
+  moonstones: 'Most Moonstones',
 };
 
 function Icon({
@@ -124,13 +124,13 @@ function EmptyState({ filtered = false }: { filtered?: boolean }) {
   return (
     <div className="empty-state">
       <span className="empty-icon"><Icon name="sparkle" /></span>
-      <h3>{filtered ? 'Ingen DreamSnaps matcher' : 'Dit galleri venter på magi'}</h3>
+      <h3>{filtered ? 'No DreamSnaps match' : 'Your gallery is waiting for magic'}</h3>
       <p>
         {filtered
-          ? 'Prøv at ændre søgning eller filtre.'
-          : 'Når du tilføjer DreamSnaps i repository’et, dukker de op her.'}
+          ? 'Try changing your search or filters.'
+          : 'DreamSnaps you add to the repository will appear here.'}
       </p>
-      {!filtered && <span className="empty-hint">Dine billeder forbliver dine — tilføj dem via Git.</span>}
+      {!filtered && <span className="empty-hint">Your images stay yours — add them through Git.</span>}
     </div>
   );
 }
@@ -157,7 +157,7 @@ function App() {
       try {
         const response = await fetch(`${import.meta.env.BASE_URL}data/dreamsnaps.json`);
         if (!response.ok) {
-          throw new Error(`Datafilen kunne ikke indlæses (HTTP ${response.status}).`);
+          throw new Error(`The data file could not be loaded (HTTP ${response.status}).`);
         }
 
         const parsed = parseDreamSnaps(await response.json());
@@ -168,7 +168,7 @@ function App() {
       } catch (error) {
         if (active) {
           setLoadError(
-            error instanceof Error ? error.message : 'Der opstod en ukendt fejl ved indlæsning.',
+            error instanceof Error ? error.message : 'An unknown error occurred while loading.',
           );
         }
       } finally {
@@ -191,20 +191,20 @@ function App() {
   }, [selectedSnap]);
 
   const themes = useMemo(
-    () => [...new Set(dreamsnaps.map((snap) => snap.theme))].sort((a, b) => a.localeCompare(b, 'da')),
+    () => [...new Set(dreamsnaps.map((snap) => snap.theme))].sort((a, b) => a.localeCompare(b, 'en')),
     [dreamsnaps],
   );
   const tags = useMemo(
-    () => [...new Set(dreamsnaps.flatMap((snap) => snap.tags.map(getTagName)))].sort((a, b) => a.localeCompare(b, 'da')),
+    () => [...new Set(dreamsnaps.flatMap((snap) => snap.tags.map(getTagName)))].sort((a, b) => a.localeCompare(b, 'en')),
     [dreamsnaps],
   );
   const filteredDreamSnaps = useMemo(() => {
-    const query = search.trim().toLocaleLowerCase('da');
+    const query = search.trim().toLocaleLowerCase('en');
     const filtered = dreamsnaps.filter((snap) => {
       const matchesQuery =
         !query ||
         [snap.title, snap.theme, ...snap.tags].some((value) =>
-          value.toLocaleLowerCase('da').includes(query),
+          value.toLocaleLowerCase('en').includes(query),
         );
       return (
         matchesQuery &&
@@ -267,13 +267,13 @@ function App() {
 
   return (
     <div className="app-shell">
-      <a className="skip-link" href="#main-content">Gå til indhold</a>
+      <a className="skip-link" href="#main-content">Skip to content</a>
       <div className="main-column">
         <header className="topbar">
-          <nav aria-label="Hovednavigation" className="top-nav">
-            <a className="nav-link" href="#dashboard">Overblik</a>
-            <a className="nav-link" href="#gallery">Galleri</a>
-            <a className="nav-link" href="#highscores">Highscores</a>
+          <nav aria-label="Main navigation" className="top-nav">
+            <a className="nav-link" href="#dashboard">Overview</a>
+            <a className="nav-link" href="#gallery">Gallery</a>
+            <a className="nav-link" href="#highscores">High Scores</a>
           </nav>
         </header>
 
@@ -282,21 +282,21 @@ function App() {
             <div className="dashboard-layout">
               <div className="dashboard-overview">
                 <div className="section-heading">
-                  <h1 id="dashboard-title">Et overblik</h1>
+                  <h1 id="dashboard-title">Overview</h1>
                 </div>
                 {loadError && <p className="notice notice-error" role="alert">{loadError}</p>}
                 {!loadError && invalidCount > 0 && (
                   <p className="notice" role="status">
-                    {invalidCount} ugyldige eller dublerede {invalidCount === 1 ? 'post' : 'poster'} blev sprunget over. Kontrollér dreamsnaps.json.
+                    {invalidCount} invalid or duplicate {invalidCount === 1 ? 'entry was' : 'entries were'} skipped. Check dreamsnaps.json.
                   </p>
                 )}
                 <div className="metrics-grid">
                   <MetricCard accent="metric-lilac" icon="image" label="DreamSnaps" value={formatNumber(metrics.participatedCount)} />
                   <MetricCard accent="metric-peach" icon="moon" label="Moonstones" value={formatNumber(metrics.totalMoonstones)} />
-                  <MetricCard accent="metric-blue" icon="sparkle" label="Gennemsnitlig score" value={formatNumber(metrics.averageScore)} />
-                  <MetricCard accent="metric-peach" icon="trophy" label="Højeste score" value={formatNumber(metrics.highestScore)} />
+                  <MetricCard accent="metric-blue" icon="sparkle" label="Average score" value={formatNumber(metrics.averageScore)} />
+                  <MetricCard accent="metric-peach" icon="trophy" label="Highest score" value={formatNumber(metrics.highestScore)} />
                 </div>
-                {loading && <p className="loading-message" role="status">Henter dine DreamSnaps…</p>}
+                {loading && <p className="loading-message" role="status">Loading your DreamSnaps…</p>}
               </div>
               <figure aria-labelledby="best-ranking-caption" className="best-ranking-feature">
                 {metrics.bestRankingSnap ? (
@@ -312,7 +312,7 @@ function App() {
                   <div aria-hidden="true" className="best-ranking-image-placeholder" />
                 )}
                 <figcaption className="best-ranking-caption" id="best-ranking-caption">
-                  <span className="best-ranking-label">BEDSTE PLACERING</span>
+                  <span className="best-ranking-label">BEST RANK</span>
                   {metrics.bestRankingSnap ? (
                     <>
                       <strong>#{formatNumber(metrics.bestRankingSnap.ranking)}</strong>
@@ -320,7 +320,7 @@ function App() {
                     </>
                   ) : (
                     <span className="best-ranking-title">
-                      {loading ? 'Henter placering…' : 'Ingen registrerede placeringer'}
+                      {loading ? 'Loading rank…' : 'No ranks recorded'}
                     </span>
                   )}
                 </figcaption>
@@ -331,45 +331,45 @@ function App() {
           <section aria-labelledby="gallery-title" className="gallery-section" id="gallery">
             <div className="section-heading gallery-heading">
               <div>
-                <p className="eyebrow">GEMTE ØJEBLIKKE</p>
-                <h2 id="gallery-title">DreamSnap-galleri</h2>
+                <p className="eyebrow">YOUR MOMENTS</p>
+                <h2 id="gallery-title">DreamSnap Gallery</h2>
               </div>
               <span className="result-count">{formatNumber(filteredDreamSnaps.length)} {filteredDreamSnaps.length === 1 ? 'snap' : 'snaps'}</span>
             </div>
 
-            <search className="gallery-tools" aria-label="Søg og filtrér DreamSnaps">
+            <search className="gallery-tools" aria-label="Search and filter DreamSnaps">
               <label className="search-field">
-                <span className="visually-hidden">Søg på titel, tema eller tag</span>
+                <span className="visually-hidden">Search by title, theme, or tag</span>
                 <Icon name="image" />
                 <input
                   onChange={(event) => setSearch(event.target.value)}
-                  placeholder="Søg i dine minder..."
+                  placeholder="Search your memories..."
                   type="search"
                   value={search}
                 />
               </label>
               <label className="select-field">
-                <span className="visually-hidden">Filtrér efter tema</span>
+                <span className="visually-hidden">Filter by theme</span>
                 <select onChange={(event) => setThemeFilter(event.target.value)} value={themeFilter}>
-                  <option value="">Alle temaer</option>
+                  <option value="">All themes</option>
                   {themes.map((theme) => <option key={theme} value={theme}>{theme}</option>)}
                 </select>
               </label>
               <label className="select-field">
-                <span className="visually-hidden">Filtrér efter tag</span>
+                <span className="visually-hidden">Filter by tag</span>
                 <select onChange={(event) => setTagFilter(event.target.value)} value={tagFilter}>
-                  <option value="">Alle tags</option>
+                  <option value="">All tags</option>
                   {tags.map((tag) => <option key={tag} value={tag}>{tag}</option>)}
                 </select>
               </label>
               <div className="sort-controls">
                 <label className="select-field sort-field">
-                  <span className="visually-hidden">Sortér DreamSnaps</span>
+                  <span className="visually-hidden">Sort DreamSnaps</span>
                   <select onChange={(event) => setSort(event.target.value as DreamSnapSort)} value={sort}>
-                    <option value="date">Nyeste først</option>
-                    <option value="score">Højeste score</option>
-                    <option value="ranking">Bedste placering</option>
-                    <option value="moonstones">Flest Moonstones</option>
+                    <option value="date">Newest first</option>
+                    <option value="score">Highest score</option>
+                    <option value="ranking">Best rank</option>
+                    <option value="moonstones">Most Moonstones</option>
                   </select>
                 </label>
                 <label className="participation-filter">
@@ -379,14 +379,14 @@ function App() {
                     onChange={(event) => setParticipatedOnly(event.target.checked)}
                     type="checkbox"
                   />
-                  <span>Kun mine deltagelser</span>
+                  <span>My entries only</span>
                 </label>
               </div>
             </search>
 
             {hasActiveFilter && (
               <button className="clear-filters" onClick={clearFilters} type="button">
-                Ryd filtre
+                Clear filters
               </button>
             )}
             {loading ? (
@@ -405,7 +405,7 @@ function App() {
                     onClick={() => setVisibleCount((count) => count + DREAMSNAPS_PAGE_SIZE)}
                     type="button"
                   >
-                    Vis flere
+                    Show more
                   </button>
                 )}
               </>
@@ -417,12 +417,12 @@ function App() {
           <section aria-labelledby="highscores-title" className="highscores-section" id="highscores">
             <div className="section-heading">
               <div>
-                <p className="eyebrow">DINE BEDSTE RESULTATER</p>
-                <h2 id="highscores-title">Highscores</h2>
+                <p className="eyebrow">YOUR TOP RESULTS</p>
+                <h2 id="highscores-title">High Scores</h2>
               </div>
               <Icon className="section-icon" name="trophy" />
             </div>
-            <div aria-label="Vælg highscore-rangering" className="score-tabs" role="group">
+            <div aria-label="Choose a high score ranking" className="score-tabs" role="group">
               {(Object.keys(highscoreLabels) as HighscoreKey[]).map((key) => (
                 <button
                   aria-pressed={highscore === key}
@@ -466,8 +466,8 @@ function App() {
         </main>
 
         <footer className="page-footer">
-          <span>Lav plads til lidt mere magi <span aria-hidden="true">✦</span></span>
-          <span>Dreamlight Valley · Personligt arkiv</span>
+          <span>Make room for a little more magic <span aria-hidden="true">✦</span></span>
+          <span>Dreamlight Valley · Personal archive</span>
         </footer>
       </div>
 
@@ -480,7 +480,7 @@ function App() {
         {selectedSnap && (
           <article>
             <button
-              aria-label="Luk detaljer"
+              aria-label="Close details"
               className="dialog-close"
               onClick={() => dialogRef.current?.close()}
               type="button"
@@ -517,12 +517,12 @@ function App() {
               )}
               <dl className="detail-grid">
                 <div><dt>Score</dt><dd>{formatNumber(selectedSnap.score)}</dd></div>
-                <div><dt>Placering</dt><dd>{selectedSnap.ranking > 0 ? `#${formatNumber(selectedSnap.ranking)}` : '—'}</dd></div>
+                <div><dt>Rank</dt><dd>{selectedSnap.ranking > 0 ? `#${formatNumber(selectedSnap.ranking)}` : '—'}</dd></div>
                 <div><dt>Moonstones</dt><dd>{formatNumber(selectedSnap.rewards.moonstones)}</dd></div>
               </dl>
               {selectedSnap.mandatoryTags.length > 0 && (
                 <div className="tag-group">
-                  <h3 className="tag-heading">Obligatoriske tags</h3>
+                  <h3 className="tag-heading">Required tags</h3>
                   <ul className="tag-list">
                     {selectedSnap.mandatoryTags.map((tag) => <li key={tag}>{tag}</li>)}
                   </ul>
@@ -530,7 +530,7 @@ function App() {
               )}
               {selectedSnap.bonusTags.length > 0 && (
                 <div className="tag-group">
-                  <h3 className="tag-heading">Bonus-tags</h3>
+                  <h3 className="tag-heading">Bonus tags</h3>
                   <ul className="tag-list">
                     {selectedSnap.bonusTags.map((tag) => <li key={tag}>{tag}</li>)}
                   </ul>

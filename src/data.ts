@@ -92,7 +92,7 @@ function isDreamSnap(value: unknown): value is DreamSnap {
 
 export function parseDreamSnaps(payload: unknown): ParsedDreamSnaps {
   if (!isRecord(payload) || !Array.isArray(payload.dreamsnaps)) {
-    throw new TypeError('Datafilen skal indeholde et dreamsnaps-array.');
+    throw new TypeError('The data file must contain a dreamsnaps array.');
   }
 
   const ids = new Set<number>();
@@ -138,11 +138,11 @@ export function getImageUrl(image: string): string {
 }
 
 export function formatNumber(value: number): string {
-  return new Intl.NumberFormat('da-DK', { maximumFractionDigits: 2 }).format(value);
+  return new Intl.NumberFormat('en-US', { maximumFractionDigits: 2 }).format(value);
 }
 
 export function formatDate(value: string): string {
-  return new Intl.DateTimeFormat('da-DK', {
+  return new Intl.DateTimeFormat('en-US', {
     day: 'numeric',
     month: 'long',
     year: 'numeric',
