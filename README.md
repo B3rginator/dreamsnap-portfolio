@@ -80,7 +80,9 @@ Eksempel:
       "rewards": {
         "moonstones": 4000
       },
-      "tags": ["Winter", "Magic", "Dreamy"]
+      "tags": ["Elegant x1", "Wondrous x3", "Beauty and the Beast"],
+      "mandatoryTags": ["Elegant x1", "Wondrous x3"],
+      "bonusTags": ["Beauty and the Beast"]
     }
   ]
 }
@@ -101,12 +103,17 @@ Eksempel:
 | `ranking` | number | Placering; lavere tal er bedre |
 | `rewards.moonstones` | number | Modtagne Moonstones |
 | `tags` | string[] | Egne tags til filtrering |
+| `mandatoryTags` | string[] | Challenge-krav, der skal opfyldes |
+| `bonusTags` | string[] | Yderligere tags, som er bonus |
 
 Brug datoformatet `YYYY-MM-DD`. Ugentlige challenges gemmes med startdato i
 `date` og en valgfri slutdato i `endDate`. Gem tal som tal og ikke som tekst.
 `id` må ikke genbruges. Hvis score, placering eller Moonstones mangler, bruges
 `0`. Hvis billedet mangler, bruges en titelbaseret placeholder i
-`public/images/dreamsnaps/`.
+`public/images/dreamsnaps/`. `tags` indeholder alle tags til søgning og
+filtrering; behold samtidig obligatoriske og bonus-tags adskilt i deres egne
+felter. Beskrivelser skal være korte, originale opsummeringer frem for kopieret
+challenge-tekst.
 
 ## Funktioner på hjemmesiden
 

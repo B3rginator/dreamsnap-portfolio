@@ -39,7 +39,9 @@ Når brugeren beder om at tilføje et DreamSnap, skal du følge denne procedure:
   "rewards": {
     "moonstones": 0
   },
-  "tags": []
+  "tags": [],
+  "mandatoryTags": [],
+  "bonusTags": []
 }
 ```
 
@@ -49,7 +51,9 @@ Når brugeren beder om at tilføje et DreamSnap, skal du følge denne procedure:
    - Brug datoformatet `YYYY-MM-DD`; `date` er startdatoen, og `endDate` er valgfri slutdato.
    - `description` er valgfri og skal kun udfyldes, hvis brugeren har oplyst en beskrivelse.
    - `score`, `ranking`, `id` og `moonstones` skal være numeriske værdier.
-   - `tags` skal være et array af strings.
+   - `tags`, `mandatoryTags` og `bonusTags` skal være arrays af strings.
+   - `tags` indeholder alle tags til søgning og filtrering; hold samtidig obligatoriske og bonus-tags adskilt i hver deres felt.
+   - Skriv korte, originale opsummeringer af challenge-beskrivelser; kopier ikke længere tekst ordret.
 7. Indsæt objektet i arrayet uden at overskrive eksisterende DreamSnaps.
 8. Kontrollér, at ID'et er unikt, at JSON-filen er gyldig, og at billedstien matcher filnavnet.
 9. Kontrollér, at billedet ligger i den publicerede `public/`-mappe, så det bliver inkluderet i GitHub Pages-buildet.
@@ -67,7 +71,9 @@ Når brugeren beder om at tilføje et DreamSnap, skal du følge denne procedure:
 - `score`: DreamSnap-score som tal; brug `0`, hvis den mangler.
 - `ranking`: Placering som tal. Lavere tal betyder bedre placering; brug `0`, hvis den mangler.
 - `rewards.moonstones`: Antal modtagne Moonstones som tal; brug `0`, hvis de mangler.
-- `tags`: Array med nul eller flere tags.
+- `tags`: Array med alle tags til søgning og filtrering.
+- `mandatoryTags`: Array med obligatoriske challenge-tags.
+- `bonusTags`: Array med bonus-tags.
 
 ## Sikkerhed og publicering
 

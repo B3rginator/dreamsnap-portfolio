@@ -481,10 +481,21 @@ function App() {
                 <div><dt>Placering</dt><dd>{selectedSnap.ranking > 0 ? `#${formatNumber(selectedSnap.ranking)}` : '—'}</dd></div>
                 <div><dt>Moonstones</dt><dd>{formatNumber(selectedSnap.rewards.moonstones)}</dd></div>
               </dl>
-              {selectedSnap.tags.length > 0 && (
-                <ul aria-label="Tags" className="tag-list">
-                  {selectedSnap.tags.map((tag) => <li key={tag}>{tag}</li>)}
-                </ul>
+              {selectedSnap.mandatoryTags.length > 0 && (
+                <div className="tag-group">
+                  <h3 className="tag-heading">Obligatoriske tags</h3>
+                  <ul className="tag-list">
+                    {selectedSnap.mandatoryTags.map((tag) => <li key={tag}>{tag}</li>)}
+                  </ul>
+                </div>
+              )}
+              {selectedSnap.bonusTags.length > 0 && (
+                <div className="tag-group">
+                  <h3 className="tag-heading">Bonus-tags</h3>
+                  <ul className="tag-list">
+                    {selectedSnap.bonusTags.map((tag) => <li key={tag}>{tag}</li>)}
+                  </ul>
+                </div>
               )}
             </div>
           </article>

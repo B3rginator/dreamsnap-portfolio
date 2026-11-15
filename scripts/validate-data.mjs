@@ -88,6 +88,12 @@ if (!data || !Array.isArray(data.dreamsnaps)) {
       errors.push(`${label}.tags skal være et array af strings.`);
     }
 
+    for (const field of ['mandatoryTags', 'bonusTags']) {
+      if (!Array.isArray(snap[field]) || !snap[field].every((tag) => typeof tag === 'string')) {
+        errors.push(`${label}.${field} skal være et array af strings.`);
+      }
+    }
+
     if (
       typeof snap.image !== 'string' ||
       !snap.image.startsWith('/images/dreamsnaps/') ||

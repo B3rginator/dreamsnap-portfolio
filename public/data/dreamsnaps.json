@@ -18,7 +18,14 @@
         "Cute x1",
         "Lavish x3",
         "Calm x2"
-      ]
+      ],
+      "mandatoryTags": [
+        "Casual x3",
+        "Cute x1",
+        "Lavish x3",
+        "Calm x2"
+      ],
+      "bonusTags": []
     },
     {
       "id": 172,
@@ -38,7 +45,14 @@
         "Quirky x1",
         "Playful x3",
         "Strong x3"
-      ]
+      ],
+      "mandatoryTags": [
+        "Bold x3",
+        "Quirky x1",
+        "Playful x3",
+        "Strong x3"
+      ],
+      "bonusTags": []
     },
     {
       "id": 171,
@@ -58,7 +72,14 @@
         "Orange x3",
         "Lavish x2",
         "Delicate x3"
-      ]
+      ],
+      "mandatoryTags": [
+        "Rustic x2",
+        "Orange x3",
+        "Lavish x2",
+        "Delicate x3"
+      ],
+      "bonusTags": []
     },
     {
       "id": 170,
@@ -78,7 +99,14 @@
         "Modern x1",
         "Strong x3",
         "Familiar x2"
-      ]
+      ],
+      "mandatoryTags": [
+        "Professional x1",
+        "Modern x1",
+        "Strong x3",
+        "Familiar x2"
+      ],
+      "bonusTags": []
     },
     {
       "id": 169,
@@ -98,7 +126,14 @@
         "Foliage x3",
         "Calm x2",
         "Familiar x3"
-      ]
+      ],
+      "mandatoryTags": [
+        "Green x2",
+        "Foliage x3",
+        "Calm x2",
+        "Familiar x3"
+      ],
+      "bonusTags": []
     },
     {
       "id": 168,
@@ -118,7 +153,14 @@
         "Traditional x1",
         "Playful x3",
         "Strong x3"
-      ]
+      ],
+      "mandatoryTags": [
+        "Cute x2",
+        "Traditional x1",
+        "Playful x3",
+        "Strong x3"
+      ],
+      "bonusTags": []
     },
     {
       "id": 167,
@@ -138,7 +180,14 @@
         "Elegant x1",
         "Lavish x3",
         "Wondrous x3"
-      ]
+      ],
+      "mandatoryTags": [
+        "Bold x2",
+        "Elegant x1",
+        "Lavish x3",
+        "Wondrous x3"
+      ],
+      "bonusTags": []
     },
     {
       "id": 166,
@@ -158,7 +207,14 @@
         "Bold x2",
         "Playful x3",
         "Strong x2"
-      ]
+      ],
+      "mandatoryTags": [
+        "Quirky x1",
+        "Bold x2",
+        "Playful x3",
+        "Strong x2"
+      ],
+      "bonusTags": []
     },
     {
       "id": 165,
@@ -178,7 +234,14 @@
         "Moana x1",
         "Lavish x3",
         "Wondrous x3"
-      ]
+      ],
+      "mandatoryTags": [
+        "Elegant x2",
+        "Moana x1",
+        "Lavish x3",
+        "Wondrous x3"
+      ],
+      "bonusTags": []
     },
     {
       "id": 164,
@@ -198,7 +261,14 @@
         "Tables x1",
         "Simple x3",
         "Familiar x2"
-      ]
+      ],
+      "mandatoryTags": [
+        "Professional x2",
+        "Tables x1",
+        "Simple x3",
+        "Familiar x2"
+      ],
+      "bonusTags": []
     },
     {
       "id": 163,
@@ -208,7 +278,7 @@
       "endDate": "2026-09-02",
       "description": "It's time for your annual summer getaway. Are you heading to the countryside for a stay in your ranch, unwinding in your seaside mansion, or sharing canapés in your best friend's downtown penthouse?",
       "image": "/images/dreamsnaps/Postcard_Summer.png",
-      "score": 86.00,
+      "score": 86.0,
       "ranking": 2767,
       "rewards": {
         "moonstones": 4000
@@ -218,7 +288,14 @@
         "Simple x2",
         "Strong x3",
         "Familiar x3"
-      ]
+      ],
+      "mandatoryTags": [
+        "Traditional x1",
+        "Simple x2",
+        "Strong x3",
+        "Familiar x3"
+      ],
+      "bonusTags": []
     },
     {
       "id": 162,
@@ -238,7 +315,14 @@
         "Bold x1",
         "Pink x1",
         "Playful x3"
-      ]
+      ],
+      "mandatoryTags": [
+        "Cute x2",
+        "Bold x1",
+        "Pink x1",
+        "Playful x3"
+      ],
+      "bonusTags": []
     },
     {
       "id": 161,
@@ -258,7 +342,14 @@
         "Lavish x3",
         "Playful x1",
         "Delicate x2"
-      ]
+      ],
+      "mandatoryTags": [
+        "Art x2",
+        "Lavish x3",
+        "Playful x1",
+        "Delicate x2"
+      ],
+      "bonusTags": []
     },
     {
       "id": 160,
@@ -278,6 +369,4444 @@
         "WALL-E x1",
         "Calm x3",
         "Wondrous x3"
+      ],
+      "mandatoryTags": [
+        "Foliage x2",
+        "WALL-E x1",
+        "Calm x3",
+        "Wondrous x3"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 159,
+      "title": "Summer Street Festival",
+      "theme": "Summer Street Festival",
+      "date": "2026-07-29",
+      "endDate": "2026-08-05",
+      "description": "A weekly DreamSnap theme centered on Summer Street Festival.",
+      "image": "/images/dreamsnaps/Summer_Street_Festival.png",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Casual x2",
+        "Outdoors x3",
+        "Lighting x1",
+        "Playful x2"
+      ],
+      "mandatoryTags": [
+        "Casual x2",
+        "Outdoors x3",
+        "Lighting x1",
+        "Playful x2"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 158,
+      "title": "Fabled Relics",
+      "theme": "Fabled Relics",
+      "date": "2026-07-22",
+      "endDate": "2026-07-29",
+      "description": "A weekly DreamSnap theme centered on Fabled Relics.",
+      "image": "/images/dreamsnaps/Fabled-Relics.png",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Quirky x1",
+        "Foliage x1",
+        "Delicate x2",
+        "Wondrous x3"
+      ],
+      "mandatoryTags": [
+        "Quirky x1",
+        "Foliage x1",
+        "Delicate x2",
+        "Wondrous x3"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 157,
+      "title": "In Your Element",
+      "theme": "In Your Element",
+      "date": "2026-07-15",
+      "endDate": "2026-07-22",
+      "description": "A weekly DreamSnap theme centered on In Your Element.",
+      "image": "/images/dreamsnaps/In-Your-Element.png",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Cute x1",
+        "Elegant x1",
+        "Lavish x2",
+        "Familiar x3"
+      ],
+      "mandatoryTags": [
+        "Cute x1",
+        "Elegant x1",
+        "Lavish x2",
+        "Familiar x3"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 156,
+      "title": "Lazy, Cozy Day",
+      "theme": "Lazy, Cozy Day",
+      "date": "2026-07-08",
+      "endDate": "2026-07-15",
+      "description": "A weekly DreamSnap theme centered on Lazy, Cozy Day.",
+      "image": "/images/dreamsnaps/Lazy-Cozy-Day.png",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Traditional x1",
+        "Seating x1",
+        "Simple x3",
+        "Calm x2"
+      ],
+      "mandatoryTags": [
+        "Traditional x1",
+        "Seating x1",
+        "Simple x3",
+        "Calm x2"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 155,
+      "title": "Explosions of Color",
+      "theme": "Explosions of Color",
+      "date": "2026-07-01",
+      "endDate": "2026-07-08",
+      "description": "A weekly DreamSnap theme centered on Explosions of Color.",
+      "image": "/images/dreamsnaps/Explosions-of-Color.png",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Casual x1",
+        "Bold x1",
+        "Playful x3",
+        "Wondrous x2"
+      ],
+      "mandatoryTags": [
+        "Casual x1",
+        "Bold x1",
+        "Playful x3",
+        "Wondrous x2"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 154,
+      "title": "Cherished Childhood",
+      "theme": "Cherished Childhood",
+      "date": "2026-06-24",
+      "endDate": "2026-07-01",
+      "description": "A weekly DreamSnap theme centered on Cherished Childhood.",
+      "image": "/images/dreamsnaps/Cherished_Childhood.png",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Casual x1",
+        "Cute x1",
+        "Calm x3",
+        "Familiar x2"
+      ],
+      "mandatoryTags": [
+        "Casual x1",
+        "Cute x1",
+        "Calm x3",
+        "Familiar x2"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 153,
+      "title": "Journey into Imagination",
+      "theme": "Journey into Imagination",
+      "date": "2026-06-17",
+      "endDate": "2026-06-24",
+      "description": "A weekly DreamSnap theme centered on Journey into Imagination.",
+      "image": "/images/dreamsnaps/Journey-into-Imagination.png",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Futuristic x1",
+        "Art x1",
+        "Strong x2",
+        "Wondrous x3"
+      ],
+      "mandatoryTags": [
+        "Futuristic x1",
+        "Art x1",
+        "Strong x2",
+        "Wondrous x3"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 152,
+      "title": "Kingdom of Beauty",
+      "theme": "Kingdom of Beauty",
+      "date": "2026-06-10",
+      "endDate": "2026-06-17",
+      "description": "A weekly DreamSnap theme centered on Kingdom of Beauty.",
+      "image": "/images/dreamsnaps/Kingdom-of-beauty.jpg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Elegant x1",
+        "Decor x1",
+        "Lavish x3",
+        "Wondrous x2"
+      ],
+      "mandatoryTags": [
+        "Elegant x1",
+        "Decor x1",
+        "Lavish x3",
+        "Wondrous x2"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 151,
+      "title": "Legendary Moments",
+      "theme": "Legendary Moments",
+      "date": "2026-06-03",
+      "endDate": "2026-06-10",
+      "description": "A weekly DreamSnap theme centered on Legendary Moments.",
+      "image": "/images/dreamsnaps/Legendary-Moments.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Bold x1",
+        "Yellow x1",
+        "Playful x3",
+        "Wondrous x2"
+      ],
+      "mandatoryTags": [
+        "Bold x1",
+        "Yellow x1",
+        "Playful x3",
+        "Wondrous x2"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 150,
+      "title": "Forested Book Nook",
+      "theme": "Forested Book Nook",
+      "date": "2026-05-27",
+      "endDate": "2026-06-03",
+      "description": "A weekly DreamSnap theme centered on Forested Book Nook.",
+      "image": "/images/dreamsnaps/Forested-Book-Nook.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Cute x1",
+        "Art x1",
+        "Calm x3",
+        "Familiar x3"
+      ],
+      "mandatoryTags": [
+        "Cute x1",
+        "Art x1",
+        "Calm x3",
+        "Familiar x3"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 149,
+      "title": "Beachy Bliss",
+      "theme": "Beachy Bliss",
+      "date": "2026-05-20",
+      "endDate": "2026-05-27",
+      "description": "A weekly DreamSnap theme centered on Beachy Bliss.",
+      "image": "/images/dreamsnaps/Beachy-Bliss.png",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Foliage x3",
+        "Hats x1",
+        "Playful x2",
+        "Strong x2"
+      ],
+      "mandatoryTags": [
+        "Foliage x3",
+        "Hats x1",
+        "Playful x2",
+        "Strong x2"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 148,
+      "title": "City by Moonlight",
+      "theme": "City by Moonlight",
+      "date": "2026-05-13",
+      "endDate": "2026-05-20",
+      "description": "A weekly DreamSnap theme centered on City by Moonlight.",
+      "image": "/images/dreamsnaps/City-by-Moonlight.png",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Elegant x1",
+        "Blue x2",
+        "Lavish x3",
+        "Wondrous x3"
+      ],
+      "mandatoryTags": [
+        "Elegant x1",
+        "Blue x2",
+        "Lavish x3",
+        "Wondrous x3"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 147,
+      "title": "Inside Out Weather",
+      "theme": "Inside Out Weather",
+      "date": "2026-05-06",
+      "endDate": "2026-05-13",
+      "description": "A weekly DreamSnap theme centered on Inside Out Weather.",
+      "image": "/images/dreamsnaps/Inside-Out-Weather .png",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Bold x1",
+        "Quirky x1",
+        "Playful x3",
+        "Wondrous x3"
+      ],
+      "mandatoryTags": [
+        "Bold x1",
+        "Quirky x1",
+        "Playful x3",
+        "Wondrous x3"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 146,
+      "title": "Desert Haven",
+      "theme": "Desert Haven",
+      "date": "2026-04-29",
+      "endDate": "2026-05-06",
+      "description": "A weekly DreamSnap theme centered on Desert Haven.",
+      "image": "/images/dreamsnaps/Desert-Haven.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Outdoors x1",
+        "Lavish x3",
+        "Calm x3",
+        "Wondrous x2"
+      ],
+      "mandatoryTags": [
+        "Outdoors x1",
+        "Lavish x3",
+        "Calm x3",
+        "Wondrous x2"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 145,
+      "title": "Crafted with Care",
+      "theme": "Crafted with Care",
+      "date": "2026-04-22",
+      "endDate": "2026-04-29",
+      "description": "A weekly DreamSnap theme centered on Crafted with Care.",
+      "image": "/images/dreamsnaps/Crafted-with-Care.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Rustic x2",
+        "Traditional x1",
+        "Tables x1",
+        "Playful x3"
+      ],
+      "mandatoryTags": [
+        "Rustic x2",
+        "Traditional x1",
+        "Tables x1",
+        "Playful x3"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 144,
+      "title": "Cozy Dreams",
+      "theme": "Cozy Dreams",
+      "date": "2026-04-15",
+      "endDate": "2026-04-22",
+      "description": "A weekly DreamSnap theme centered on Cozy Dreams.",
+      "image": "/images/dreamsnaps/Cozy-Dreams.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Bold x1",
+        "Back x1",
+        "Delicate x3",
+        "Familiar x3"
+      ],
+      "mandatoryTags": [
+        "Bold x1",
+        "Back x1",
+        "Delicate x3",
+        "Familiar x3"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 143,
+      "title": "Marvels of Nature",
+      "theme": "Marvels of Nature",
+      "date": "2026-04-08",
+      "endDate": "2026-04-15",
+      "description": "A weekly DreamSnap theme centered on Marvels of Nature.",
+      "image": "/images/dreamsnaps/Marvels-of-Nature.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Elegant x2",
+        "Green x3",
+        "Foliage x1",
+        "Calm x3"
+      ],
+      "mandatoryTags": [
+        "Elegant x2",
+        "Green x3",
+        "Foliage x1",
+        "Calm x3"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 142,
+      "title": "Small Wonder",
+      "theme": "Small Wonder",
+      "date": "2026-04-01",
+      "endDate": "2026-04-08",
+      "description": "A weekly DreamSnap theme centered on Small Wonder.",
+      "image": "/images/dreamsnaps/Small-Wonder.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Bold x2",
+        "Art x1",
+        "Back x1",
+        "Playful x3"
+      ],
+      "mandatoryTags": [
+        "Bold x2",
+        "Art x1",
+        "Back x1",
+        "Playful x3"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 141,
+      "title": "Wild West Wonders",
+      "theme": "Wild West Wonders",
+      "date": "2026-03-25",
+      "endDate": "2026-04-01",
+      "description": "A weekly DreamSnap theme centered on Wild West Wonders.",
+      "image": "/images/dreamsnaps/Wild-West-Wonders.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Rustic x1",
+        "Bold x2",
+        "Hats x1",
+        "Brown x3"
+      ],
+      "mandatoryTags": [
+        "Rustic x1",
+        "Bold x2",
+        "Hats x1",
+        "Brown x3"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 140,
+      "title": "Spring into Style",
+      "theme": "Spring into Style",
+      "date": "2026-03-18",
+      "endDate": "2026-03-25",
+      "description": "A weekly DreamSnap theme centered on Spring into Style.",
+      "image": "/images/dreamsnaps/Spring-into-Style.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Casual x2",
+        "Foliage x1",
+        "Lavish x3",
+        "Wondrous x1"
+      ],
+      "mandatoryTags": [
+        "Casual x2",
+        "Foliage x1",
+        "Lavish x3",
+        "Wondrous x1"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 139,
+      "title": "My Favorite Hero",
+      "theme": "My Favorite Hero",
+      "date": "2026-03-11",
+      "endDate": "2026-03-18",
+      "description": "A weekly DreamSnap theme centered on My Favorite Hero.",
+      "image": "/images/dreamsnaps/My-Favorite-Hero.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Back x1",
+        "Lavish x1",
+        "Strong x3",
+        "Wondrous x3"
+      ],
+      "mandatoryTags": [
+        "Back x1",
+        "Lavish x1",
+        "Strong x3",
+        "Wondrous x3"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 138,
+      "title": "Vibrant Jungle Fiesta",
+      "theme": "Vibrant Jungle Fiesta",
+      "date": "2026-03-04",
+      "endDate": "2026-03-11",
+      "description": "A weekly DreamSnap theme centered on Vibrant Jungle Fiesta.",
+      "image": "/images/dreamsnaps/Vibrant-Jungle-Fiesta.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Traditional x2",
+        "Green x3",
+        "Outdoors x1",
+        "Playful x1"
+      ],
+      "mandatoryTags": [
+        "Traditional x2",
+        "Green x3",
+        "Outdoors x1",
+        "Playful x1"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 137,
+      "title": "Pals with Paws",
+      "theme": "Pals with Paws",
+      "date": "2026-02-25",
+      "endDate": "2026-03-04",
+      "description": "A weekly DreamSnap theme centered on Pals with Paws.",
+      "image": "/images/dreamsnaps/Pals-with-Paws.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Cute x1",
+        "Simple x3",
+        "Playful x3",
+        "Strong x3"
+      ],
+      "mandatoryTags": [
+        "Cute x1",
+        "Simple x3",
+        "Playful x3",
+        "Strong x3"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 136,
+      "title": "Seaside Chic",
+      "theme": "Seaside Chic",
+      "date": "2026-02-18",
+      "endDate": "2026-02-25",
+      "description": "A weekly DreamSnap theme centered on Seaside Chic.",
+      "image": "/images/dreamsnaps/Seaside-Chic.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Elegant x1",
+        "Blue x3",
+        "Calm x1",
+        "Wondrous x3"
+      ],
+      "mandatoryTags": [
+        "Elegant x1",
+        "Blue x3",
+        "Calm x1",
+        "Wondrous x3"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 135,
+      "title": "Bella Notte Romance",
+      "theme": "Bella Notte Romance",
+      "date": "2026-02-11",
+      "endDate": "2026-02-18",
+      "description": "A weekly DreamSnap theme centered on Bella Notte Romance.",
+      "image": "/images/dreamsnaps/Bella-Notte-Romance.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Elegant x3",
+        "Cute x1",
+        "Tables",
+        "Familiar x3"
+      ],
+      "mandatoryTags": [
+        "Elegant x3",
+        "Cute x1",
+        "Tables",
+        "Familiar x3"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 134,
+      "title": "Illusion Valley",
+      "theme": "Illusion Valley",
+      "date": "2026-02-04",
+      "endDate": "2026-02-11",
+      "description": "A weekly decor challenge inspired by Illusion Valley.",
+      "image": "/images/dreamsnaps/Illusion-Valley.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Quirky x4",
+        "Playful x4",
+        "Misc.",
+        "Simple"
+      ],
+      "mandatoryTags": [
+        "Quirky x4",
+        "Playful x4"
+      ],
+      "bonusTags": [
+        "Misc.",
+        "Simple"
+      ]
+    },
+    {
+      "id": 133,
+      "title": "Architectural Statement",
+      "theme": "Architectural Statement",
+      "date": "2026-01-28",
+      "endDate": "2026-02-04",
+      "description": "A weekly decor challenge inspired by Architectural Statement.",
+      "image": "/images/dreamsnaps/Architectural-Statement.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Calm x5",
+        "Wondrous x5",
+        "Outdoors",
+        "Decor"
+      ],
+      "mandatoryTags": [
+        "Calm x5",
+        "Wondrous x5"
+      ],
+      "bonusTags": [
+        "Outdoors",
+        "Decor"
+      ]
+    },
+    {
+      "id": 132,
+      "title": "Pattern Party",
+      "theme": "Pattern Party",
+      "date": "2026-01-21",
+      "endDate": "2026-01-28",
+      "description": "A weekly outfit challenge inspired by Pattern Party.",
+      "image": "/images/dreamsnaps/Pattern-Party.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Cute x1",
+        "Playful x1",
+        "Earrings",
+        "Strong"
+      ],
+      "mandatoryTags": [
+        "Cute x1",
+        "Playful x1"
+      ],
+      "bonusTags": [
+        "Earrings",
+        "Strong"
+      ]
+    },
+    {
+      "id": 131,
+      "title": "Hair with Flair",
+      "theme": "Hair with Flair",
+      "date": "2026-01-14",
+      "endDate": "2026-01-21",
+      "description": "A weekly outfit challenge inspired by Hair with Flair.",
+      "image": "/images/dreamsnaps/Hair-with-Flair.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Lavish x2",
+        "Wondrous x2",
+        "Elegant",
+        "Strong"
+      ],
+      "mandatoryTags": [
+        "Lavish x2",
+        "Wondrous x2"
+      ],
+      "bonusTags": [
+        "Elegant",
+        "Strong"
+      ]
+    },
+    {
+      "id": 130,
+      "title": "Winter Lodge Getaway",
+      "theme": "Winter Lodge Getaway",
+      "date": "2026-01-07",
+      "endDate": "2026-01-14",
+      "description": "A weekly decor challenge inspired by Winter Lodge Getaway.",
+      "image": "/images/dreamsnaps/Winter-Lodge-Getaway.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Lavish x5",
+        "Wondrous x5",
+        "White",
+        "Rustic"
+      ],
+      "mandatoryTags": [
+        "Lavish x5",
+        "Wondrous x5"
+      ],
+      "bonusTags": [
+        "White",
+        "Rustic"
+      ]
+    },
+    {
+      "id": 129,
+      "title": "Dazzle Into the New Year",
+      "theme": "Dazzle Into the New Year",
+      "date": "2025-12-31",
+      "endDate": "2026-01-07",
+      "description": "A weekly outfit challenge inspired by Dazzle Into the New Year.",
+      "image": "/images/dreamsnaps/Dazzle-Into-the-New-Year.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Lavish x1",
+        "Calm x1",
+        "Neckwear",
+        "Strong"
+      ],
+      "mandatoryTags": [
+        "Lavish x1",
+        "Calm x1"
+      ],
+      "bonusTags": [
+        "Neckwear",
+        "Strong"
+      ]
+    },
+    {
+      "id": 128,
+      "title": "Cozy Holiday Cheer",
+      "theme": "Cozy Holiday Cheer",
+      "date": "2025-12-24",
+      "endDate": "2025-12-31",
+      "description": "A weekly decor challenge inspired by Cozy Holiday Cheer.",
+      "image": "/images/dreamsnaps/Cozy-Holiday-Cheer.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Elegant x5",
+        "Lavish x5",
+        "Mickey & Friends",
+        "Green"
+      ],
+      "mandatoryTags": [
+        "Elegant x5",
+        "Lavish x5"
+      ],
+      "bonusTags": [
+        "Mickey & Friends",
+        "Green"
+      ]
+    },
+    {
+      "id": 127,
+      "title": "Majesty on Ice",
+      "theme": "Majesty on Ice",
+      "date": "2025-12-17",
+      "endDate": "2025-12-24",
+      "description": "A weekly outfit challenge inspired by Majesty on Ice.",
+      "image": "/images/dreamsnaps/Majesty-on-Ice.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Bold x1",
+        "Lavish x1",
+        "Frozen",
+        "Wondrous"
+      ],
+      "mandatoryTags": [
+        "Bold x1",
+        "Lavish x1"
+      ],
+      "bonusTags": [
+        "Frozen",
+        "Wondrous"
+      ]
+    },
+    {
+      "id": 126,
+      "title": "Until Midnight Transformation",
+      "theme": "Until Midnight Transformation",
+      "date": "2025-12-10",
+      "endDate": "2025-12-17",
+      "description": "A weekly outfit challenge inspired by Until Midnight Transformation.",
+      "image": "/images/dreamsnaps/Until-Midnight-Transformation.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Elegant x1",
+        "Wondrous x1",
+        "Cinderella",
+        "Delicate"
+      ],
+      "mandatoryTags": [
+        "Elegant x1",
+        "Wondrous x1"
+      ],
+      "bonusTags": [
+        "Cinderella",
+        "Delicate"
+      ]
+    },
+    {
+      "id": 125,
+      "title": "Wonder in Christmas Town",
+      "theme": "Wonder in Christmas Town",
+      "date": "2025-12-03",
+      "endDate": "2025-12-10",
+      "description": "A weekly decor challenge inspired by Wonder in Christmas Town.",
+      "image": "/images/dreamsnaps/Wonder-in-Christmas-Town.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Red x5",
+        "Quriky x4",
+        "Traditional",
+        "Strong"
+      ],
+      "mandatoryTags": [
+        "Red x5",
+        "Quriky x4"
+      ],
+      "bonusTags": [
+        "Traditional",
+        "Strong"
+      ]
+    },
+    {
+      "id": 124,
+      "title": "Frosty Fairy Realm",
+      "theme": "Frosty Fairy Realm",
+      "date": "2025-11-26",
+      "endDate": "2025-12-03",
+      "description": "A weekly decor challenge inspired by Frosty Fairy Realm.",
+      "image": "/images/dreamsnaps/Frosty-Fairy-Realm.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Lavish x5",
+        "Delicate x5",
+        "Cute",
+        "Bold"
+      ],
+      "mandatoryTags": [
+        "Lavish x5",
+        "Delicate x5"
+      ],
+      "bonusTags": [
+        "Cute",
+        "Bold"
+      ]
+    },
+    {
+      "id": 123,
+      "title": "Rancher's Runway",
+      "theme": "Rancher's Runway",
+      "date": "2025-11-19",
+      "endDate": "2025-11-26",
+      "description": "A weekly outfit challenge inspired by Rancher's Runway.",
+      "image": "/images/dreamsnaps/Rancher-s-Runway.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Strong x1",
+        "Familiar x1",
+        "Hats",
+        "Rustic"
+      ],
+      "mandatoryTags": [
+        "Strong x1",
+        "Familiar x1"
+      ],
+      "bonusTags": [
+        "Hats",
+        "Rustic"
+      ]
+    },
+    {
+      "id": 122,
+      "title": "Fun with Fungi",
+      "theme": "Fun with Fungi",
+      "date": "2025-11-12",
+      "endDate": "2025-11-19",
+      "description": "A weekly decor challenge inspired by Fun with Fungi.",
+      "image": "/images/dreamsnaps/Fun-with-Fungi.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Playful x5",
+        "Delicate x4",
+        "Foliage",
+        "Lavish"
+      ],
+      "mandatoryTags": [
+        "Playful x5",
+        "Delicate x4"
+      ],
+      "bonusTags": [
+        "Foliage",
+        "Lavish"
+      ]
+    },
+    {
+      "id": 121,
+      "title": "Dreamlight Knights",
+      "theme": "Dreamlight Knights",
+      "date": "2025-11-05",
+      "endDate": "2025-11-12",
+      "description": "A weekly outfit challenge inspired by Dreamlight Knights.",
+      "image": "/images/dreamsnaps/Dreamlight-Knights.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Strong x1",
+        "Wondrous x1",
+        "Hats",
+        "Traditional"
+      ],
+      "mandatoryTags": [
+        "Strong x1",
+        "Wondrous x1"
+      ],
+      "bonusTags": [
+        "Hats",
+        "Traditional"
+      ]
+    },
+    {
+      "id": 120,
+      "title": "Ghostly Gala",
+      "theme": "Ghostly Gala",
+      "date": "2025-10-29",
+      "endDate": "2025-11-05",
+      "description": "A weekly decor challenge inspired by Ghostly Gala.",
+      "image": "/images/dreamsnaps/Ghostly-Gala.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Elegant x5",
+        "Lavish x4",
+        "Disney",
+        "Quirky"
+      ],
+      "mandatoryTags": [
+        "Elegant x5",
+        "Lavish x4"
+      ],
+      "bonusTags": [
+        "Disney",
+        "Quirky"
+      ]
+    },
+    {
+      "id": 119,
+      "title": "Falling for Florals",
+      "theme": "Falling for Florals",
+      "date": "2025-10-22",
+      "endDate": "2025-10-29",
+      "description": "A weekly outfit challenge inspired by Falling for Florals.",
+      "image": "/images/dreamsnaps/Falling-for-Florals.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Calm x2",
+        "Delicate x1",
+        "Orange",
+        "Familiar"
+      ],
+      "mandatoryTags": [
+        "Calm x2",
+        "Delicate x1"
+      ],
+      "bonusTags": [
+        "Orange",
+        "Familiar"
+      ]
+    },
+    {
+      "id": 118,
+      "title": "Carnival Fright",
+      "theme": "Carnival Fright",
+      "date": "2025-10-15",
+      "endDate": "2025-10-22",
+      "description": "A weekly decor challenge inspired by Carnival Fright.",
+      "image": "/images/dreamsnaps/Carnival-Fright.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Traditional x3",
+        "Strong x5",
+        "Halloween",
+        "Quirky"
+      ],
+      "mandatoryTags": [
+        "Traditional x3",
+        "Strong x5"
+      ],
+      "bonusTags": [
+        "Halloween",
+        "Quirky"
+      ]
+    },
+    {
+      "id": 117,
+      "title": "Potion Master's Lair",
+      "theme": "Potion Master's Lair",
+      "date": "2025-10-08",
+      "endDate": "2025-10-15",
+      "description": "A weekly decor challenge inspired by Potion Master's Lair.",
+      "image": "/images/dreamsnaps/Potion-Master-s-Lair.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Quirky x5",
+        "Wondrous x5",
+        "Decor",
+        "Playful"
+      ],
+      "mandatoryTags": [
+        "Quirky x5",
+        "Wondrous x5"
+      ],
+      "bonusTags": [
+        "Decor",
+        "Playful"
+      ]
+    },
+    {
+      "id": 116,
+      "title": "Halloween Town Style",
+      "theme": "Halloween Town Style",
+      "date": "2025-10-01",
+      "endDate": "2025-10-08",
+      "description": "A weekly outfit challenge inspired by Halloween Town Style.",
+      "image": "/images/dreamsnaps/Halloween-Town-Style.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Black x1",
+        "Lavish x1",
+        "Tim Burton's The Nightmare Before Christmas",
+        "Wondrous"
+      ],
+      "mandatoryTags": [
+        "Black x1",
+        "Lavish x1"
+      ],
+      "bonusTags": [
+        "Tim Burton's The Nightmare Before Christmas",
+        "Wondrous"
+      ]
+    },
+    {
+      "id": 115,
+      "title": "Autumn Arrival",
+      "theme": "Autumn Arrival",
+      "date": "2025-09-24",
+      "endDate": "2025-10-01",
+      "description": "A weekly decor challenge inspired by Autumn Arrival.",
+      "image": "/images/dreamsnaps/Autumn-Arrival.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Delicate x4",
+        "Wondrous x5",
+        "Orange",
+        "Traditional"
+      ],
+      "mandatoryTags": [
+        "Delicate x4",
+        "Wondrous x5"
+      ],
+      "bonusTags": [
+        "Orange",
+        "Traditional"
+      ]
+    },
+    {
+      "id": 114,
+      "title": "Dark Cottagecore Dreams",
+      "theme": "Dark Cottagecore Dreams",
+      "date": "2025-09-17",
+      "endDate": "2025-09-24",
+      "description": "A weekly outfit challenge inspired by Dark Cottagecore Dreams.",
+      "image": "/images/dreamsnaps/Dark-Cottagecore-Dreams.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Strong x1",
+        "Wondrous x2",
+        "Back",
+        "Bold"
+      ],
+      "mandatoryTags": [
+        "Strong x1",
+        "Wondrous x2"
+      ],
+      "bonusTags": [
+        "Back",
+        "Bold"
+      ]
+    },
+    {
+      "id": 113,
+      "title": "Royal for a Week",
+      "theme": "Royal for a Week",
+      "date": "2025-09-10",
+      "endDate": "2025-09-17",
+      "description": "A weekly decor challenge inspired by Royal for a Week.",
+      "image": "/images/dreamsnaps/Royal-for-a-Week.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Elegant x4",
+        "Lavish x5",
+        "Cute",
+        "Wondrous"
+      ],
+      "mandatoryTags": [
+        "Elegant x4",
+        "Lavish x5"
+      ],
+      "bonusTags": [
+        "Cute",
+        "Wondrous"
+      ]
+    },
+    {
+      "id": 112,
+      "title": "Big Feels",
+      "theme": "Big Feels",
+      "date": "2025-09-03",
+      "endDate": "2025-09-10",
+      "description": "A weekly outfit challenge inspired by Big Feels.",
+      "image": "/images/dreamsnaps/Big-Feels.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Strong x1",
+        "Familiar x1",
+        "Inside Out",
+        "Bracelets"
+      ],
+      "mandatoryTags": [
+        "Strong x1",
+        "Familiar x1"
+      ],
+      "bonusTags": [
+        "Inside Out",
+        "Bracelets"
+      ]
+    },
+    {
+      "id": 111,
+      "title": "Nature Takeover",
+      "theme": "Nature Takeover",
+      "date": "2025-08-27",
+      "endDate": "2025-09-03",
+      "description": "A weekly decor challenge inspired by Nature Takeover.",
+      "image": "/images/dreamsnaps/Nature-Takeover.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Outdoors x4",
+        "Simple x5",
+        "Green",
+        "Landscaping"
+      ],
+      "mandatoryTags": [
+        "Outdoors x4",
+        "Simple x5"
+      ],
+      "bonusTags": [
+        "Green",
+        "Landscaping"
+      ]
+    },
+    {
+      "id": 110,
+      "title": "Farmer's Market Fantasy",
+      "theme": "Farmer's Market Fantasy",
+      "date": "2025-08-20",
+      "endDate": "2025-08-27",
+      "description": "A weekly outfit challenge inspired by Farmer's Market Fantasy.",
+      "image": "/images/dreamsnaps/Farmer-s-Market-Fantasy.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Simple x2",
+        "Familiar x2",
+        "Hats",
+        "Rustic"
+      ],
+      "mandatoryTags": [
+        "Simple x2",
+        "Familiar x2"
+      ],
+      "bonusTags": [
+        "Hats",
+        "Rustic"
+      ]
+    },
+    {
+      "id": 109,
+      "title": "Under Construction",
+      "theme": "Under Construction",
+      "date": "2025-08-13",
+      "endDate": "2025-08-20",
+      "description": "A weekly outfit challenge inspired by Under Construction.",
+      "image": "/images/dreamsnaps/Under-Construction.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Professional x2",
+        "Simple x2",
+        "Strong",
+        "Familiar"
+      ],
+      "mandatoryTags": [
+        "Professional x2",
+        "Simple x2"
+      ],
+      "bonusTags": [
+        "Strong",
+        "Familiar"
+      ]
+    },
+    {
+      "id": 108,
+      "title": "Guardian Sanctuary",
+      "theme": "Guardian Sanctuary",
+      "date": "2025-08-06",
+      "endDate": "2025-08-13",
+      "description": "A weekly decor challenge inspired by Guardian Sanctuary.",
+      "image": "/images/dreamsnaps/Guardian-Sanctuary.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Lavish x5",
+        "Delicate x4",
+        "Mulan",
+        "Red"
+      ],
+      "mandatoryTags": [
+        "Lavish x5",
+        "Delicate x4"
+      ],
+      "bonusTags": [
+        "Mulan",
+        "Red"
+      ]
+    },
+    {
+      "id": 107,
+      "title": "Treasure Hunt Extravaganza",
+      "theme": "Treasure Hunt Extravaganza",
+      "date": "2025-07-30",
+      "endDate": "2025-08-06",
+      "description": "A weekly outfit challenge inspired by Treasure Hunt Extravaganza.",
+      "image": "/images/dreamsnaps/Treasure-Hunt-Extravaganza.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Sporty x1",
+        "Playful x2",
+        "Modern",
+        "Back"
+      ],
+      "mandatoryTags": [
+        "Sporty x1",
+        "Playful x2"
+      ],
+      "bonusTags": [
+        "Modern",
+        "Back"
+      ]
+    },
+    {
+      "id": 106,
+      "title": "Serene Village Vibes",
+      "theme": "Serene Village Vibes",
+      "date": "2025-07-23",
+      "endDate": "2025-07-30",
+      "description": "A weekly decor challenge inspired by Serene Village Vibes.",
+      "image": "/images/dreamsnaps/Serene-Village-Vibes.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Simple x5",
+        "Calm x4",
+        "Traditional",
+        "Delicate"
+      ],
+      "mandatoryTags": [
+        "Simple x5",
+        "Calm x4"
+      ],
+      "bonusTags": [
+        "Traditional",
+        "Delicate"
+      ]
+    },
+    {
+      "id": 105,
+      "title": "Grand Anniversary Gala",
+      "theme": "Grand Anniversary Gala",
+      "date": "2025-07-16",
+      "endDate": "2025-07-23",
+      "description": "A weekly outfit challenge inspired by Grand Anniversary Gala.",
+      "image": "/images/dreamsnaps/Grand-Anniversary-Gala.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Lavish x2",
+        "Wondrous x2",
+        "Elegant",
+        "Hats"
+      ],
+      "mandatoryTags": [
+        "Lavish x2",
+        "Wondrous x2"
+      ],
+      "bonusTags": [
+        "Elegant",
+        "Hats"
+      ]
+    },
+    {
+      "id": 104,
+      "title": "Roses & Thorns",
+      "theme": "Roses & Thorns",
+      "date": "2025-07-09",
+      "endDate": "2025-07-16",
+      "description": "A weekly outfit challenge inspired by Roses & Thorns.",
+      "image": "/images/dreamsnaps/Roses-Thorns.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Lavish x2",
+        "Strong x2",
+        "Sleeping Beauty",
+        "Bold"
+      ],
+      "mandatoryTags": [
+        "Lavish x2",
+        "Strong x2"
+      ],
+      "bonusTags": [
+        "Sleeping Beauty",
+        "Bold"
+      ]
+    },
+    {
+      "id": 103,
+      "title": "Hooked on DreamSnaps",
+      "theme": "Hooked on DreamSnaps",
+      "date": "2025-07-02",
+      "endDate": "2025-07-09",
+      "description": "A weekly decor challenge inspired by Hooked on DreamSnaps.",
+      "image": "/images/dreamsnaps/Hooked-on-DreamSnaps.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Bold x4",
+        "Strong x5",
+        "Peter Pan",
+        "Wondrous"
+      ],
+      "mandatoryTags": [
+        "Bold x4",
+        "Strong x5"
+      ],
+      "bonusTags": [
+        "Peter Pan",
+        "Wondrous"
+      ]
+    },
+    {
+      "id": 102,
+      "title": "Decorate with Pride",
+      "theme": "Decorate with Pride",
+      "date": "2025-06-25",
+      "endDate": "2025-07-02",
+      "description": "A weekly decor challenge inspired by Decorate with Pride.",
+      "image": "/images/dreamsnaps/Decorate-with-Pride.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Cute x5",
+        "Playful x4",
+        "Casual",
+        "Lavish"
+      ],
+      "mandatoryTags": [
+        "Cute x5",
+        "Playful x4"
+      ],
+      "bonusTags": [
+        "Casual",
+        "Lavish"
+      ]
+    },
+    {
+      "id": 101,
+      "title": "Summer in Bloom",
+      "theme": "Summer in Bloom",
+      "date": "2025-06-18",
+      "endDate": "2025-06-25",
+      "description": "A weekly outfit challenge inspired by Summer in Bloom.",
+      "image": "/images/dreamsnaps/Summer-in-Bloom.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Playful x2",
+        "Wondrous x2",
+        "Bracelets",
+        "Cute"
+      ],
+      "mandatoryTags": [
+        "Playful x2",
+        "Wondrous x2"
+      ],
+      "bonusTags": [
+        "Bracelets",
+        "Cute"
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Grand Banquet Extravaganza",
+      "theme": "Grand Banquet Extravaganza",
+      "date": "2025-06-11",
+      "endDate": "2025-06-18",
+      "description": "A weekly decor challenge inspired by Grand Banquet Extravaganza.",
+      "image": "/images/dreamsnaps/Grand-Banquet-Extravaganza.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Lavish x5",
+        "Strong x5",
+        "Tables",
+        "Elegant"
+      ],
+      "mandatoryTags": [
+        "Lavish x5",
+        "Strong x5"
+      ],
+      "bonusTags": [
+        "Tables",
+        "Elegant"
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Master of Disguise",
+      "theme": "Master of Disguise",
+      "date": "2025-06-04",
+      "endDate": "2025-06-11",
+      "description": "A weekly outfit challenge inspired by Master of Disguise.",
+      "image": "/images/dreamsnaps/Master-of-Disguise.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Simple x2",
+        "Playful x2",
+        "Masks",
+        "Familiar"
+      ],
+      "mandatoryTags": [
+        "Simple x2",
+        "Playful x2"
+      ],
+      "bonusTags": [
+        "Masks",
+        "Familiar"
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Limitless Landscapes",
+      "theme": "Limitless Landscapes",
+      "date": "2025-05-28",
+      "endDate": "2025-06-04",
+      "description": "A weekly decor challenge inspired by Limitless Landscapes.",
+      "image": "/images/dreamsnaps/Limitless-Landscapes.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Simple x5",
+        "Wondrous x4",
+        "Outdoors",
+        "Strong"
+      ],
+      "mandatoryTags": [
+        "Simple x5",
+        "Wondrous x4"
+      ],
+      "bonusTags": [
+        "Outdoors",
+        "Strong"
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Mythological Chic",
+      "theme": "Mythological Chic",
+      "date": "2025-05-21",
+      "endDate": "2025-05-28",
+      "description": "A weekly outfit challenge inspired by Mythological Chic.",
+      "image": "/images/dreamsnaps/Mythological-Chic.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Strong x2",
+        "Wondrous x2",
+        "Bold",
+        "Back"
+      ],
+      "mandatoryTags": [
+        "Strong x2",
+        "Wondrous x2"
+      ],
+      "bonusTags": [
+        "Bold",
+        "Back"
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Fairy Haven",
+      "theme": "Fairy Haven",
+      "date": "2025-05-14",
+      "endDate": "2025-05-21",
+      "description": "A weekly decor challenge inspired by Fairy Haven.",
+      "image": "/images/dreamsnaps/Fairy-Haven.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Lavish x5",
+        "Delicate x4",
+        "Disney Fairies",
+        "Cute"
+      ],
+      "mandatoryTags": [
+        "Lavish x5",
+        "Delicate x4"
+      ],
+      "bonusTags": [
+        "Disney Fairies",
+        "Cute"
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Topsy-Turvy Tea Party",
+      "theme": "Topsy-Turvy Tea Party",
+      "date": "2025-05-07",
+      "endDate": "2025-05-14",
+      "description": "A weekly outfit challenge inspired by Topsy-Turvy Tea Party.",
+      "image": "/images/dreamsnaps/Topsy-Turvy-Tea-Party.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Quirky x1",
+        "Playful x1",
+        "Alice in Wonderland",
+        "Wondrous"
+      ],
+      "mandatoryTags": [
+        "Quirky x1",
+        "Playful x1"
+      ],
+      "bonusTags": [
+        "Alice in Wonderland",
+        "Wondrous"
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Coziness Beyond the Stars",
+      "theme": "Coziness Beyond the Stars",
+      "date": "2025-04-30",
+      "endDate": "2025-05-07",
+      "description": "A weekly decor challenge inspired by Coziness Beyond the Stars.",
+      "image": "/images/dreamsnaps/Coziness-Beyond-the-Stars.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Modern x4",
+        "Strong x5",
+        "Futuristic",
+        "Simple"
+      ],
+      "mandatoryTags": [
+        "Modern x4",
+        "Strong x5"
+      ],
+      "bonusTags": [
+        "Futuristic",
+        "Simple"
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Quirky Companions",
+      "theme": "Quirky Companions",
+      "date": "2025-04-23",
+      "endDate": "2025-04-30",
+      "description": "A weekly outfit challenge inspired by Quirky Companions.",
+      "image": "/images/dreamsnaps/Quirky-Companions.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Quirky x2",
+        "Familiar x2",
+        "Casual",
+        "Playful"
+      ],
+      "mandatoryTags": [
+        "Quirky x2",
+        "Familiar x2"
+      ],
+      "bonusTags": [
+        "Casual",
+        "Playful"
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Daisy's Fashion Runway",
+      "theme": "Daisy's Fashion Runway",
+      "date": "2025-04-16",
+      "endDate": "2025-04-23",
+      "description": "A weekly decor challenge inspired by Daisy's Fashion Runway.",
+      "image": "/images/dreamsnaps/Daisy-s-Fashion-Runway.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Playful x5",
+        "Delicate x5",
+        "Professional",
+        "Familiar"
+      ],
+      "mandatoryTags": [
+        "Playful x5",
+        "Delicate x5"
+      ],
+      "bonusTags": [
+        "Professional",
+        "Familiar"
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Hoppy Days",
+      "theme": "Hoppy Days",
+      "date": "2025-04-09",
+      "endDate": "2025-04-16",
+      "description": "A weekly outfit challenge inspired by Hoppy Days.",
+      "image": "/images/dreamsnaps/Hoppy-Days.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Lavish x2",
+        "Playful x2",
+        "Traditional",
+        "Wondrous"
+      ],
+      "mandatoryTags": [
+        "Lavish x2",
+        "Playful x2"
+      ],
+      "bonusTags": [
+        "Traditional",
+        "Wondrous"
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Just Spring Things",
+      "theme": "Just Spring Things",
+      "date": "2025-04-02",
+      "endDate": "2025-04-09",
+      "description": "A weekly decor challenge inspired by Just Spring Things.",
+      "image": "/images/dreamsnaps/Just-Spring-Things.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Cute x4",
+        "Elegant x4",
+        "Tangled",
+        "Outdoors"
+      ],
+      "mandatoryTags": [
+        "Cute x4",
+        "Elegant x4"
+      ],
+      "bonusTags": [
+        "Tangled",
+        "Outdoors"
+      ]
+    },
+    {
+      "id": 89,
+      "title": "April Fools' Day",
+      "theme": "April Fools' Day",
+      "date": "2025-03-26",
+      "endDate": "2025-04-02",
+      "description": "A weekly outfit challenge inspired by April Fools' Day.",
+      "image": "/images/dreamsnaps/April-Fools-Day.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Quirky x2",
+        "Playful x2",
+        "Masks",
+        "Familiar"
+      ],
+      "mandatoryTags": [
+        "Quirky x2",
+        "Playful x2"
+      ],
+      "bonusTags": [
+        "Masks",
+        "Familiar"
+      ]
+    },
+    {
+      "id": 88,
+      "title": "My Lost Oasis",
+      "theme": "My Lost Oasis",
+      "date": "2025-03-19",
+      "endDate": "2025-03-26",
+      "description": "A weekly decor challenge inspired by My Lost Oasis.",
+      "image": "/images/dreamsnaps/My-Lost-Oasis.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Calm x6",
+        "Wondrous x5",
+        "Aladdin",
+        "Outdoors"
+      ],
+      "mandatoryTags": [
+        "Calm x6",
+        "Wondrous x5"
+      ],
+      "bonusTags": [
+        "Aladdin",
+        "Outdoors"
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Going Green",
+      "theme": "Going Green",
+      "date": "2025-03-12",
+      "endDate": "2025-03-19",
+      "description": "A weekly outfit challenge inspired by Going Green.",
+      "image": "/images/dreamsnaps/Going-Green.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Green x2",
+        "Playful x2",
+        "Quirky",
+        "Wondrous"
+      ],
+      "mandatoryTags": [
+        "Green x2",
+        "Playful x2"
+      ],
+      "bonusTags": [
+        "Quirky",
+        "Wondrous"
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Lights... Camera... Action!",
+      "theme": "Lights... Camera... Action!",
+      "date": "2025-03-05",
+      "endDate": "2025-03-12",
+      "description": "A weekly decor challenge inspired by Lights... Camera... Action!.",
+      "image": "/images/dreamsnaps/Lights-Camera-Action.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Strong x5",
+        "Wondrous x5",
+        "Bold",
+        "Professional"
+      ],
+      "mandatoryTags": [
+        "Strong x5",
+        "Wondrous x5"
+      ],
+      "bonusTags": [
+        "Bold",
+        "Professional"
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Villagers on Parade",
+      "theme": "Villagers on Parade",
+      "date": "2025-02-26",
+      "endDate": "2025-03-05",
+      "description": "A weekly outfit challenge inspired by Villagers on Parade.",
+      "image": "/images/dreamsnaps/Villagers-on-Parade.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Playful x2",
+        "Wondrous x2",
+        "Hats",
+        "Lavish"
+      ],
+      "mandatoryTags": [
+        "Playful x2",
+        "Wondrous x2"
+      ],
+      "bonusTags": [
+        "Hats",
+        "Lavish"
+      ]
+    },
+    {
+      "id": 84,
+      "title": "My Cabinet of Curiosities",
+      "theme": "My Cabinet of Curiosities",
+      "date": "2025-02-19",
+      "endDate": "2025-02-26",
+      "description": "A weekly decor challenge inspired by My Cabinet of Curiosities.",
+      "image": "/images/dreamsnaps/My-Cabinet-of-Curiosities.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Quirky x5",
+        "Strong x4",
+        "Art",
+        "Playful"
+      ],
+      "mandatoryTags": [
+        "Quirky x5",
+        "Strong x4"
+      ],
+      "bonusTags": [
+        "Art",
+        "Playful"
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Cupid's Runway",
+      "theme": "Cupid's Runway",
+      "date": "2025-02-12",
+      "endDate": "2025-02-19",
+      "description": "A weekly outfit challenge inspired by Cupid's Runway.",
+      "image": "/images/dreamsnaps/Cupid-s-Runway.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Cute x2",
+        "Wondrous x3",
+        "Earrings",
+        "Simple"
+      ],
+      "mandatoryTags": [
+        "Cute x2",
+        "Wondrous x3"
+      ],
+      "bonusTags": [
+        "Earrings",
+        "Simple"
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Take a Hike!",
+      "theme": "Take a Hike!",
+      "date": "2025-02-05",
+      "endDate": "2025-02-12",
+      "description": "A weekly outfit challenge inspired by Take a Hike!.",
+      "image": "/images/dreamsnaps/Take-a-Hike.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Casual x2",
+        "Calm x3",
+        "Sporty",
+        "Simple"
+      ],
+      "mandatoryTags": [
+        "Casual x2",
+        "Calm x3"
+      ],
+      "bonusTags": [
+        "Sporty",
+        "Simple"
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Welcome to Toontown",
+      "theme": "Welcome to Toontown",
+      "date": "2025-01-29",
+      "endDate": "2025-02-05",
+      "description": "A weekly decor challenge inspired by Welcome to Toontown.",
+      "image": "/images/dreamsnaps/Welcome-to-Toontown.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Lavish x5",
+        "Strong x5",
+        "Mickey & Friends",
+        "Quirky"
+      ],
+      "mandatoryTags": [
+        "Lavish x5",
+        "Strong x5"
+      ],
+      "bonusTags": [
+        "Mickey & Friends",
+        "Quirky"
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Bookworm Style",
+      "theme": "Bookworm Style",
+      "date": "2025-01-22",
+      "endDate": "2025-01-29",
+      "description": "A weekly outfit challenge inspired by Bookworm Style.",
+      "image": "/images/dreamsnaps/Bookworm-Style.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Elegant x2",
+        "Calm x2",
+        "Beauty and the Beast",
+        "Glasses"
+      ],
+      "mandatoryTags": [
+        "Elegant x2",
+        "Calm x2"
+      ],
+      "bonusTags": [
+        "Beauty and the Beast",
+        "Glasses"
+      ]
+    },
+    {
+      "id": 79,
+      "title": "The Lost Forest",
+      "theme": "The Lost Forest",
+      "date": "2025-01-15",
+      "endDate": "2025-01-22",
+      "description": "A weekly decor challenge inspired by The Lost Forest.",
+      "image": "/images/dreamsnaps/The-Lost-Forest.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Outdoors x5",
+        "Rustic x4",
+        "Simple",
+        "Calm"
+      ],
+      "mandatoryTags": [
+        "Outdoors x5",
+        "Rustic x4"
+      ],
+      "bonusTags": [
+        "Simple",
+        "Calm"
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Fairy Fantasies",
+      "theme": "Fairy Fantasies",
+      "date": "2025-01-08",
+      "endDate": "2025-01-15",
+      "description": "A weekly outfit challenge inspired by Fairy Fantasies.",
+      "image": "/images/dreamsnaps/Fairy-Fantasies.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Lavish x2",
+        "Delicate x3",
+        "Back",
+        "Elegant"
+      ],
+      "mandatoryTags": [
+        "Lavish x2",
+        "Delicate x3"
+      ],
+      "bonusTags": [
+        "Back",
+        "Elegant"
+      ]
+    },
+    {
+      "id": 77,
+      "title": "New Year's Celebration",
+      "theme": "New Year's Celebration",
+      "date": "2025-01-01",
+      "endDate": "2025-01-08",
+      "description": "A weekly decor challenge inspired by New Year's Celebration.",
+      "image": "/images/dreamsnaps/New-Year-s-Celebration.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Cute x4",
+        "Playful x6",
+        "Delicate",
+        "Familiar"
+      ],
+      "mandatoryTags": [
+        "Cute x4",
+        "Playful x6"
+      ],
+      "bonusTags": [
+        "Delicate",
+        "Familiar"
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Frosted Fashions",
+      "theme": "Frosted Fashions",
+      "date": "2024-12-25",
+      "endDate": "2025-01-01",
+      "description": "A weekly outfit challenge inspired by Frosted Fashions.",
+      "image": "/images/dreamsnaps/Frosted-Fashions.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Strong x3",
+        "Wondrous x2",
+        "Frozen",
+        "Gloves"
+      ],
+      "mandatoryTags": [
+        "Strong x3",
+        "Wondrous x2"
+      ],
+      "bonusTags": [
+        "Frozen",
+        "Gloves"
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Dreamlight Holiday Market",
+      "theme": "Dreamlight Holiday Market",
+      "date": "2024-12-18",
+      "endDate": "2024-12-25",
+      "description": "A weekly decor challenge inspired by Dreamlight Holiday Market.",
+      "image": "/images/dreamsnaps/Dreamlight-Holiday-Market.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Lavish x6",
+        "Wondrous x5",
+        "Outdoors",
+        "Traditional"
+      ],
+      "mandatoryTags": [
+        "Lavish x6",
+        "Wondrous x5"
+      ],
+      "bonusTags": [
+        "Outdoors",
+        "Traditional"
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Bibbidi Bobbidi YOU!",
+      "theme": "Bibbidi Bobbidi YOU!",
+      "date": "2024-12-11",
+      "endDate": "2024-12-18",
+      "description": "A weekly outfit challenge inspired by Bibbidi Bobbidi YOU!.",
+      "image": "/images/dreamsnaps/Bibbidi-Bobbidi-YOU.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Lavish x2",
+        "Wondrous x3",
+        "Cinderella",
+        "Delicate"
+      ],
+      "mandatoryTags": [
+        "Lavish x2",
+        "Wondrous x3"
+      ],
+      "bonusTags": [
+        "Cinderella",
+        "Delicate"
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Future Visions",
+      "theme": "Future Visions",
+      "date": "2024-12-04",
+      "endDate": "2024-12-11",
+      "description": "A weekly decor challenge inspired by Future Visions.",
+      "image": "/images/dreamsnaps/Future-Visions.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Futuristic x4",
+        "Lavish x6",
+        "Strong",
+        "Wondrous"
+      ],
+      "mandatoryTags": [
+        "Futuristic x4",
+        "Lavish x6"
+      ],
+      "bonusTags": [
+        "Strong",
+        "Wondrous"
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Harvest Celebration",
+      "theme": "Harvest Celebration",
+      "date": "2024-11-27",
+      "endDate": "2024-12-04",
+      "description": "A weekly outfit challenge inspired by Harvest Celebration.",
+      "image": "/images/dreamsnaps/Harvest-Celebration.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Calm x3",
+        "Delicate x2",
+        "Rustic",
+        "Orange"
+      ],
+      "mandatoryTags": [
+        "Calm x3",
+        "Delicate x2"
+      ],
+      "bonusTags": [
+        "Rustic",
+        "Orange"
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Slumber Party",
+      "theme": "Slumber Party",
+      "date": "2024-11-20",
+      "endDate": "2024-11-27",
+      "description": "A weekly decor challenge inspired by Slumber Party.",
+      "image": "/images/dreamsnaps/Slumber-Party.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Cute x3",
+        "Delicate x4",
+        "Beds",
+        "Familiar"
+      ],
+      "mandatoryTags": [
+        "Cute x3",
+        "Delicate x4"
+      ],
+      "bonusTags": [
+        "Beds",
+        "Familiar"
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Employee of the Month",
+      "theme": "Employee of the Month",
+      "date": "2024-11-13",
+      "endDate": "2024-11-20",
+      "description": "A weekly outfit challenge inspired by Employee of the Month.",
+      "image": "/images/dreamsnaps/Employee-of-the-Month.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Calm x2",
+        "Strong x3",
+        "Monsters, Inc.",
+        "Professional"
+      ],
+      "mandatoryTags": [
+        "Calm x2",
+        "Strong x3"
+      ],
+      "bonusTags": [
+        "Monsters, Inc.",
+        "Professional"
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Hakuna Matata!",
+      "theme": "Hakuna Matata!",
+      "date": "2024-11-06",
+      "endDate": "2024-11-13",
+      "description": "A weekly decor challenge inspired by Hakuna Matata!.",
+      "image": "/images/dreamsnaps/Hakuna-Matata.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Strong x6",
+        "Wondrous x5",
+        "The Lion King",
+        "Rustic"
+      ],
+      "mandatoryTags": [
+        "Strong x6",
+        "Wondrous x5"
+      ],
+      "bonusTags": [
+        "The Lion King",
+        "Rustic"
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Pumpkin Royalty",
+      "theme": "Pumpkin Royalty",
+      "date": "2024-10-30",
+      "endDate": "2024-11-06",
+      "description": "A weekly outfit challenge inspired by Pumpkin Royalty.",
+      "image": "/images/dreamsnaps/Pumpkin-Royalty.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Bold x2",
+        "Lavish x3",
+        "Hats",
+        "Wondrous"
+      ],
+      "mandatoryTags": [
+        "Bold x2",
+        "Lavish x3"
+      ],
+      "bonusTags": [
+        "Hats",
+        "Wondrous"
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Valley Rock Show",
+      "theme": "Valley Rock Show",
+      "date": "2024-10-23",
+      "endDate": "2024-10-30",
+      "description": "A weekly decor challenge inspired by Valley Rock Show.",
+      "image": "/images/dreamsnaps/Valley-Rock-Show.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Playful x6",
+        "Strong x5",
+        "Electronics",
+        "Modern"
+      ],
+      "mandatoryTags": [
+        "Playful x6",
+        "Strong x5"
+      ],
+      "bonusTags": [
+        "Electronics",
+        "Modern"
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Your Favorite Bag",
+      "theme": "Your Favorite Bag",
+      "date": "2024-10-16",
+      "endDate": "2024-10-23",
+      "description": "A weekly outfit challenge inspired by Your Favorite Bag.",
+      "image": "/images/dreamsnaps/Your-Favorite-Bag.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Back x5",
+        "Playful x5",
+        "Modern",
+        "Strong"
+      ],
+      "mandatoryTags": [
+        "Back x5",
+        "Playful x5"
+      ],
+      "bonusTags": [
+        "Modern",
+        "Strong"
+      ]
+    },
+    {
+      "id": 65,
+      "title": "My Critter's Lair",
+      "theme": "My Critter's Lair",
+      "date": "2024-10-09",
+      "endDate": "2024-10-16",
+      "description": "A weekly decor challenge inspired by My Critter's Lair.",
+      "image": "/images/dreamsnaps/My-Critter-s-Lair.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Playful x6",
+        "Wondrous x5",
+        "Halloween",
+        "Rustic"
+      ],
+      "mandatoryTags": [
+        "Playful x6",
+        "Wondrous x5"
+      ],
+      "bonusTags": [
+        "Halloween",
+        "Rustic"
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Dreamlight Western",
+      "theme": "Dreamlight Western",
+      "date": "2024-10-02",
+      "endDate": "2024-10-09",
+      "description": "A weekly outfit challenge inspired by Dreamlight Western.",
+      "image": "/images/dreamsnaps/Dreamlight-Western.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Rustic x2",
+        "Wondrous x3",
+        "Toy Story",
+        "Simple"
+      ],
+      "mandatoryTags": [
+        "Rustic x2",
+        "Wondrous x3"
+      ],
+      "bonusTags": [
+        "Toy Story",
+        "Simple"
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Autumn's Magic",
+      "theme": "Autumn's Magic",
+      "date": "2024-09-25",
+      "endDate": "2024-10-02",
+      "description": "A weekly decor challenge inspired by Autumn's Magic.",
+      "image": "/images/dreamsnaps/Autumn-s-Magic.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Rustic x5",
+        "Delicate x5",
+        "Orange",
+        "Outdoors"
+      ],
+      "mandatoryTags": [
+        "Rustic x5",
+        "Delicate x5"
+      ],
+      "bonusTags": [
+        "Orange",
+        "Outdoors"
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Dance Party!",
+      "theme": "Dance Party!",
+      "date": "2024-09-18",
+      "endDate": "2024-09-25",
+      "description": "A weekly outfit challenge inspired by Dance Party!.",
+      "image": "/images/dreamsnaps/Dance-Party.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Lavish x3",
+        "Wondrous x2",
+        "Modern",
+        "Cute"
+      ],
+      "mandatoryTags": [
+        "Lavish x3",
+        "Wondrous x2"
+      ],
+      "bonusTags": [
+        "Modern",
+        "Cute"
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Back to New Orleans",
+      "theme": "Back to New Orleans",
+      "date": "2024-09-11",
+      "endDate": "2024-09-18",
+      "description": "A weekly decor challenge inspired by Back to New Orleans.",
+      "image": "/images/dreamsnaps/Back-to-New-Orleans.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Elegant x5",
+        "Lavish x5",
+        "The Princess and the Frog",
+        "Calm"
+      ],
+      "mandatoryTags": [
+        "Elegant x5",
+        "Lavish x5"
+      ],
+      "bonusTags": [
+        "The Princess and the Frog",
+        "Calm"
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Make It Camp",
+      "theme": "Make It Camp",
+      "date": "2024-09-04",
+      "endDate": "2024-09-11",
+      "description": "A weekly outfit challenge inspired by Make It Camp.",
+      "image": "/images/dreamsnaps/Make-It-Camp.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Playful x3",
+        "Familiar x2",
+        "Back",
+        "Casual"
+      ],
+      "mandatoryTags": [
+        "Playful x3",
+        "Familiar x2"
+      ],
+      "bonusTags": [
+        "Back",
+        "Casual"
+      ]
+    },
+    {
+      "id": 59,
+      "title": "¡Hola, Casita!",
+      "theme": "¡Hola, Casita!",
+      "date": "2024-08-28",
+      "endDate": "2024-09-04",
+      "description": "A weekly decor challenge inspired by ¡Hola, Casita!.",
+      "image": "/images/dreamsnaps/Hola-Casita.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Simple x4",
+        "Familiar x5",
+        "Encanto",
+        "Delicate"
+      ],
+      "mandatoryTags": [
+        "Simple x4",
+        "Familiar x5"
+      ],
+      "bonusTags": [
+        "Encanto",
+        "Delicate"
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Disney Princess Week",
+      "theme": "Disney Princess Week",
+      "date": "2024-08-21",
+      "endDate": "2024-08-28",
+      "description": "A weekly outfit challenge inspired by Disney Princess Week.",
+      "image": "/images/dreamsnaps/Disney-Princess-Week.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Elegant x2",
+        "Lavish x3",
+        "Gloves",
+        "Wondrous"
+      ],
+      "mandatoryTags": [
+        "Elegant x2",
+        "Lavish x3"
+      ],
+      "bonusTags": [
+        "Gloves",
+        "Wondrous"
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Dreamlight Diamonds Showcase",
+      "theme": "Dreamlight Diamonds Showcase",
+      "date": "2024-08-14",
+      "endDate": "2024-08-21",
+      "description": "A weekly decor challenge inspired by Dreamlight Diamonds Showcase.",
+      "image": "/images/dreamsnaps/Dreamlight-Diamonds-Showcase.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Lavish x5",
+        "Wondrous x6",
+        "Playful",
+        "Strong"
+      ],
+      "mandatoryTags": [
+        "Lavish x5",
+        "Wondrous x6"
+      ],
+      "bonusTags": [
+        "Playful",
+        "Strong"
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Picnic Day",
+      "theme": "Picnic Day",
+      "date": "2024-08-07",
+      "endDate": "2024-08-14",
+      "description": "A weekly outfit challenge inspired by Picnic Day.",
+      "image": "/images/dreamsnaps/Picnic-Day.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Casual x3",
+        "Familiar x4",
+        "Simple",
+        "Playful"
+      ],
+      "mandatoryTags": [
+        "Casual x3",
+        "Familiar x4"
+      ],
+      "bonusTags": [
+        "Simple",
+        "Playful"
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Valley Views",
+      "theme": "Valley Views",
+      "date": "2024-07-31",
+      "endDate": "2024-08-07",
+      "description": "A weekly decor challenge inspired by Valley Views.",
+      "image": "/images/dreamsnaps/Valley-Views.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Outdoors x4",
+        "Wondrous x6",
+        "Elegant",
+        "Strong"
+      ],
+      "mandatoryTags": [
+        "Outdoors x4",
+        "Wondrous x6"
+      ],
+      "bonusTags": [
+        "Elegant",
+        "Strong"
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Mulan's Welcome",
+      "theme": "Mulan's Welcome",
+      "date": "2024-07-24",
+      "endDate": "2024-07-31",
+      "description": "A weekly outfit challenge inspired by Mulan's Welcome.",
+      "image": "/images/dreamsnaps/Mulan-s-Welcome.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Calm x3",
+        "Delicate x3",
+        "Mulan",
+        "Traditional"
+      ],
+      "mandatoryTags": [
+        "Calm x3",
+        "Delicate x3"
+      ],
+      "bonusTags": [
+        "Mulan",
+        "Traditional"
+      ]
+    },
+    {
+      "id": 53,
+      "title": "DreamSnaps Annual Celebration",
+      "theme": "DreamSnaps Annual Celebration",
+      "date": "2024-07-17",
+      "endDate": "2024-07-24",
+      "description": "A weekly decor challenge inspired by DreamSnaps Annual Celebration.",
+      "image": "/images/dreamsnaps/DreamSnaps-Annual-Celebration.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Modern x5",
+        "Playful x6",
+        "Simple",
+        "Familiar"
+      ],
+      "mandatoryTags": [
+        "Modern x5",
+        "Playful x6"
+      ],
+      "bonusTags": [
+        "Simple",
+        "Familiar"
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Timeless Magical Style",
+      "theme": "Timeless Magical Style",
+      "date": "2024-07-10",
+      "endDate": "2024-07-17",
+      "description": "A weekly outfit challenge inspired by Timeless Magical Style.",
+      "image": "/images/dreamsnaps/Timeless-Magical-Style.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Elegant x3",
+        "Lavish x3",
+        "Traditional",
+        "Wondrous"
+      ],
+      "mandatoryTags": [
+        "Elegant x3",
+        "Lavish x3"
+      ],
+      "bonusTags": [
+        "Traditional",
+        "Wondrous"
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Dreamlight Art Gallery",
+      "theme": "Dreamlight Art Gallery",
+      "date": "2024-07-03",
+      "endDate": "2024-07-10",
+      "description": "A weekly decor challenge inspired by Dreamlight Art Gallery.",
+      "image": "/images/dreamsnaps/Dreamlight-Art-Gallery.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Traditional x5",
+        "Elegant x6",
+        "Lavish",
+        "Wondrous"
+      ],
+      "mandatoryTags": [
+        "Traditional x5",
+        "Elegant x6"
+      ],
+      "bonusTags": [
+        "Lavish",
+        "Wondrous"
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Stitch-able Fashion",
+      "theme": "Stitch-able Fashion",
+      "date": "2024-06-26",
+      "endDate": "2024-07-03",
+      "description": "A weekly outfit challenge inspired by Stitch-able Fashion.",
+      "image": "/images/dreamsnaps/Stitch-able-Fashion.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Blue x3",
+        "Playful x3",
+        "Cute",
+        "Simple"
+      ],
+      "mandatoryTags": [
+        "Blue x3",
+        "Playful x3"
+      ],
+      "bonusTags": [
+        "Cute",
+        "Simple"
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Sugary Style",
+      "theme": "Sugary Style",
+      "date": "2024-06-19",
+      "endDate": "2024-06-26",
+      "description": "A weekly outfit challenge inspired by Sugary Style.",
+      "image": "/images/dreamsnaps/Sugary-Style.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Cute x3",
+        "Playful x3",
+        "Quirky",
+        "Wreck-It Ralph"
+      ],
+      "mandatoryTags": [
+        "Cute x3",
+        "Playful x3"
+      ],
+      "bonusTags": [
+        "Quirky",
+        "Wreck-It Ralph"
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Dreamlight Market",
+      "theme": "Dreamlight Market",
+      "date": "2024-06-12",
+      "endDate": "2024-06-19",
+      "description": "A weekly decor challenge inspired by Dreamlight Market.",
+      "image": "/images/dreamsnaps/Dreamlight-Market.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Playful x5",
+        "Strong x6",
+        "Simple",
+        "Familiar"
+      ],
+      "mandatoryTags": [
+        "Playful x5",
+        "Strong x6"
+      ],
+      "bonusTags": [
+        "Simple",
+        "Familiar"
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Cooking with Friends",
+      "theme": "Cooking with Friends",
+      "date": "2024-06-05",
+      "endDate": "2024-06-12",
+      "description": "A weekly outfit challenge inspired by Cooking with Friends.",
+      "image": "/images/dreamsnaps/Cooking-with-Friends.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Calm x3",
+        "Familiar x3",
+        "Traditional",
+        "Professional"
+      ],
+      "mandatoryTags": [
+        "Calm x3",
+        "Familiar x3"
+      ],
+      "bonusTags": [
+        "Traditional",
+        "Professional"
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Treasure Trove",
+      "theme": "Treasure Trove",
+      "date": "2024-05-29",
+      "endDate": "2024-06-05",
+      "description": "A weekly decor challenge inspired by Treasure Trove.",
+      "image": "/images/dreamsnaps/Treasure-Trove.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Lavish x3",
+        "Wondrous x5",
+        "Yellow",
+        "Strong"
+      ],
+      "mandatoryTags": [
+        "Lavish x3",
+        "Wondrous x5"
+      ],
+      "bonusTags": [
+        "Yellow",
+        "Strong"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Your Luxe Look",
+      "theme": "Your Luxe Look",
+      "date": "2024-05-22",
+      "endDate": "2024-05-29",
+      "description": "A weekly outfit challenge inspired by Your Luxe Look.",
+      "image": "/images/dreamsnaps/Your-Luxe-Look.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Elegant x3",
+        "Strong x3",
+        "Bracelets",
+        "Wondrous"
+      ],
+      "mandatoryTags": [
+        "Elegant x3",
+        "Strong x3"
+      ],
+      "bonusTags": [
+        "Bracelets",
+        "Wondrous"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Theme Park Snack Bar",
+      "theme": "Theme Park Snack Bar",
+      "date": "2024-05-15",
+      "endDate": "2024-05-22",
+      "description": "A weekly decor challenge inspired by Theme Park Snack Bar.",
+      "image": "/images/dreamsnaps/Theme-Park-Snack-Bar.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Playful x6",
+        "Strong x5",
+        "Disney",
+        "Familiar"
+      ],
+      "mandatoryTags": [
+        "Playful x6",
+        "Strong x5"
+      ],
+      "bonusTags": [
+        "Disney",
+        "Familiar"
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Top It All Off",
+      "theme": "Top It All Off",
+      "date": "2024-05-08",
+      "endDate": "2024-05-15",
+      "description": "A weekly outfit challenge inspired by Top It All Off.",
+      "image": "/images/dreamsnaps/Top-It-All-Off.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Hats x1",
+        "Playful x4",
+        "Delicate",
+        "Wondrous"
+      ],
+      "mandatoryTags": [
+        "Hats x1",
+        "Playful x4"
+      ],
+      "bonusTags": [
+        "Delicate",
+        "Wondrous"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Royal Celebration",
+      "theme": "Royal Celebration",
+      "date": "2024-05-01",
+      "endDate": "2024-05-08",
+      "description": "A weekly decor challenge inspired by Royal Celebration.",
+      "image": "/images/dreamsnaps/Royal-Celebration.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Elegant x5",
+        "Traditional x6",
+        "Lavish",
+        "Wondrous"
+      ],
+      "mandatoryTags": [
+        "Elegant x5",
+        "Traditional x6"
+      ],
+      "bonusTags": [
+        "Lavish",
+        "Wondrous"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "In Bloom",
+      "theme": "In Bloom",
+      "date": "2024-04-24",
+      "endDate": "2024-05-01",
+      "description": "A weekly decor challenge inspired by In Bloom.",
+      "image": "/images/dreamsnaps/In-Bloom.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Elegant x5",
+        "Wondrous x6",
+        "Foliage",
+        "Delicate"
+      ],
+      "mandatoryTags": [
+        "Elegant x5",
+        "Wondrous x6"
+      ],
+      "bonusTags": [
+        "Foliage",
+        "Delicate"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Monster-sona",
+      "theme": "Monster-sona",
+      "date": "2024-04-17",
+      "endDate": "2024-04-24",
+      "description": "A weekly outfit challenge inspired by Monster-sona.",
+      "image": "/images/dreamsnaps/Monster-sona.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Quirky x3",
+        "Wondrous x4",
+        "Monsters, Inc.",
+        "Strong"
+      ],
+      "mandatoryTags": [
+        "Quirky x3",
+        "Wondrous x4"
+      ],
+      "bonusTags": [
+        "Monsters, Inc.",
+        "Strong"
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Moana's Village",
+      "theme": "Moana's Village",
+      "date": "2024-04-10",
+      "endDate": "2024-04-17",
+      "description": "A weekly decor challenge inspired by Moana's Village.",
+      "image": "/images/dreamsnaps/Moana-s-Village.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Calm x4",
+        "Delicate x5",
+        "Rustic",
+        "Moana"
+      ],
+      "mandatoryTags": [
+        "Calm x4",
+        "Delicate x5"
+      ],
+      "bonusTags": [
+        "Rustic",
+        "Moana"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Superhero for a Day",
+      "theme": "Superhero for a Day",
+      "date": "2024-04-03",
+      "endDate": "2024-04-10",
+      "description": "A weekly outfit challenge inspired by Superhero for a Day.",
+      "image": "/images/dreamsnaps/Superhero-for-a-Day.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Strong x3",
+        "Wondrous x3",
+        "Bold",
+        "Masks"
+      ],
+      "mandatoryTags": [
+        "Strong x3",
+        "Wondrous x3"
+      ],
+      "bonusTags": [
+        "Bold",
+        "Masks"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Ancient Aesthetics",
+      "theme": "Ancient Aesthetics",
+      "date": "2024-03-27",
+      "endDate": "2024-04-03",
+      "description": "A weekly decor challenge inspired by Ancient Aesthetics.",
+      "image": "/images/dreamsnaps/Ancient-Aesthetics.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Delicate x6",
+        "Wondrous x5",
+        "Elegant",
+        "Simple"
+      ],
+      "mandatoryTags": [
+        "Delicate x6",
+        "Wondrous x5"
+      ],
+      "bonusTags": [
+        "Elegant",
+        "Simple"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Chill Summer",
+      "theme": "Chill Summer",
+      "date": "2024-03-20",
+      "endDate": "2024-03-27",
+      "description": "A weekly outfit challenge inspired by Chill Summer.",
+      "image": "/images/dreamsnaps/Chill-Summer.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Elegant x4",
+        "Wondrous x3",
+        "Hats",
+        "Casual"
+      ],
+      "mandatoryTags": [
+        "Elegant x4",
+        "Wondrous x3"
+      ],
+      "bonusTags": [
+        "Hats",
+        "Casual"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "DIY Theme Park",
+      "theme": "DIY Theme Park",
+      "date": "2024-03-13",
+      "endDate": "2024-03-20",
+      "description": "A weekly decor challenge inspired by DIY Theme Park.",
+      "image": "/images/dreamsnaps/DIY-Theme-Park.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Outdoors x4",
+        "Lavish x6",
+        "Quirky",
+        "Disney"
+      ],
+      "mandatoryTags": [
+        "Outdoors x4",
+        "Lavish x6"
+      ],
+      "bonusTags": [
+        "Quirky",
+        "Disney"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Fur, Feathers, Scales",
+      "theme": "Fur, Feathers, Scales",
+      "date": "2024-03-06",
+      "endDate": "2024-03-13",
+      "description": "A weekly outfit challenge inspired by Fur, Feathers, Scales.",
+      "image": "/images/dreamsnaps/Fur-Feathers-Scales.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Cute x3",
+        "Playful x3",
+        "Casual",
+        "Familiar"
+      ],
+      "mandatoryTags": [
+        "Cute x3",
+        "Playful x3"
+      ],
+      "bonusTags": [
+        "Casual",
+        "Familiar"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Villainous Lair",
+      "theme": "Villainous Lair",
+      "date": "2024-02-28",
+      "endDate": "2024-03-06",
+      "description": "A weekly decor challenge inspired by Villainous Lair.",
+      "image": "/images/dreamsnaps/Villainous-Lair.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Quirky x3",
+        "Strong x3",
+        "Bold",
+        "Wondrous"
+      ],
+      "mandatoryTags": [
+        "Quirky x3",
+        "Strong x3"
+      ],
+      "bonusTags": [
+        "Bold",
+        "Wondrous"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Savanna Style",
+      "theme": "Savanna Style",
+      "date": "2024-02-21",
+      "endDate": "2024-02-28",
+      "description": "A weekly outfit challenge inspired by Savanna Style.",
+      "image": "/images/dreamsnaps/Savanna-Style.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Playful x3",
+        "Strong x3",
+        "Bold",
+        "The Lion King"
+      ],
+      "mandatoryTags": [
+        "Playful x3",
+        "Strong x3"
+      ],
+      "bonusTags": [
+        "Bold",
+        "The Lion King"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Minnie Mouse's Festival of Hearts",
+      "theme": "Minnie Mouse's Festival of Hearts",
+      "date": "2024-02-14",
+      "endDate": "2024-02-21",
+      "description": "A weekly decor challenge inspired by Minnie Mouse's Festival of Hearts.",
+      "image": "/images/dreamsnaps/Minnie-Mouse-s-Festival-of-Hearts.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Cute x4",
+        "Delicate x5",
+        "Pink",
+        "Lavish"
+      ],
+      "mandatoryTags": [
+        "Cute x4",
+        "Delicate x5"
+      ],
+      "bonusTags": [
+        "Pink",
+        "Lavish"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Freestyle!",
+      "theme": "Freestyle!",
+      "date": "2024-02-07",
+      "endDate": "2024-02-14",
+      "description": "A weekly outfit challenge inspired by Freestyle!.",
+      "image": "/images/dreamsnaps/Freestyle.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Calm x4",
+        "Wondrous x3",
+        "Lavish",
+        "Strong"
+      ],
+      "mandatoryTags": [
+        "Calm x4",
+        "Wondrous x3"
+      ],
+      "bonusTags": [
+        "Lavish",
+        "Strong"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "It Came from Outer Space",
+      "theme": "It Came from Outer Space",
+      "date": "2024-01-31",
+      "endDate": "2024-02-07",
+      "description": "A weekly decor challenge inspired by It Came from Outer Space.",
+      "image": "/images/dreamsnaps/It-Came-from-Outer-Space.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Futuristic x6",
+        "WALL-E x3",
+        "Toy Story",
+        "Simple"
+      ],
+      "mandatoryTags": [
+        "Futuristic x6",
+        "WALL-E x3"
+      ],
+      "bonusTags": [
+        "Toy Story",
+        "Simple"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Sports Savvy",
+      "theme": "Sports Savvy",
+      "date": "2024-01-24",
+      "endDate": "2024-01-31",
+      "description": "A weekly outfit challenge inspired by Sports Savvy.",
+      "image": "/images/dreamsnaps/Sports-Savvy.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Sporty x4",
+        "Playful x4",
+        "Simple",
+        "Familiar"
+      ],
+      "mandatoryTags": [
+        "Sporty x4",
+        "Playful x4"
+      ],
+      "bonusTags": [
+        "Simple",
+        "Familiar"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Arendelle Showcase",
+      "theme": "Arendelle Showcase",
+      "date": "2024-01-17",
+      "endDate": "2024-01-24",
+      "description": "A weekly decor challenge inspired by Arendelle Showcase.",
+      "image": "/images/dreamsnaps/Arendelle-Showcase.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Frozen x3",
+        "Simple x6",
+        "Elegant",
+        "Traditional"
+      ],
+      "mandatoryTags": [
+        "Frozen x3",
+        "Simple x6"
+      ],
+      "bonusTags": [
+        "Elegant",
+        "Traditional"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Winter's Here!",
+      "theme": "Winter's Here!",
+      "date": "2024-01-10",
+      "endDate": "2024-01-17",
+      "description": "A weekly outfit challenge inspired by Winter's Here!.",
+      "image": "/images/dreamsnaps/Winter-s-Here.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Strong x3",
+        "Familiar x4",
+        "Simple",
+        "Playful"
+      ],
+      "mandatoryTags": [
+        "Strong x3",
+        "Familiar x4"
+      ],
+      "bonusTags": [
+        "Simple",
+        "Playful"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Out of the Toy Box",
+      "theme": "Out of the Toy Box",
+      "date": "2024-01-03",
+      "endDate": "2024-01-10",
+      "description": "A weekly decor challenge inspired by Out of the Toy Box.",
+      "image": "/images/dreamsnaps/Out-of-the-Toy-Box.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Toy Story x3",
+        "Strong x5",
+        "Casual",
+        "Familiar"
+      ],
+      "mandatoryTags": [
+        "Toy Story x3",
+        "Strong x5"
+      ],
+      "bonusTags": [
+        "Casual",
+        "Familiar"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "A Day at Disney",
+      "theme": "A Day at Disney",
+      "date": "2023-12-27",
+      "endDate": "2024-01-03",
+      "description": "A weekly outfit challenge inspired by A Day at Disney.",
+      "image": "/images/dreamsnaps/A-Day-at-Disney.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Cute x3",
+        "Playful x4",
+        "Hats",
+        "Gloves",
+        "Wondrous"
+      ],
+      "mandatoryTags": [
+        "Cute x3",
+        "Playful x4"
+      ],
+      "bonusTags": [
+        "Hats",
+        "Gloves",
+        "Wondrous"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Holiday Cheer",
+      "theme": "Holiday Cheer",
+      "date": "2023-12-20",
+      "endDate": "2023-12-27",
+      "description": "A weekly decor challenge inspired by Holiday Cheer.",
+      "image": "/images/dreamsnaps/Holiday-Cheer.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Traditional x5",
+        "Simple x5",
+        "Red",
+        "Playful"
+      ],
+      "mandatoryTags": [
+        "Traditional x5",
+        "Simple x5"
+      ],
+      "bonusTags": [
+        "Red",
+        "Playful"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Under the Sea",
+      "theme": "Under the Sea",
+      "date": "2023-12-13",
+      "endDate": "2023-12-20",
+      "description": "A weekly decor challenge inspired by Under the Sea.",
+      "image": "/images/dreamsnaps/Under-the-Sea.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "The Little Mermaid x3",
+        "Cute x5",
+        "Elegant",
+        "Lavish"
+      ],
+      "mandatoryTags": [
+        "The Little Mermaid x3",
+        "Cute x5"
+      ],
+      "bonusTags": [
+        "Elegant",
+        "Lavish"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Jean Dreams",
+      "theme": "Jean Dreams",
+      "date": "2023-12-06",
+      "endDate": "2023-12-13",
+      "description": "A weekly outfit challenge inspired by Jean Dreams.",
+      "image": "/images/dreamsnaps/Jean-Dreams.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Casual x3",
+        "Simple x5",
+        "Blue",
+        "Pants",
+        "Modern"
+      ],
+      "mandatoryTags": [
+        "Casual x3",
+        "Simple x5"
+      ],
+      "bonusTags": [
+        "Blue",
+        "Pants",
+        "Modern"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Dreamers Unite",
+      "theme": "Dreamers Unite",
+      "date": "2023-11-29",
+      "endDate": "2023-12-06",
+      "description": "A weekly decor challenge inspired by Dreamers Unite.",
+      "image": "/images/dreamsnaps/Dreamers-Unite.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Modern x3",
+        "Playful x5",
+        "Disney",
+        "Lavish"
+      ],
+      "mandatoryTags": [
+        "Modern x3",
+        "Playful x5"
+      ],
+      "bonusTags": [
+        "Disney",
+        "Lavish"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Haus of Mouse",
+      "theme": "Haus of Mouse",
+      "date": "2023-11-22",
+      "endDate": "2023-11-29",
+      "description": "A weekly outfit challenge inspired by Haus of Mouse.",
+      "image": "/images/dreamsnaps/Haus-of-Mouse.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Mickey & Friends x3",
+        "Simple x4",
+        "Cute",
+        "Casual"
+      ],
+      "mandatoryTags": [
+        "Mickey & Friends x3",
+        "Simple x4"
+      ],
+      "bonusTags": [
+        "Cute",
+        "Casual"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Camp Dreamlight",
+      "theme": "Camp Dreamlight",
+      "date": "2023-11-15",
+      "endDate": "2023-11-22",
+      "description": "A weekly decor challenge inspired by Camp Dreamlight.",
+      "image": "/images/dreamsnaps/Camp-Dreamlight.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Outdoors x5",
+        "Simple x7",
+        "Casual",
+        "Familiar"
+      ],
+      "mandatoryTags": [
+        "Outdoors x5",
+        "Simple x7"
+      ],
+      "bonusTags": [
+        "Casual",
+        "Familiar"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "WALL-E's Garden",
+      "theme": "WALL-E's Garden",
+      "date": "2023-11-08",
+      "endDate": "2023-11-15",
+      "description": "A weekly outfit challenge inspired by WALL-E's Garden.",
+      "image": "/images/dreamsnaps/WALL-E-s-Garden.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Green x3",
+        "Hats x1",
+        "Delicate x3",
+        "Brown",
+        "Calm"
+      ],
+      "mandatoryTags": [
+        "Green x3",
+        "Hats x1",
+        "Delicate x3"
+      ],
+      "bonusTags": [
+        "Brown",
+        "Calm"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Something Wicked",
+      "theme": "Something Wicked",
+      "date": "2023-11-01",
+      "endDate": "2023-11-08",
+      "description": "A weekly decor challenge inspired by Something Wicked.",
+      "image": "/images/dreamsnaps/Something-Wicked.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Simple x4",
+        "Strong x4",
+        "Bold",
+        "Familiar"
+      ],
+      "mandatoryTags": [
+        "Simple x4",
+        "Strong x4"
+      ],
+      "bonusTags": [
+        "Bold",
+        "Familiar"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Trick or Treat!",
+      "theme": "Trick or Treat!",
+      "date": "2023-10-25",
+      "endDate": "2023-11-01",
+      "description": "A weekly outfit challenge inspired by Trick or Treat!.",
+      "image": "/images/dreamsnaps/Trick-or-Treat.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Bold x3",
+        "Simple x3",
+        "Halloween",
+        "Wondrous"
+      ],
+      "mandatoryTags": [
+        "Bold x3",
+        "Simple x3"
+      ],
+      "bonusTags": [
+        "Halloween",
+        "Wondrous"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Bedroom Beauty",
+      "theme": "Bedroom Beauty",
+      "date": "2023-10-18",
+      "endDate": "2023-10-25",
+      "description": "A weekly decor challenge inspired by Bedroom Beauty.",
+      "image": "/images/dreamsnaps/Bedroom-Beauty.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Bedroom x5",
+        "Elegant x4",
+        "Beauty and the Beast",
+        "Lavish"
+      ],
+      "mandatoryTags": [
+        "Bedroom x5",
+        "Elegant x4"
+      ],
+      "bonusTags": [
+        "Beauty and the Beast",
+        "Lavish"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Swashbuckle 'n' Swagger",
+      "theme": "Swashbuckle 'n' Swagger",
+      "date": "2023-10-11",
+      "endDate": "2023-10-18",
+      "description": "A weekly outfit challenge inspired by Swashbuckle 'n' Swagger.",
+      "image": "/images/dreamsnaps/Swashbuckle-n-Swagger.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Simple x4",
+        "Strong x4",
+        "Playful",
+        "Wondrous"
+      ],
+      "mandatoryTags": [
+        "Simple x4",
+        "Strong x4"
+      ],
+      "bonusTags": [
+        "Playful",
+        "Wondrous"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Frightfully Festive",
+      "theme": "Frightfully Festive",
+      "date": "2023-10-04",
+      "endDate": "2023-10-11",
+      "description": "A weekly decor challenge inspired by Frightfully Festive.",
+      "image": "/images/dreamsnaps/Frightfully-Festive.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Rustic x5",
+        "Simple x5",
+        "Tim Burton's The Nightmare Before Christmas",
+        "Playful"
+      ],
+      "mandatoryTags": [
+        "Rustic x5",
+        "Simple x5"
+      ],
+      "bonusTags": [
+        "Tim Burton's The Nightmare Before Christmas",
+        "Playful"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Fun with Fall",
+      "theme": "Fun with Fall",
+      "date": "2023-09-27",
+      "endDate": "2023-10-04",
+      "description": "A weekly outfit challenge inspired by Fun with Fall.",
+      "image": "/images/dreamsnaps/Fun-with-Fall.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Playful x4",
+        "Delicate x4",
+        "Lavish",
+        "Wondrous"
+      ],
+      "mandatoryTags": [
+        "Playful x4",
+        "Delicate x4"
+      ],
+      "bonusTags": [
+        "Lavish",
+        "Wondrous"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Critter Love",
+      "theme": "Critter Love",
+      "date": "2023-09-20",
+      "endDate": "2023-09-27",
+      "description": "A weekly decor challenge inspired by Critter Love.",
+      "image": "/images/dreamsnaps/Critter-Love.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Casual x3",
+        "Playful x5",
+        "Simple",
+        "Familiar"
+      ],
+      "mandatoryTags": [
+        "Casual x3",
+        "Playful x5"
+      ],
+      "bonusTags": [
+        "Simple",
+        "Familiar"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Dapper Delights",
+      "theme": "Dapper Delights",
+      "date": "2023-09-13",
+      "endDate": "2023-09-20",
+      "description": "A weekly outfit challenge inspired by Dapper Delights.",
+      "image": "/images/dreamsnaps/Dapper-Delights.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Elegant x4",
+        "Wondrous x4",
+        "Traditional",
+        "Lavish"
+      ],
+      "mandatoryTags": [
+        "Elegant x4",
+        "Wondrous x4"
+      ],
+      "bonusTags": [
+        "Traditional",
+        "Lavish"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Dreamy Kitchen",
+      "theme": "Dreamy Kitchen",
+      "date": "2023-09-06",
+      "endDate": "2023-09-13",
+      "description": "A weekly decor challenge inspired by Dreamy Kitchen.",
+      "image": "/images/dreamsnaps/Dreamy-Kitchen.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Kitchen x5",
+        "Traditional x5",
+        "Ratatouille",
+        "Rustic"
+      ],
+      "mandatoryTags": [
+        "Kitchen x5",
+        "Traditional x5"
+      ],
+      "bonusTags": [
+        "Ratatouille",
+        "Rustic"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Forget Me Not",
+      "theme": "Forget Me Not",
+      "date": "2023-08-30",
+      "endDate": "2023-09-06",
+      "description": "A weekly outfit challenge inspired by Forget Me Not.",
+      "image": "/images/dreamsnaps/Forget-Me-Not.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Purple x4",
+        "Wondrous x3",
+        "Black",
+        "Strong"
+      ],
+      "mandatoryTags": [
+        "Purple x4",
+        "Wondrous x3"
+      ],
+      "bonusTags": [
+        "Black",
+        "Strong"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Dreamers Unite",
+      "theme": "Dreamers Unite",
+      "date": "2023-08-23",
+      "endDate": "2023-08-30",
+      "description": "A weekly decor challenge inspired by Dreamers Unite.",
+      "image": "/images/dreamsnaps/Dreamers-Unite-006.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Modern x3",
+        "Playful x5",
+        "Disney",
+        "Lavish"
+      ],
+      "mandatoryTags": [
+        "Modern x3",
+        "Playful x5"
+      ],
+      "bonusTags": [
+        "Disney",
+        "Lavish"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Rainbows",
+      "theme": "Rainbows",
+      "date": "2023-08-16",
+      "endDate": "2023-08-23",
+      "description": "A weekly outfit challenge inspired by Rainbows.",
+      "image": "/images/dreamsnaps/Rainbows.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Modern x3",
+        "Strong x5",
+        "Casual"
+      ],
+      "mandatoryTags": [
+        "Modern x3",
+        "Strong x5"
+      ],
+      "bonusTags": [
+        "Casual"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Fire and Water",
+      "theme": "Fire and Water",
+      "date": "2023-08-09",
+      "endDate": "2023-08-16",
+      "description": "A weekly decor challenge inspired by Fire and Water.",
+      "image": "/images/dreamsnaps/Fire-and-Water.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Red x5",
+        "Blue x5",
+        "Simple",
+        "Playful"
+      ],
+      "mandatoryTags": [
+        "Red x5",
+        "Blue x5"
+      ],
+      "bonusTags": [
+        "Simple",
+        "Playful"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Earth and Air",
+      "theme": "Earth and Air",
+      "date": "2023-08-02",
+      "endDate": "2023-08-09",
+      "description": "A weekly outfit challenge inspired by Earth and Air.",
+      "image": "/images/dreamsnaps/Earth-and-Air.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Green x3",
+        "Brown x3",
+        "Calm",
+        "Delicate"
+      ],
+      "mandatoryTags": [
+        "Green x3",
+        "Brown x3"
+      ],
+      "bonusTags": [
+        "Calm",
+        "Delicate"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Ocean Views",
+      "theme": "Ocean Views",
+      "date": "2023-07-26",
+      "endDate": "2023-08-02",
+      "description": "A weekly decor challenge inspired by Ocean Views.",
+      "image": "/images/dreamsnaps/Ocean-Views.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Moana x3",
+        "Playful x5",
+        "Lilo & Stitch",
+        "Familiar"
+      ],
+      "mandatoryTags": [
+        "Moana x3",
+        "Playful x5"
+      ],
+      "bonusTags": [
+        "Lilo & Stitch",
+        "Familiar"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "The Dreamlight Ball",
+      "theme": "The Dreamlight Ball",
+      "date": "2023-07-19",
+      "endDate": "2023-07-26",
+      "description": "A weekly outfit challenge inspired by The Dreamlight Ball.",
+      "image": "/images/dreamsnaps/The-Dreamlight-Ball.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Elegant x3",
+        "Wondrous x5",
+        "Traditional",
+        "Lavish"
+      ],
+      "mandatoryTags": [
+        "Elegant x3",
+        "Wondrous x5"
+      ],
+      "bonusTags": [
+        "Traditional",
+        "Lavish"
       ]
     }
   ]

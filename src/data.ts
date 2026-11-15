@@ -12,6 +12,8 @@ export type DreamSnap = {
     moonstones: number;
   };
   tags: string[];
+  mandatoryTags: string[];
+  bonusTags: string[];
 };
 
 export type DreamSnapSort = 'date' | 'score' | 'ranking' | 'moonstones';
@@ -76,7 +78,11 @@ function isDreamSnap(value: unknown): value is DreamSnap {
     Number.isFinite(value.rewards.moonstones) &&
     value.rewards.moonstones >= 0 &&
     Array.isArray(value.tags) &&
-    value.tags.every((tag) => typeof tag === 'string')
+    value.tags.every((tag) => typeof tag === 'string') &&
+    Array.isArray(value.mandatoryTags) &&
+    value.mandatoryTags.every((tag) => typeof tag === 'string') &&
+    Array.isArray(value.bonusTags) &&
+    value.bonusTags.every((tag) => typeof tag === 'string')
   );
 }
 
