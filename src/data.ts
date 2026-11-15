@@ -18,6 +18,10 @@ export type DreamSnap = {
 
 export type DreamSnapSort = 'date' | 'score' | 'ranking' | 'moonstones';
 
+export function getTagName(tag: string): string {
+  return tag.replace(/\s+x\d+$/i, '');
+}
+
 type ParsedDreamSnaps = {
   dreamsnaps: DreamSnap[];
   invalidCount: number;

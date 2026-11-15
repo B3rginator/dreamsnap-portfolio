@@ -3,6 +3,7 @@ import {
   formatDateRange,
   formatNumber,
   getImageUrl,
+  getTagName,
   parseDreamSnaps,
   sortDreamSnaps,
   type DreamSnap,
@@ -193,7 +194,7 @@ function App() {
     [dreamsnaps],
   );
   const tags = useMemo(
-    () => [...new Set(dreamsnaps.flatMap((snap) => snap.tags))].sort((a, b) => a.localeCompare(b, 'da')),
+    () => [...new Set(dreamsnaps.flatMap((snap) => snap.tags.map(getTagName)))].sort((a, b) => a.localeCompare(b, 'da')),
     [dreamsnaps],
   );
   const filteredDreamSnaps = useMemo(() => {
@@ -207,7 +208,7 @@ function App() {
       return (
         matchesQuery &&
         (!themeFilter || snap.theme === themeFilter) &&
-        (!tagFilter || snap.tags.includes(tagFilter))
+        (!tagFilter || snap.tags.some((tag) => getTagName(tag) === tagFilter))
       );
     });
     return sortDreamSnaps(filtered, sort);
