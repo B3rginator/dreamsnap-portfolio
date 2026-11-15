@@ -3,6 +3,8 @@ export type DreamSnap = {
   title: string;
   theme: string;
   date: string;
+  endDate?: string;
+  description?: string;
   image: string;
   score: number;
   ranking: number;
@@ -28,8 +30,21 @@ function isValidDate(value: unknown): value is string {
     return false;
   }
 
-  const date = new Date(`${value}T12:00:00Z`);
-  return !Number.isNaN(date.valueOf()) && date.toISOString().slice(0, 10) === value;
+  const date = dateFromCalendarDate(value);
+  const [year, month, day] = value.split('-').map(Number);
+  return (
+    date.getUTCFullYear() === year &&
+    date.getUTCMonth() === month - 1 &&
+    date.getUTCDate() === day
+  );
+}
+
+function dateFromCalendarDate(value: string): Date {
+  const [year, month, day] = value.split('-').map(Number);
+  const date = new Date(0);
+  date.setUTCHours(12, 0, 0, 0);
+  date.setUTCFullYear(year, month - 1, day);
+  return date;
 }
 
 function isDreamSnap(value: unknown): value is DreamSnap {
@@ -46,6 +61,9 @@ function isDreamSnap(value: unknown): value is DreamSnap {
     typeof value.theme === 'string' &&
     value.theme.trim().length > 0 &&
     isValidDate(value.date) &&
+    (value.endDate === undefined ||
+      (isValidDate(value.endDate) && value.endDate >= value.date)) &&
+    (value.description === undefined || typeof value.description === 'string') &&
     typeof value.image === 'string' &&
     /^\/images\/dreamsnaps\/(?!.*\.\.)[^?#]+$/i.test(value.image) &&
     typeof value.score === 'number' &&
@@ -110,7 +128,7 @@ export function getImageUrl(image: string): string {
 }
 
 export function formatNumber(value: number): string {
-  return new Intl.NumberFormat('da-DK', { maximumFractionDigits: 1 }).format(value);
+  return new Intl.NumberFormat('da-DK', { maximumFractionDigits: 2 }).format(value);
 }
 
 export function formatDate(value: string): string {
@@ -118,5 +136,10 @@ export function formatDate(value: string): string {
     day: 'numeric',
     month: 'long',
     year: 'numeric',
-  }).format(new Date(`${value}T12:00:00`));
+    timeZone: 'UTC',
+  }).format(dateFromCalendarDate(value));
+}
+
+export function formatDateRange(start: string, end?: string): string {
+  return end ? `${formatDate(start)} – ${formatDate(end)}` : formatDate(start);
 }

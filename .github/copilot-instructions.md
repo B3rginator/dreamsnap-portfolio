@@ -18,11 +18,11 @@ Disse instruktioner gælder for hele DreamSnaps-projektet.
 Når brugeren beder om at tilføje et DreamSnap, skal du følge denne procedure:
 
 1. Find det næste ledige numeriske ID i `public/data/dreamsnaps.json`.
-2. Find det næste ledige billednummer i `public/images/dreamsnaps/`.
-   - Brug tre cifre med foranstillede nuller: `001.jpg`, `002.jpg`, `003.jpg` osv.
-   - Hvis billederne bruger et andet format, så fortsæt med det eksisterende format.
+2. Find billedet med et filnavn, der matcher DreamSnap-titlen, i `public/images/dreamsnaps/`.
+   - Filnavne kan bruge bindestreger eller underscore i stedet for mellemrum; bevar det faktiske filnavn og filformat.
+   - Hvis der ikke findes et match, så tilføj en placeholder med et titelbaseret filnavn.
 3. Kopiér eller flyt ikke automatisk et billede, medmindre brugeren har leveret billedet eller angivet dets placering.
-4. Hvis brugeren har leveret et billede, så placér det i `public/images/dreamsnaps/` med det næste ledige nummer.
+4. Hvis brugeren har leveret et billede, så placér det i `public/images/dreamsnaps/` med et filnavn baseret på titlen.
 5. Tilføj et nyt objekt i `dreamsnaps`-arrayet med følgende struktur:
 
 ```json
@@ -31,7 +31,9 @@ Når brugeren beder om at tilføje et DreamSnap, skal du følge denne procedure:
   "title": "DreamSnap title",
   "theme": "Challenge theme",
   "date": "2026-11-15",
-  "image": "/images/dreamsnaps/006.jpg",
+  "endDate": "2026-11-22",
+  "description": "Challenge description",
+  "image": "/images/dreamsnaps/DreamSnap-title.png",
   "score": 0,
   "ranking": 0,
   "rewards": {
@@ -44,7 +46,8 @@ Når brugeren beder om at tilføje et DreamSnap, skal du følge denne procedure:
 6. Udfyld kun værdier, som brugeren har oplyst.
    - Spørg efter manglende nødvendige oplysninger i stedet for at opfinde score, ranking, dato eller rewards.
    - Hvis brugeren ikke har valgt en titel, må du gerne foreslå en titel, men gør det tydeligt, at den er et forslag.
-   - Brug datoformatet `YYYY-MM-DD`.
+   - Brug datoformatet `YYYY-MM-DD`; `date` er startdatoen, og `endDate` er valgfri slutdato.
+   - `description` er valgfri og skal kun udfyldes, hvis brugeren har oplyst en beskrivelse.
    - `score`, `ranking`, `id` og `moonstones` skal være numeriske værdier.
    - `tags` skal være et array af strings.
 7. Indsæt objektet i arrayet uden at overskrive eksisterende DreamSnaps.
@@ -57,8 +60,10 @@ Når brugeren beder om at tilføje et DreamSnap, skal du følge denne procedure:
 - `id`: Unikt, stigende heltal. Genbrug aldrig et eksisterende ID.
 - `title`: Eget navn på billedet.
 - `theme`: Challenge-temaets navn.
-- `date`: Datoen for resultatet i `YYYY-MM-DD`.
-- `image`: Sti relativt til websitets public root, eksempelvis `/images/dreamsnaps/006.jpg`. Tag højde for Vite `base`-konfigurationen i frontend-koden.
+- `date`: Challenge-startdato i `YYYY-MM-DD`; bruges til tidslinjesortering.
+- `endDate`: Valgfri challenge-slutdato i `YYYY-MM-DD`.
+- `description`: Valgfri challenge-beskrivelse.
+- `image`: Sti relativt til websitets public root, med filnavn baseret på titlen. Tag højde for Vite `base`-konfigurationen i frontend-koden.
 - `score`: DreamSnap-score som tal.
 - `ranking`: Placering som tal. Lavere tal betyder bedre placering.
 - `rewards.moonstones`: Antal modtagne Moonstones som tal.

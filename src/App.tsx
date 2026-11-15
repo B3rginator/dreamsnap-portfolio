@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import {
-  formatDate,
+  formatDateRange,
   formatNumber,
   getImageUrl,
   parseDreamSnaps,
@@ -96,7 +96,7 @@ function SnapCard({
             <span>DreamSnap</span>
           </span>
           <img
-            alt={`${snap.title} — ${snap.theme}`}
+            alt={snap.theme === snap.title ? snap.title : `${snap.title} — ${snap.theme}`}
             className="snap-image"
             loading="lazy"
             onError={(event) => {
@@ -104,10 +104,10 @@ function SnapCard({
             }}
             src={getImageUrl(snap.image)}
           />
-          <span className="snap-date">{formatDate(snap.date)}</span>
+          <span className="snap-date">{formatDateRange(snap.date, snap.endDate)}</span>
         </span>
         <span className="snap-card-content">
-          <span className="snap-theme">{snap.theme}</span>
+          {snap.theme !== snap.title && <span className="snap-theme">{snap.theme}</span>}
           <span className="snap-title">{snap.title}</span>
           <span className="snap-meta">
             <span><Icon name="sparkle" /> {formatNumber(snap.score)}</span>
@@ -257,28 +257,13 @@ function App() {
   return (
     <div className="app-shell">
       <a className="skip-link" href="#main-content">Gå til indhold</a>
-      <aside className="sidebar">
-        <a aria-label="DreamSnaps, gå til toppen" className="brand" href="#top">
-          <span className="brand-mark"><Icon name="sparkle" /></span>
-          <span>Dream<span className="brand-light">Snaps</span></span>
-        </a>
-        <p className="sidebar-label">DIT ARKIV</p>
-        <nav aria-label="Hovednavigation" className="sidebar-nav">
-          <a className="nav-link" href="#dashboard"><Icon name="home" /> Overblik</a>
-          <a className="nav-link" href="#gallery"><Icon name="image" /> Galleri</a>
-          <a className="nav-link" href="#highscores"><Icon name="trophy" /> Highscores</a>
-        </nav>
-        <div className="sidebar-note">
-          <span aria-hidden="true">✦</span>
-          <p>Et lille galleri fyldt med store drømme.</p>
-        </div>
-        <p className="sidebar-footer">Et personligt Dreamlight Valley-arkiv</p>
-      </aside>
-
-      <div className="main-column" id="top">
+      <div className="main-column">
         <header className="topbar">
-          <span className="breadcrumb">MIT UNIVERS <span>/</span> DREAMSNAPS</span>
-          <span className="privacy-pill"><span /> Personligt arkiv</span>
+          <nav aria-label="Hovednavigation" className="top-nav">
+            <a className="nav-link" href="#dashboard">Overblik</a>
+            <a className="nav-link" href="#gallery">Galleri</a>
+            <a className="nav-link" href="#highscores">Highscores</a>
+          </nav>
         </header>
 
         <main id="main-content">
@@ -425,7 +410,10 @@ function App() {
                       <span className={`rank-badge rank-${index + 1}`}>{String(index + 1).padStart(2, '0')}</span>
                       <span className="highscore-copy">
                         <strong>{snap.title}</strong>
-                        <span>{snap.theme} · {formatDate(snap.date)}</span>
+                        <span>
+                          {snap.theme !== snap.title && `${snap.theme} · `}
+                          {formatDateRange(snap.date, snap.endDate)}
+                        </span>
                       </span>
                       <span className="highscore-value">{score}</span>
                     </li>
@@ -466,7 +454,11 @@ function App() {
                 <span>DreamSnap</span>
               </span>
               <img
-                alt={`${selectedSnap.title} — ${selectedSnap.theme}`}
+                alt={
+                  selectedSnap.theme === selectedSnap.title
+                    ? selectedSnap.title
+                    : `${selectedSnap.title} — ${selectedSnap.theme}`
+                }
                 onError={(event) => {
                   event.currentTarget.hidden = true;
                 }}
@@ -474,9 +466,16 @@ function App() {
               />
             </div>
             <div className="dialog-content">
-              <p className="eyebrow">{selectedSnap.theme}</p>
+              {selectedSnap.theme !== selectedSnap.title && (
+                <p className="eyebrow">{selectedSnap.theme}</p>
+              )}
               <h2 id="dialog-title">{selectedSnap.title}</h2>
-              <p className="dialog-date">{formatDate(selectedSnap.date)}</p>
+              <p className="dialog-date">
+                {formatDateRange(selectedSnap.date, selectedSnap.endDate)}
+              </p>
+              {selectedSnap.description && (
+                <p className="dialog-description">{selectedSnap.description}</p>
+              )}
               <dl className="detail-grid">
                 <div><dt>Score</dt><dd>{formatNumber(selectedSnap.score)}</dd></div>
                 <div><dt>Placering</dt><dd>{selectedSnap.ranking > 0 ? `#${formatNumber(selectedSnap.ranking)}` : '—'}</dd></div>

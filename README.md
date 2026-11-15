@@ -43,8 +43,8 @@ Hjemmesiden skal kunne bygges som statiske HTML-, CSS- og JavaScript-filer og fu
 │   │   └── dreamsnaps.json
 │   └── images/
 │       └── dreamsnaps/
-│           ├── 001.jpg
-│           ├── 002.jpg
+│           ├── Good-or-evil.png
+│           ├── Forest-Folk.png
 │           └── ...
 ├── src/
 │   ├── components/
@@ -72,7 +72,9 @@ Eksempel:
       "title": "A Magical Winter",
       "theme": "Winter Wonderland",
       "date": "2026-11-15",
-      "image": "/images/dreamsnaps/001.jpg",
+      "endDate": "2026-11-22",
+      "description": "A short description of the challenge.",
+      "image": "/images/dreamsnaps/A-Magical-Winter.png",
       "score": 4500,
       "ranking": 125,
       "rewards": {
@@ -91,14 +93,18 @@ Eksempel:
 | `id` | number | Unikt, stabilt ID |
 | `title` | string | Eget navn på DreamSnap |
 | `theme` | string | Challenge-tema |
-| `date` | string | Dato for resultatet i `YYYY-MM-DD` format |
-| `image` | string | Relativ URL til billedet |
+| `date` | string | Challenge-startdato i `YYYY-MM-DD` format; bruges til tidslinjesortering |
+| `endDate` | string (valgfri) | Challenge-slutdato; vises sammen med `date` som et interval |
+| `description` | string (valgfri) | Challenge-beskrivelse, som vises i detaljevisningen |
+| `image` | string | Relativ URL til et titelbaseret billedfilnavn |
 | `score` | number | Score |
 | `ranking` | number | Placering; lavere tal er bedre |
 | `rewards.moonstones` | number | Modtagne Moonstones |
 | `tags` | string[] | Egne tags til filtrering |
 
-Brug datoformatet `YYYY-MM-DD`. Gem tal som tal og ikke som tekst. `id` må ikke genbruges.
+Brug datoformatet `YYYY-MM-DD`. Ugentlige challenges gemmes med startdato i
+`date` og en valgfri slutdato i `endDate`. Gem tal som tal og ikke som tekst.
+`id` må ikke genbruges.
 
 ## Funktioner på hjemmesiden
 

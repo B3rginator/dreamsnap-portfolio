@@ -1,3 +1,244 @@
 {
-  "dreamsnaps": []
+  "dreamsnaps": [
+    {
+      "id": 172,
+      "title": "Good or Evil?",
+      "theme": "Good or Evil?",
+      "date": "2026-10-28",
+      "endDate": "2026-11-04",
+      "description": "Will you embrace virtue like Aurora or succumb to darkness like Maleficent? Show us the battle between good and evil within! Decorate and dress to show two parallel paths, and choose which aesthetic defines you.",
+      "image": "/images/dreamsnaps/Good-or-evil.png",
+      "score": 82.06,
+      "ranking": 5474,
+      "rewards": {
+        "moonstones": 4000
+      },
+      "tags": [
+        "Bold x3",
+        "Quirky x1",
+        "Playful x3",
+        "Strong x3"
+      ]
+    },
+    {
+      "id": 171,
+      "title": "Fall Harvest",
+      "theme": "Fall Harvest",
+      "date": "2026-10-21",
+      "endDate": "2026-10-28",
+      "description": "Celebrate the season's bounty! Are you gathering cursed crops or the plumpest of pumpkins? Show off autumnal garden chic with your style and decor.",
+      "image": "/images/dreamsnaps/Fall-harvest.png",
+      "score": 82.07,
+      "ranking": 9172,
+      "rewards": {
+        "moonstones": 4000
+      },
+      "tags": [
+        "Rustic x2",
+        "Orange x3",
+        "Lavish x2",
+        "Delicate x3"
+      ]
+    },
+    {
+      "id": 170,
+      "title": "Dreamlight Detective",
+      "theme": "Dreamlight Detective",
+      "date": "2026-10-14",
+      "endDate": "2026-10-21",
+      "description": "Dress as a detective solving magical mysteries! Investigate the scene, interview suspects, and piece together clues. Can you solve the case?",
+      "image": "/images/dreamsnaps/Dreamlight-Detective .png",
+      "score": 74.26,
+      "ranking": 22591,
+      "rewards": {
+        "moonstones": 1500
+      },
+      "tags": [
+        "Professional x1",
+        "Modern x1",
+        "Strong x3",
+        "Familiar x2"
+      ]
+    },
+    {
+      "id": 169,
+      "title": "Forest Folk",
+      "theme": "Forest Folk",
+      "date": "2026-10-07",
+      "endDate": "2026-10-14",
+      "description": "Are you a tree spirit, a fairy like Tinker Bell, or a bayou queen like Mama Odie? Decorate and dress to celebrate your magical connection with nature, showing off greenery and enchantment!",
+      "image": "/images/dreamsnaps/Forest-Folk.png",
+      "score": 85.06,
+      "ranking": 3244,
+      "rewards": {
+        "moonstones": 4000
+      },
+      "tags": [
+        "Green x2",
+        "Foliage x3",
+        "Calm x2",
+        "Familiar x3"
+      ]
+    },
+    {
+      "id": 168,
+      "title": "Twisted Fairy Tale",
+      "theme": "Twisted Fairy Tale",
+      "date": "2026-09-30",
+      "endDate": "2026-10-07",
+      "description": "Put your unique spin on storybook charm! Reimagine your favorite fairy tale with enchanting costumes and dazzling decorations that put a new twist on an old story.",
+      "image": "/images/dreamsnaps/Twisted_Fairy_Tale.png",
+      "score": 87.51,
+      "ranking": 1687,
+      "rewards": {
+        "moonstones": 4000
+      },
+      "tags": [
+        "Cute x2",
+        "Traditional x1",
+        "Playful x3",
+        "Strong x3"
+      ]
+    },
+    {
+      "id": 167,
+      "title": "Malevolent Majesty",
+      "theme": "Malevolent Majesty",
+      "date": "2026-09-23",
+      "endDate": "2026-09-30",
+      "description": "Channel gothic royalty with a stunning outfit and dark decor. Rule over a haunted Halloween Realm like Jack and Sally, or command your kingdom like the Evil Queen.",
+      "image": "/images/dreamsnaps/Malevolent_Majesty.jpg",
+      "score": 88.54,
+      "ranking": 1728,
+      "rewards": {
+        "moonstones": 4000
+      },
+      "tags": [
+        "Bold x2",
+        "Elegant x1",
+        "Lavish x3",
+        "Wondrous x3"
+      ]
+    },
+    {
+      "id": 166,
+      "title": "Shapeshift Superstar",
+      "theme": "Shapeshift Superstar",
+      "date": "2026-09-16",
+      "endDate": "2026-09-23",
+      "description": "Embrace a magical transformation! Channel your inner shapeshifter like Maui, or transform like the Beast. Build a scene where change sparks wonder!",
+      "image": "/images/dreamsnaps/Shapeshift_Superstar.png",
+      "score": 77.37,
+      "ranking": 12182,
+      "rewards": {
+        "moonstones": 2500
+      },
+      "tags": [
+        "Quirky x1",
+        "Bold x2",
+        "Playful x3",
+        "Strong x2"
+      ]
+    },
+    {
+      "id": 164,
+      "title": "Routine's Return",
+      "theme": "Routine's Return",
+      "date": "2026-09-02",
+      "endDate": "2026-09-09",
+      "description": "Style a vibrant scene celebrating the return to routine and summer's end. Capture a moment at work like Mike and Sulley, at school like Pinocchio, or at home prepping your next move!",
+      "image": "/images/dreamsnaps/Routines-Return.png",
+      "score": 74.32,
+      "ranking": 16073,
+      "rewards": {
+        "moonstones": 1500
+      },
+      "tags": [
+        "Professional x2",
+        "Tables x1",
+        "Simple x3",
+        "Familiar x2"
+      ]
+    },
+    {
+      "id": 163,
+      "title": "Postcard Summer",
+      "theme": "Postcard Summer",
+      "date": "2026-08-26",
+      "endDate": "2026-09-02",
+      "description": "It's time for your annual summer getaway. Are you heading to the countryside for a stay in your ranch, unwinding in your seaside mansion, or sharing canapés in your best friend's downtown penthouse?",
+      "image": "/images/dreamsnaps/Postcard_Summer.png",
+      "score": 86.00,
+      "ranking": 2767,
+      "rewards": {
+        "moonstones": 4000
+      },
+      "tags": [
+        "Traditional x1",
+        "Simple x2",
+        "Strong x3",
+        "Familiar x3"
+      ]
+    },
+    {
+      "id": 162,
+      "title": "Flashback Vibes",
+      "theme": "Flashback Vibes",
+      "date": "2026-08-19",
+      "endDate": "2026-08-26",
+      "description": "Create a colorful, energetic scene inspired by early 2000s pop culture. Dress to shine and show off your personality! How will you capture the spirit of Y2K glamour?",
+      "image": "/images/dreamsnaps/Flashback_Vibes.png",
+      "score": 87.09,
+      "ranking": 2060,
+      "rewards": {
+        "moonstones": 4000
+      },
+      "tags": [
+        "Cute x2",
+        "Bold x1",
+        "Pink x1",
+        "Playful x3"
+      ]
+    },
+    {
+      "id": 161,
+      "title": "Getting Artsy",
+      "theme": "Getting Artsy",
+      "date": "2026-08-12",
+      "endDate": "2026-08-19",
+      "description": "Create an artist's workshop where creativity flows free! Show off sculpted pieces, sew magical outfits, or paint enchanting works like Rapunzel. Express yourself!",
+      "image": "/images/dreamsnaps/Getting_Artsy.png",
+      "score": 86.05,
+      "ranking": 1765,
+      "rewards": {
+        "moonstones": 4000
+      },
+      "tags": [
+        "Art x2",
+        "Lavish x3",
+        "Playful x1",
+        "Delicate x2"
+      ]
+    },
+    {
+      "id": 160,
+      "title": "Eco-Friendly Fun",
+      "theme": "Eco-Friendly Fun",
+      "date": "2026-08-05",
+      "endDate": "2026-08-12",
+      "description": "It's a harmonious day in an eco-friendly paradise! Create a sustainable Valley, with serene spots and mindful touches. Build a brighter, greener, future - just like WALL-E and EVE.",
+      "image": "/images/dreamsnaps/Eco-Friendly-Fun.png",
+      "score": 87.63,
+      "ranking": 2165,
+      "rewards": {
+        "moonstones": 4000
+      },
+      "tags": [
+        "Foliage x2",
+        "WALL-E x1",
+        "Calm x3",
+        "Wondrous x3"
+      ]
+    }
+  ]
 }
