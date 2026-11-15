@@ -10,14 +10,18 @@ import {
   type DreamSnapSort,
 } from './data';
 
-type HighscoreKey = 'score' | 'ranking' | 'moonstones';
+type HighscoreKey = 'score' | 'ranking';
 
 const DREAMSNAPS_PAGE_SIZE = 12;
+const HISTORY_CHART_DATE_FORMATTER = new Intl.DateTimeFormat('en-US', {
+  month: 'short',
+  year: '2-digit',
+  timeZone: 'UTC',
+});
 
 const highscoreLabels: Record<HighscoreKey, string> = {
   score: 'Highest score',
   ranking: 'Best rank',
-  moonstones: 'Most Moonstones',
 };
 
 function Icon({
@@ -77,6 +81,157 @@ function MetricCard({
       </div>
       <p className="metric-value">{value}</p>
     </article>
+  );
+}
+
+function HistoryChart({
+  dreamsnaps,
+  metric,
+}: {
+  dreamsnaps: DreamSnap[];
+  metric: HighscoreKey;
+}) {
+  const metricLabel = metric === 'score' ? 'Score' : 'Best rank';
+  const chartTitle = `${metricLabel} history over time`;
+  const chartSnaps = dreamsnaps
+    .filter((snap) => snap[metric] > 0)
+    .sort((a, b) => a.date.localeCompare(b.date));
+
+  if (!chartSnaps.length) {
+    return (
+      <figure className="history-chart">
+        <figcaption>{chartTitle}</figcaption>
+        <p className="history-chart-empty">No {metric === 'score' ? 'score' : 'rank'} history yet.</p>
+      </figure>
+    );
+  }
+
+  const plot = { left: 86, right: 816, top: 28, bottom: 260 };
+  const plotWidth = plot.right - plot.left;
+  const plotHeight = plot.bottom - plot.top;
+  const values = chartSnaps.map((snap) => snap[metric]);
+  const minimum = Math.min(...values);
+  const maximum = Math.max(...values);
+  const rankPadding = Math.max(1, (maximum - minimum) * 0.08);
+  const domainMinimum = metric === 'score' ? 0 : Math.max(1, minimum - rankPadding);
+  const domainMaximum =
+    metric === 'score' ? Math.max(100, Math.ceil(maximum / 10) * 10) : maximum + rankPadding;
+  const domainRange = Math.max(1, domainMaximum - domainMinimum);
+  const timestamps = chartSnaps.map((snap) => new Date(`${snap.date}T00:00:00Z`).getTime());
+  const firstTimestamp = timestamps[0];
+  const lastTimestamp = timestamps[timestamps.length - 1];
+  const timeRange = Math.max(1, lastTimestamp - firstTimestamp);
+  const points = chartSnaps.map((snap, index) => {
+    const value = snap[metric];
+    const x =
+      chartSnaps.length === 1
+        ? plot.left + plotWidth / 2
+        : plot.left + ((timestamps[index] - firstTimestamp) / timeRange) * plotWidth;
+    const y =
+      plot.top +
+      (metric === 'score'
+        ? (domainMaximum - value) / domainRange
+        : (value - domainMinimum) / domainRange) *
+        plotHeight;
+    return { snap, value, x, y };
+  });
+  const yTicks = Array.from({ length: 5 }, (_, index) =>
+    metric === 'score'
+      ? domainMaximum - (domainRange * index) / 4
+      : domainMinimum + (domainRange * index) / 4,
+  );
+  const dateTickRatios = chartSnaps.length === 1 ? [0.5] : [0, 1 / 3, 2 / 3, 1];
+  const xTicks = dateTickRatios.map((ratio) => {
+    const timestamp = firstTimestamp + timeRange * ratio;
+    return {
+      x: plot.left + plotWidth * ratio,
+      label: HISTORY_CHART_DATE_FORMATTER.format(new Date(timestamp)),
+    };
+  });
+  const chartDescription = [
+    `${chartSnaps.length} DreamSnaps from ${formatDateRange(chartSnaps[0].date, chartSnaps[0].endDate)} through ${formatDateRange(chartSnaps[chartSnaps.length - 1].date, chartSnaps[chartSnaps.length - 1].endDate)}.`,
+    metric === 'ranking' ? 'Lower rank values are better.' : 'Scores are shown from 0 to 100.',
+    'Each plotted point represents one DreamSnap result.',
+  ].join(' ');
+
+  return (
+    <figure className="history-chart">
+      <figcaption>{chartTitle}</figcaption>
+      <div className="history-chart-scroll">
+        <svg
+          aria-labelledby="history-chart-title history-chart-description"
+          className="history-chart-svg"
+          role="img"
+          viewBox="0 0 840 332"
+        >
+          <title id="history-chart-title">{chartTitle}</title>
+          <desc id="history-chart-description">{chartDescription}</desc>
+          {yTicks.map((tick, index) => {
+            const y = plot.top + (plotHeight * index) / 4;
+            return (
+              <g key={index}>
+                <line className="history-chart-grid" x1={plot.left} x2={plot.right} y1={y} y2={y} />
+                <text className="history-chart-tick" textAnchor="end" x={plot.left - 10} y={y + 4}>
+                  {formatNumber(Math.round(tick))}
+                </text>
+              </g>
+            );
+          })}
+          <line className="history-chart-axis" x1={plot.left} x2={plot.left} y1={plot.top} y2={plot.bottom} />
+          <line className="history-chart-axis" x1={plot.left} x2={plot.right} y1={plot.bottom} y2={plot.bottom} />
+          <text
+            className="history-chart-axis-label"
+            textAnchor="middle"
+            transform={`rotate(-90 18 ${(plot.top + plot.bottom) / 2})`}
+            x="18"
+            y={(plot.top + plot.bottom) / 2}
+          >
+            {metricLabel}
+          </text>
+          {points.length > 1 && (
+            <polyline
+              className="history-chart-line"
+              points={points.map(({ x, y }) => `${x},${y}`).join(' ')}
+            />
+          )}
+          {points.map(({ snap, value, x, y }) => (
+            <circle className="history-chart-point" cx={x} cy={y} key={snap.id} r="3.5">
+              <title>{`${snap.title}: ${metric === 'ranking' ? `#${formatNumber(value)}` : formatNumber(value)} on ${formatDateRange(snap.date, snap.endDate)}`}</title>
+            </circle>
+          ))}
+          {xTicks.map((tick) => (
+            <g key={`${tick.x}-${tick.label}`}>
+              <line className="history-chart-axis" x1={tick.x} x2={tick.x} y1={plot.bottom} y2={plot.bottom + 5} />
+              <text className="history-chart-tick" textAnchor="middle" x={tick.x} y={plot.bottom + 22}>
+                {tick.label}
+              </text>
+            </g>
+          ))}
+          <text className="history-chart-axis-label" textAnchor="middle" x={(plot.left + plot.right) / 2} y="326">
+            Challenge date
+          </text>
+        </svg>
+      </div>
+      <table className="visually-hidden">
+        <caption>{chartTitle}</caption>
+        <thead>
+          <tr>
+            <th scope="col">Challenge</th>
+            <th scope="col">Date</th>
+            <th scope="col">{metricLabel}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {chartSnaps.map((snap) => (
+            <tr key={snap.id}>
+              <th scope="row">{snap.title}</th>
+              <td>{formatDateRange(snap.date, snap.endDate)}</td>
+              <td>{metric === 'ranking' ? `#${formatNumber(snap.ranking)}` : formatNumber(snap.score)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </figure>
   );
 }
 
@@ -250,10 +405,7 @@ function App() {
       highscore === 'ranking'
         ? dreamsnaps.filter((snap) => snap.ranking > 0)
         : dreamsnaps;
-    return sortDreamSnaps(
-      eligible,
-      highscore === 'moonstones' ? 'moonstones' : highscore,
-    ).slice(0, 5);
+    return sortDreamSnaps(eligible, highscore).slice(0, 10);
   }, [dreamsnaps, highscore]);
 
   const hasActiveFilter = Boolean(search.trim() || themeFilter || tagFilter || participatedOnly);
@@ -439,9 +591,7 @@ function App() {
                   const score =
                     highscore === 'score'
                       ? formatNumber(snap.score)
-                      : highscore === 'ranking'
-                        ? `#${formatNumber(snap.ranking)}`
-                        : formatNumber(snap.rewards.moonstones);
+                      : `#${formatNumber(snap.ranking)}`;
                   return (
                     <li className="highscore-row" key={snap.id}>
                       <span className={`rank-badge rank-${index + 1}`}>{String(index + 1).padStart(2, '0')}</span>
@@ -460,6 +610,7 @@ function App() {
             ) : (
               <EmptyState />
             )}
+            <HistoryChart dreamsnaps={dreamsnaps} metric={highscore} />
           </section>
         </main>
 
