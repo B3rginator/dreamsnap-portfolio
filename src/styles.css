@@ -250,10 +250,6 @@ select:focus-visible {
   margin-block-end: 1.35rem;
 }
 
-.section-heading .eyebrow {
-  margin-block-end: 0.42rem;
-}
-
 .metrics-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 190px), 1fr));
@@ -742,21 +738,6 @@ select:focus-visible {
   font-family: Manrope, sans-serif;
   font-size: 0.88rem;
   font-weight: 800;
-}
-
-.page-footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 0.5rem 1rem;
-  padding-block: 1.2rem 1.65rem;
-  border-block-start: 1px solid #ece9f1;
-  color: #a19dad;
-  font-size: 0.66rem;
-}
-
-.page-footer span span {
-  color: #a08acb;
 }
 
 .snap-dialog {

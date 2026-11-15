@@ -331,7 +331,6 @@ function App() {
           <section aria-labelledby="gallery-title" className="gallery-section" id="gallery">
             <div className="section-heading gallery-heading">
               <div>
-                <p className="eyebrow">YOUR MOMENTS</p>
                 <h2 id="gallery-title">DreamSnap Gallery</h2>
               </div>
               <span className="result-count">{formatNumber(filteredDreamSnaps.length)} {filteredDreamSnaps.length === 1 ? 'snap' : 'snaps'}</span>
@@ -417,7 +416,6 @@ function App() {
           <section aria-labelledby="highscores-title" className="highscores-section" id="highscores">
             <div className="section-heading">
               <div>
-                <p className="eyebrow">YOUR TOP RESULTS</p>
                 <h2 id="highscores-title">High Scores</h2>
               </div>
               <Icon className="section-icon" name="trophy" />
@@ -465,10 +463,6 @@ function App() {
           </section>
         </main>
 
-        <footer className="page-footer">
-          <span>Make room for a little more magic <span aria-hidden="true">✦</span></span>
-          <span>Dreamlight Valley · Personal archive</span>
-        </footer>
       </div>
 
       <dialog
