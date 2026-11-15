@@ -12,6 +12,8 @@ import {
 
 type HighscoreKey = 'score' | 'ranking' | 'moonstones';
 
+const DREAMSNAPS_PAGE_SIZE = 12;
+
 const highscoreLabels: Record<HighscoreKey, string> = {
   score: 'Højeste score',
   ranking: 'Bedste placering',
@@ -146,7 +148,8 @@ function App() {
   const [themeFilter, setThemeFilter] = useState('');
   const [tagFilter, setTagFilter] = useState('');
   const [sort, setSort] = useState<DreamSnapSort>('date');
-  const [participatedOnly, setParticipatedOnly] = useState(false);
+  const [participatedOnly, setParticipatedOnly] = useState(true);
+  const [visibleCount, setVisibleCount] = useState(DREAMSNAPS_PAGE_SIZE);
   const [highscore, setHighscore] = useState<HighscoreKey>('score');
   const dialogRef = useRef<HTMLDialogElement>(null);
 
@@ -215,6 +218,11 @@ function App() {
     });
     return sortDreamSnaps(filtered, sort);
   }, [dreamsnaps, participatedOnly, search, sort, tagFilter, themeFilter]);
+  const visibleDreamSnaps = filteredDreamSnaps.slice(0, visibleCount);
+
+  useEffect(() => {
+    setVisibleCount(DREAMSNAPS_PAGE_SIZE);
+  }, [participatedOnly, search, sort, tagFilter, themeFilter]);
 
   const metrics = useMemo(() => {
     const total = dreamsnaps.length;
@@ -227,15 +235,16 @@ function App() {
         ? 0
         : dreamsnaps.reduce((sum, snap) => sum + snap.score, 0) / total;
     const rankedSnaps = dreamsnaps.filter((snap) => snap.ranking > 0);
-    const bestRanking = rankedSnaps.length
-      ? rankedSnaps.reduce((best, snap) => Math.min(best, snap.ranking), Infinity)
-      : null;
+    const bestRankingSnap = rankedSnaps.reduce<DreamSnap | null>(
+      (best, snap) => (best === null || snap.ranking < best.ranking ? snap : best),
+      null,
+    );
     const highestScore = dreamsnaps.reduce(
       (highest, snap) => Math.max(highest, snap.score),
       0,
     );
 
-    return { total, totalMoonstones, averageScore, bestRanking, highestScore };
+    return { total, totalMoonstones, averageScore, bestRankingSnap, highestScore };
   }, [dreamsnaps]);
 
   const highscoreItems = useMemo(() => {
@@ -271,49 +280,58 @@ function App() {
         </header>
 
         <main id="main-content">
-          <section aria-labelledby="welcome-title" className="welcome-section">
-            <div className="welcome-copy">
-              <p className="eyebrow"><Icon name="sparkle" /> DIT PERSONLIGE DREAMLIGHT-ARKIV</p>
-              <h1 id="welcome-title">Dine øjeblikke,<br /><span>gemt for altid.</span></h1>
-              <p className="welcome-description">
-                Et hjem til dine DreamSnaps, resultater og små magiske minder.
-              </p>
-              <a className="primary-link" href="#gallery">Udforsk galleriet <span aria-hidden="true">↗</span></a>
-            </div>
-            <div aria-hidden="true" className="welcome-art">
-              <div className="art-glow" />
-              <div className="art-orbit orbit-one" />
-              <div className="art-orbit orbit-two" />
-              <span className="art-star star-one">✦</span>
-              <span className="art-star star-two">✧</span>
-              <span className="art-star star-three">·</span>
-              <span className="art-moon">☾</span>
-              <span className="art-caption">a little bit of magic</span>
-            </div>
-          </section>
-
           <section aria-labelledby="dashboard-title" className="dashboard-section" id="dashboard">
-            <div className="section-heading">
-              <div>
-                <p className="eyebrow">DIT ARKIV I TAL</p>
-                <h2 id="dashboard-title">Et overblik</h2>
+            <div className="dashboard-layout">
+              <div className="dashboard-overview">
+                <div className="section-heading">
+                  <div>
+                    <p className="eyebrow">DIT ARKIV I TAL</p>
+                    <h1 id="dashboard-title">Et overblik</h1>
+                  </div>
+                  <span className="updated-note"><Icon name="calendar" /> Dine minder, samlet ét sted</span>
+                </div>
+                {loadError && <p className="notice notice-error" role="alert">{loadError}</p>}
+                {!loadError && invalidCount > 0 && (
+                  <p className="notice" role="status">
+                    {invalidCount} ugyldige eller dublerede {invalidCount === 1 ? 'post' : 'poster'} blev sprunget over. Kontrollér dreamsnaps.json.
+                  </p>
+                )}
+                <div className="metrics-grid">
+                  <MetricCard accent="metric-lilac" detail="i dit galleri" icon="image" label="DreamSnaps" value={formatNumber(metrics.total)} />
+                  <MetricCard accent="metric-peach" detail="samlet fra dine resultater" icon="moon" label="Moonstones" value={formatNumber(metrics.totalMoonstones)} />
+                  <MetricCard accent="metric-blue" detail="på tværs af alle dine snaps" icon="sparkle" label="Gennemsnitlig score" value={formatNumber(metrics.averageScore)} />
+                  <MetricCard accent="metric-peach" detail="dit bedste resultat" icon="trophy" label="Højeste score" value={formatNumber(metrics.highestScore)} />
+                </div>
+                {loading && <p className="loading-message" role="status">Henter dine DreamSnaps…</p>}
               </div>
-              <span className="updated-note"><Icon name="calendar" /> Dine minder, samlet ét sted</span>
+              <figure aria-labelledby="best-ranking-caption" className="best-ranking-feature">
+                {metrics.bestRankingSnap ? (
+                  <img
+                    alt={metrics.bestRankingSnap.title}
+                    className="best-ranking-image"
+                    fetchPriority="high"
+                    height={1079}
+                    src={getImageUrl(metrics.bestRankingSnap.image)}
+                    width={1919}
+                  />
+                ) : (
+                  <div aria-hidden="true" className="best-ranking-image-placeholder" />
+                )}
+                <figcaption className="best-ranking-caption" id="best-ranking-caption">
+                  <span className="best-ranking-label">BEDSTE PLACERING</span>
+                  {metrics.bestRankingSnap ? (
+                    <>
+                      <strong>#{formatNumber(metrics.bestRankingSnap.ranking)}</strong>
+                      <span className="best-ranking-title">{metrics.bestRankingSnap.title}</span>
+                    </>
+                  ) : (
+                    <span className="best-ranking-title">
+                      {loading ? 'Henter placering…' : 'Ingen registrerede placeringer'}
+                    </span>
+                  )}
+                </figcaption>
+              </figure>
             </div>
-            {loadError && <p className="notice notice-error" role="alert">{loadError}</p>}
-            {!loadError && invalidCount > 0 && (
-              <p className="notice" role="status">
-                {invalidCount} ugyldige eller dublerede {invalidCount === 1 ? 'post' : 'poster'} blev sprunget over. Kontrollér dreamsnaps.json.
-              </p>
-            )}
-            <div className="metrics-grid">
-              <MetricCard accent="metric-lilac" detail="i dit galleri" icon="image" label="DreamSnaps" value={formatNumber(metrics.total)} />
-              <MetricCard accent="metric-peach" detail="samlet fra dine resultater" icon="moon" label="Moonstones" value={formatNumber(metrics.totalMoonstones)} />
-              <MetricCard accent="metric-blue" detail="på tværs af alle dine snaps" icon="sparkle" label="Gennemsnitlig score" value={formatNumber(metrics.averageScore)} />
-              <MetricCard accent="metric-peach" detail="dit bedste resultat" icon="trophy" label="Højeste score" value={formatNumber(metrics.highestScore)} />
-              <MetricCard accent="metric-green" detail="laveste placering vinder" icon="medal" label="Bedste placering" value={metrics.bestRanking === null ? '—' : `#${formatNumber(metrics.bestRanking)}`} />
-            </div>
-            {loading && <p className="loading-message" role="status">Henter dine DreamSnaps…</p>}
           </section>
 
           <section aria-labelledby="gallery-title" className="gallery-section" id="gallery">
@@ -380,11 +398,23 @@ function App() {
             {loading ? (
               <div className="gallery-loading" aria-hidden="true" />
             ) : filteredDreamSnaps.length ? (
-              <ul className="snap-grid">
-                {filteredDreamSnaps.map((snap) => (
-                  <SnapCard key={snap.id} onOpen={setSelectedSnap} snap={snap} />
-                ))}
-              </ul>
+              <>
+                <ul className="snap-grid" id="dreamsnap-grid">
+                  {visibleDreamSnaps.map((snap) => (
+                    <SnapCard key={snap.id} onOpen={setSelectedSnap} snap={snap} />
+                  ))}
+                </ul>
+                {visibleDreamSnaps.length < filteredDreamSnaps.length && (
+                  <button
+                    aria-controls="dreamsnap-grid"
+                    className="load-more"
+                    onClick={() => setVisibleCount((count) => count + DREAMSNAPS_PAGE_SIZE)}
+                    type="button"
+                  >
+                    Vis flere
+                  </button>
+                )}
+              </>
             ) : (
               <EmptyState filtered={dreamsnaps.length > 0} />
             )}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-labelledby="title description">
+  <title id="title">DreamSnap placeholder</title>
+  <desc id="description">Der er endnu ikke tilknyttet et billede til dette DreamSnap.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f3effa"/>
+      <stop offset="1" stop-color="#fff5eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#background)"/>
+  <circle cx="300" cy="155" r="58" fill="#e5dcf4"/>
+  <path d="m300 110 13 32 35 3-27 21 9 34-30-18-30 18 9-34-27-21 35-3z" fill="#a18bc9"/>
+  <text x="300" y="270" text-anchor="middle" fill="#76688f" font-family="Arial, sans-serif" font-size="19" font-weight="700">BILLEDE MANGLER</text>
+  <text x="300" y="315" text-anchor="middle" fill="#4d465b" font-family="Arial, sans-serif" font-size="23" font-weight="700">DreamSnap</text>
+</svg>

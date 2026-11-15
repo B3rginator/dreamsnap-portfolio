@@ -20,7 +20,7 @@ Når brugeren beder om at tilføje et DreamSnap, skal du følge denne procedure:
 1. Find det næste ledige numeriske ID i `public/data/dreamsnaps.json`.
 2. Find billedet med et filnavn, der matcher DreamSnap-titlen, i `public/images/dreamsnaps/`.
    - Filnavne kan bruge bindestreger eller underscore i stedet for mellemrum; bevar det faktiske filnavn og filformat.
-   - Hvis der ikke findes et match, så tilføj en placeholder med et titelbaseret filnavn.
+   - Hvis der ikke findes et match, så brug den fælles placeholder `/images/dreamsnaps/placeholder.svg`. Opret ikke en separat placeholder til hver challenge.
 3. Kopiér eller flyt ikke automatisk et billede, medmindre brugeren har leveret billedet eller angivet dets placering.
 4. Hvis brugeren har leveret et billede, så placér det i `public/images/dreamsnaps/` med et filnavn baseret på titlen.
 5. Tilføj et nyt objekt i `dreamsnaps`-arrayet med følgende struktur:
@@ -67,7 +67,7 @@ Når brugeren beder om at tilføje et DreamSnap, skal du følge denne procedure:
 - `date`: Challenge-startdato i `YYYY-MM-DD`; bruges til tidslinjesortering.
 - `endDate`: Valgfri challenge-slutdato i `YYYY-MM-DD`.
 - `description`: Valgfri challenge-beskrivelse.
-- `image`: Sti relativt til websitets public root, med filnavn baseret på titlen; brug en titelbaseret placeholder, hvis billedet mangler. Tag højde for Vite `base`-konfigurationen i frontend-koden.
+- `image`: Sti relativt til websitets public root, med filnavn baseret på titlen; brug `/images/dreamsnaps/placeholder.svg`, hvis billedet mangler. Tag højde for Vite `base`-konfigurationen i frontend-koden.
 - `score`: DreamSnap-score som tal; brug `0`, hvis den mangler.
 - `ranking`: Placering som tal. Lavere tal betyder bedre placering; brug `0`, hvis den mangler.
 - `rewards.moonstones`: Antal modtagne Moonstones som tal; brug `0`, hvis de mangler.

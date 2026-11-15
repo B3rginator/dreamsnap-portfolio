@@ -98,7 +98,7 @@ Eksempel:
 | `date` | string | Challenge-startdato i `YYYY-MM-DD` format; bruges til tidslinjesortering |
 | `endDate` | string (valgfri) | Challenge-slutdato; vises sammen med `date` som et interval |
 | `description` | string (valgfri) | Challenge-beskrivelse, som vises i detaljevisningen |
-| `image` | string | Relativ URL til titelbaseret billede eller placeholder |
+| `image` | string | Relativ URL til titelbaseret billede eller den fælles placeholder |
 | `score` | number | Score |
 | `ranking` | number | Placering; lavere tal er bedre |
 | `rewards.moonstones` | number | Modtagne Moonstones |
@@ -109,8 +109,9 @@ Eksempel:
 Brug datoformatet `YYYY-MM-DD`. Ugentlige challenges gemmes med startdato i
 `date` og en valgfri slutdato i `endDate`. Gem tal som tal og ikke som tekst.
 `id` må ikke genbruges. Hvis score, placering eller Moonstones mangler, bruges
-`0`. Hvis billedet mangler, bruges en titelbaseret placeholder i
-`public/images/dreamsnaps/`. `tags` indeholder alle tags til søgning og
+`0`. Hvis billedet mangler, bruges den fælles placeholder
+`public/images/dreamsnaps/placeholder.svg`; opret ikke en individuel placeholder
+til hver challenge. `tags` indeholder alle tags til søgning og
 filtrering; behold samtidig obligatoriske og bonus-tags adskilt i deres egne
 felter. Beskrivelser skal være korte, originale opsummeringer frem for kopieret
 challenge-tekst.

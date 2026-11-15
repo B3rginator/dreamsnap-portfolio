@@ -223,11 +223,11 @@
       "date": "2026-09-09",
       "endDate": "2026-09-16",
       "description": "Join Moana on a wayfinding adventure! Decorate your Valley like Motunui. Capture a sunlit island day or starlit night with glowing paths, sparkling waters, and tropical wonders.",
-      "image": "/images/dreamsnaps/Wayfinders-Isle.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/Wayfinder's Isle.png",
+      "score": 82.86,
+      "ranking": 5525,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 400
       },
       "tags": [
         "Elegant x2",
@@ -278,7 +278,7 @@
       "endDate": "2026-09-02",
       "description": "It's time for your annual summer getaway. Are you heading to the countryside for a stay in your ranch, unwinding in your seaside mansion, or sharing canapés in your best friend's downtown penthouse?",
       "image": "/images/dreamsnaps/Postcard_Summer.png",
-      "score": 86.0,
+      "score": 86,
       "ranking": 2767,
       "rewards": {
         "moonstones": 4000
@@ -386,10 +386,10 @@
       "endDate": "2026-08-05",
       "description": "A weekly DreamSnap theme centered on Summer Street Festival.",
       "image": "/images/dreamsnaps/Summer_Street_Festival.png",
-      "score": 0,
-      "ranking": 0,
+      "score": 85.71,
+      "ranking": 1859,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 4000
       },
       "tags": [
         "Casual x2",
@@ -413,10 +413,10 @@
       "endDate": "2026-07-29",
       "description": "A weekly DreamSnap theme centered on Fabled Relics.",
       "image": "/images/dreamsnaps/Fabled-Relics.png",
-      "score": 0,
-      "ranking": 0,
+      "score": 86.47,
+      "ranking": 2087,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 4000
       },
       "tags": [
         "Quirky x1",
@@ -440,10 +440,10 @@
       "endDate": "2026-07-22",
       "description": "A weekly DreamSnap theme centered on In Your Element.",
       "image": "/images/dreamsnaps/In-Your-Element.png",
-      "score": 0,
-      "ranking": 0,
+      "score": 79.85,
+      "ranking": 7669,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 4000
       },
       "tags": [
         "Cute x1",
@@ -467,10 +467,10 @@
       "endDate": "2026-07-15",
       "description": "A weekly DreamSnap theme centered on Lazy, Cozy Day.",
       "image": "/images/dreamsnaps/Lazy-Cozy-Day.png",
-      "score": 0,
-      "ranking": 0,
+      "score": 85.03,
+      "ranking": 3232,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 4000
       },
       "tags": [
         "Traditional x1",
@@ -495,9 +495,9 @@
       "description": "A weekly DreamSnap theme centered on Explosions of Color.",
       "image": "/images/dreamsnaps/Explosions-of-Color.png",
       "score": 0,
-      "ranking": 0,
+      "ranking": 5190,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 4000
       },
       "tags": [
         "Casual x1",
@@ -521,10 +521,10 @@
       "endDate": "2026-07-01",
       "description": "A weekly DreamSnap theme centered on Cherished Childhood.",
       "image": "/images/dreamsnaps/Cherished_Childhood.png",
-      "score": 0,
-      "ranking": 0,
+      "score": 82.09,
+      "ranking": 290,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 4000
       },
       "tags": [
         "Casual x1",
@@ -548,10 +548,10 @@
       "endDate": "2026-06-24",
       "description": "A weekly DreamSnap theme centered on Journey into Imagination.",
       "image": "/images/dreamsnaps/Journey-into-Imagination.png",
-      "score": 0,
-      "ranking": 0,
+      "score": 58.68,
+      "ranking": 51646,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 900
       },
       "tags": [
         "Futuristic x1",
@@ -575,10 +575,10 @@
       "endDate": "2026-06-17",
       "description": "A weekly DreamSnap theme centered on Kingdom of Beauty.",
       "image": "/images/dreamsnaps/Kingdom-of-beauty.jpg",
-      "score": 0,
-      "ranking": 0,
+      "score": 80.59,
+      "ranking": 5526,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 4000
       },
       "tags": [
         "Elegant x1",
@@ -601,11 +601,11 @@
       "date": "2026-06-03",
       "endDate": "2026-06-10",
       "description": "A weekly DreamSnap theme centered on Legendary Moments.",
-      "image": "/images/dreamsnaps/Legendary-Moments.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/Legendary-moment.jpg",
+      "score": 85.67,
+      "ranking": 1393,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 4000
       },
       "tags": [
         "Bold x1",
@@ -628,11 +628,11 @@
       "date": "2026-05-27",
       "endDate": "2026-06-03",
       "description": "A weekly DreamSnap theme centered on Forested Book Nook.",
-      "image": "/images/dreamsnaps/Forested-Book-Nook.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/Forrested-Book-Nook.jpg",
+      "score": 80.39,
+      "ranking": 9976,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 2500
       },
       "tags": [
         "Cute x1",
@@ -656,10 +656,10 @@
       "endDate": "2026-05-27",
       "description": "A weekly DreamSnap theme centered on Beachy Bliss.",
       "image": "/images/dreamsnaps/Beachy-Bliss.png",
-      "score": 0,
-      "ranking": 0,
+      "score": 86.78,
+      "ranking": 1691,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 4000
       },
       "tags": [
         "Foliage x3",
@@ -683,10 +683,10 @@
       "endDate": "2026-05-20",
       "description": "A weekly DreamSnap theme centered on City by Moonlight.",
       "image": "/images/dreamsnaps/City-by-Moonlight.png",
-      "score": 0,
-      "ranking": 0,
+      "score": 79.29,
+      "ranking": 6384,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 4000
       },
       "tags": [
         "Elegant x1",
@@ -710,10 +710,10 @@
       "endDate": "2026-05-13",
       "description": "A weekly DreamSnap theme centered on Inside Out Weather.",
       "image": "/images/dreamsnaps/Inside-Out-Weather .png",
-      "score": 0,
-      "ranking": 0,
+      "score": 71.49,
+      "ranking": 16439,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 1500
       },
       "tags": [
         "Bold x1",
@@ -736,11 +736,11 @@
       "date": "2026-04-29",
       "endDate": "2026-05-06",
       "description": "A weekly DreamSnap theme centered on Desert Haven.",
-      "image": "/images/dreamsnaps/Desert-Haven.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 80.94,
+      "ranking": 4900,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 400
       },
       "tags": [
         "Outdoors x1",
@@ -763,11 +763,11 @@
       "date": "2026-04-22",
       "endDate": "2026-04-29",
       "description": "A weekly DreamSnap theme centered on Crafted with Care.",
-      "image": "/images/dreamsnaps/Crafted-with-Care.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 79.03,
+      "ranking": 7435,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 2500
       },
       "tags": [
         "Rustic x2",
@@ -790,11 +790,11 @@
       "date": "2026-04-15",
       "endDate": "2026-04-22",
       "description": "A weekly DreamSnap theme centered on Cozy Dreams.",
-      "image": "/images/dreamsnaps/Cozy-Dreams.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 71.32,
+      "ranking": 27722,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 1500
       },
       "tags": [
         "Bold x1",
@@ -817,11 +817,11 @@
       "date": "2026-04-08",
       "endDate": "2026-04-15",
       "description": "A weekly DreamSnap theme centered on Marvels of Nature.",
-      "image": "/images/dreamsnaps/Marvels-of-Nature.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 80.68,
+      "ranking": 4580,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 4000
       },
       "tags": [
         "Elegant x2",
@@ -844,11 +844,11 @@
       "date": "2026-04-01",
       "endDate": "2026-04-08",
       "description": "A weekly DreamSnap theme centered on Small Wonder.",
-      "image": "/images/dreamsnaps/Small-Wonder.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 59.69,
+      "ranking": 62855,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 900
       },
       "tags": [
         "Bold x2",
@@ -871,11 +871,11 @@
       "date": "2026-03-25",
       "endDate": "2026-04-01",
       "description": "A weekly DreamSnap theme centered on Wild West Wonders.",
-      "image": "/images/dreamsnaps/Wild-West-Wonders.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 71.01,
+      "ranking": 28115,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 1500
       },
       "tags": [
         "Rustic x1",
@@ -898,11 +898,11 @@
       "date": "2026-03-18",
       "endDate": "2026-03-25",
       "description": "A weekly DreamSnap theme centered on Spring into Style.",
-      "image": "/images/dreamsnaps/Spring-into-Style.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 52.93,
+      "ranking": 101303,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 600
       },
       "tags": [
         "Casual x2",
@@ -925,11 +925,11 @@
       "date": "2026-03-11",
       "endDate": "2026-03-18",
       "description": "A weekly DreamSnap theme centered on My Favorite Hero.",
-      "image": "/images/dreamsnaps/My-Favorite-Hero.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 60.15,
+      "ranking": 71682,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 900
       },
       "tags": [
         "Back x1",
@@ -952,11 +952,11 @@
       "date": "2026-03-04",
       "endDate": "2026-03-11",
       "description": "A weekly DreamSnap theme centered on Vibrant Jungle Fiesta.",
-      "image": "/images/dreamsnaps/Vibrant-Jungle-Fiesta.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 72.01,
+      "ranking": 19593,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 1500
       },
       "tags": [
         "Traditional x2",
@@ -979,7 +979,7 @@
       "date": "2026-02-25",
       "endDate": "2026-03-04",
       "description": "A weekly DreamSnap theme centered on Pals with Paws.",
-      "image": "/images/dreamsnaps/Pals-with-Paws.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -1006,11 +1006,11 @@
       "date": "2026-02-18",
       "endDate": "2026-02-25",
       "description": "A weekly DreamSnap theme centered on Seaside Chic.",
-      "image": "/images/dreamsnaps/Seaside-Chic.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 56.65,
+      "ranking": 85461,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 600
       },
       "tags": [
         "Elegant x1",
@@ -1033,11 +1033,11 @@
       "date": "2026-02-11",
       "endDate": "2026-02-18",
       "description": "A weekly DreamSnap theme centered on Bella Notte Romance.",
-      "image": "/images/dreamsnaps/Bella-Notte-Romance.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 56.56,
+      "ranking": 85448,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 600
       },
       "tags": [
         "Elegant x3",
@@ -1060,11 +1060,11 @@
       "date": "2026-02-04",
       "endDate": "2026-02-11",
       "description": "A weekly decor challenge inspired by Illusion Valley.",
-      "image": "/images/dreamsnaps/Illusion-Valley.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 56.82,
+      "ranking": 63942,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 900
       },
       "tags": [
         "Quirky x4",
@@ -1088,11 +1088,11 @@
       "date": "2026-01-28",
       "endDate": "2026-02-04",
       "description": "A weekly decor challenge inspired by Architectural Statement.",
-      "image": "/images/dreamsnaps/Architectural-Statement.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 72.25,
+      "ranking": 37312,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 1500
       },
       "tags": [
         "Calm x5",
@@ -1116,11 +1116,11 @@
       "date": "2026-01-21",
       "endDate": "2026-01-28",
       "description": "A weekly outfit challenge inspired by Pattern Party.",
-      "image": "/images/dreamsnaps/Pattern-Party.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 16.6,
+      "ranking": 39637,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 1200
       },
       "tags": [
         "Cute x1",
@@ -1144,11 +1144,11 @@
       "date": "2026-01-14",
       "endDate": "2026-01-21",
       "description": "A weekly outfit challenge inspired by Hair with Flair.",
-      "image": "/images/dreamsnaps/Hair-with-Flair.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 17.02,
+      "ranking": 49801,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 1200
       },
       "tags": [
         "Lavish x2",
@@ -1172,11 +1172,11 @@
       "date": "2026-01-07",
       "endDate": "2026-01-14",
       "description": "A weekly decor challenge inspired by Winter Lodge Getaway.",
-      "image": "/images/dreamsnaps/Winter-Lodge-Getaway.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 18.3,
+      "ranking": 20689,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 1500
       },
       "tags": [
         "Lavish x5",
@@ -1200,11 +1200,11 @@
       "date": "2025-12-31",
       "endDate": "2026-01-07",
       "description": "A weekly outfit challenge inspired by Dazzle Into the New Year.",
-      "image": "/images/dreamsnaps/Dazzle-Into-the-New-Year.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 17.94,
+      "ranking": 37626,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 1500
       },
       "tags": [
         "Lavish x1",
@@ -1228,11 +1228,11 @@
       "date": "2025-12-24",
       "endDate": "2025-12-31",
       "description": "A weekly decor challenge inspired by Cozy Holiday Cheer.",
-      "image": "/images/dreamsnaps/Cozy-Holiday-Cheer.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 17.22,
+      "ranking": 36070,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 1200
       },
       "tags": [
         "Elegant x5",
@@ -1256,11 +1256,11 @@
       "date": "2025-12-17",
       "endDate": "2025-12-24",
       "description": "A weekly outfit challenge inspired by Majesty on Ice.",
-      "image": "/images/dreamsnaps/Majesty-on-Ice.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 19.75,
+      "ranking": 9303,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 2500
       },
       "tags": [
         "Bold x1",
@@ -1284,11 +1284,11 @@
       "date": "2025-12-10",
       "endDate": "2025-12-17",
       "description": "A weekly outfit challenge inspired by Until Midnight Transformation.",
-      "image": "/images/dreamsnaps/Until-Midnight-Transformation.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 20.05,
+      "ranking": 12023,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 2500
       },
       "tags": [
         "Elegant x1",
@@ -1312,11 +1312,11 @@
       "date": "2025-12-03",
       "endDate": "2025-12-10",
       "description": "A weekly decor challenge inspired by Wonder in Christmas Town.",
-      "image": "/images/dreamsnaps/Wonder-in-Christmas-Town.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 32.48,
+      "ranking": 139010,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 300
       },
       "tags": [
         "Red x5",
@@ -1340,7 +1340,7 @@
       "date": "2025-11-26",
       "endDate": "2025-12-03",
       "description": "A weekly decor challenge inspired by Frosty Fairy Realm.",
-      "image": "/images/dreamsnaps/Frosty-Fairy-Realm.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -1368,11 +1368,11 @@
       "date": "2025-11-19",
       "endDate": "2025-11-26",
       "description": "A weekly outfit challenge inspired by Rancher's Runway.",
-      "image": "/images/dreamsnaps/Rancher-s-Runway.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 29.89,
+      "ranking": 216262,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 300
       },
       "tags": [
         "Strong x1",
@@ -1396,11 +1396,11 @@
       "date": "2025-11-12",
       "endDate": "2025-11-19",
       "description": "A weekly decor challenge inspired by Fun with Fungi.",
-      "image": "/images/dreamsnaps/Fun-with-Fungi.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 31.19,
+      "ranking": 150748,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 300
       },
       "tags": [
         "Playful x5",
@@ -1424,11 +1424,11 @@
       "date": "2025-11-05",
       "endDate": "2025-11-12",
       "description": "A weekly outfit challenge inspired by Dreamlight Knights.",
-      "image": "/images/dreamsnaps/Dreamlight-Knights.svg",
-      "score": 0,
-      "ranking": 0,
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 21.04,
+      "ranking": 220684,
       "rewards": {
-        "moonstones": 0
+        "moonstones": 300
       },
       "tags": [
         "Strong x1",
@@ -1452,7 +1452,7 @@
       "date": "2025-10-29",
       "endDate": "2025-11-05",
       "description": "A weekly decor challenge inspired by Ghostly Gala.",
-      "image": "/images/dreamsnaps/Ghostly-Gala.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -1480,7 +1480,7 @@
       "date": "2025-10-22",
       "endDate": "2025-10-29",
       "description": "A weekly outfit challenge inspired by Falling for Florals.",
-      "image": "/images/dreamsnaps/Falling-for-Florals.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -1508,7 +1508,7 @@
       "date": "2025-10-15",
       "endDate": "2025-10-22",
       "description": "A weekly decor challenge inspired by Carnival Fright.",
-      "image": "/images/dreamsnaps/Carnival-Fright.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -1536,7 +1536,7 @@
       "date": "2025-10-08",
       "endDate": "2025-10-15",
       "description": "A weekly decor challenge inspired by Potion Master's Lair.",
-      "image": "/images/dreamsnaps/Potion-Master-s-Lair.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -1564,7 +1564,7 @@
       "date": "2025-10-01",
       "endDate": "2025-10-08",
       "description": "A weekly outfit challenge inspired by Halloween Town Style.",
-      "image": "/images/dreamsnaps/Halloween-Town-Style.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -1592,7 +1592,7 @@
       "date": "2025-09-24",
       "endDate": "2025-10-01",
       "description": "A weekly decor challenge inspired by Autumn Arrival.",
-      "image": "/images/dreamsnaps/Autumn-Arrival.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -1620,7 +1620,7 @@
       "date": "2025-09-17",
       "endDate": "2025-09-24",
       "description": "A weekly outfit challenge inspired by Dark Cottagecore Dreams.",
-      "image": "/images/dreamsnaps/Dark-Cottagecore-Dreams.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -1648,7 +1648,7 @@
       "date": "2025-09-10",
       "endDate": "2025-09-17",
       "description": "A weekly decor challenge inspired by Royal for a Week.",
-      "image": "/images/dreamsnaps/Royal-for-a-Week.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -1676,7 +1676,7 @@
       "date": "2025-09-03",
       "endDate": "2025-09-10",
       "description": "A weekly outfit challenge inspired by Big Feels.",
-      "image": "/images/dreamsnaps/Big-Feels.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -1704,7 +1704,7 @@
       "date": "2025-08-27",
       "endDate": "2025-09-03",
       "description": "A weekly decor challenge inspired by Nature Takeover.",
-      "image": "/images/dreamsnaps/Nature-Takeover.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -1732,7 +1732,7 @@
       "date": "2025-08-20",
       "endDate": "2025-08-27",
       "description": "A weekly outfit challenge inspired by Farmer's Market Fantasy.",
-      "image": "/images/dreamsnaps/Farmer-s-Market-Fantasy.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -1760,7 +1760,7 @@
       "date": "2025-08-13",
       "endDate": "2025-08-20",
       "description": "A weekly outfit challenge inspired by Under Construction.",
-      "image": "/images/dreamsnaps/Under-Construction.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -1788,7 +1788,7 @@
       "date": "2025-08-06",
       "endDate": "2025-08-13",
       "description": "A weekly decor challenge inspired by Guardian Sanctuary.",
-      "image": "/images/dreamsnaps/Guardian-Sanctuary.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -1816,7 +1816,7 @@
       "date": "2025-07-30",
       "endDate": "2025-08-06",
       "description": "A weekly outfit challenge inspired by Treasure Hunt Extravaganza.",
-      "image": "/images/dreamsnaps/Treasure-Hunt-Extravaganza.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -1844,7 +1844,7 @@
       "date": "2025-07-23",
       "endDate": "2025-07-30",
       "description": "A weekly decor challenge inspired by Serene Village Vibes.",
-      "image": "/images/dreamsnaps/Serene-Village-Vibes.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -1872,7 +1872,7 @@
       "date": "2025-07-16",
       "endDate": "2025-07-23",
       "description": "A weekly outfit challenge inspired by Grand Anniversary Gala.",
-      "image": "/images/dreamsnaps/Grand-Anniversary-Gala.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -1900,7 +1900,7 @@
       "date": "2025-07-09",
       "endDate": "2025-07-16",
       "description": "A weekly outfit challenge inspired by Roses & Thorns.",
-      "image": "/images/dreamsnaps/Roses-Thorns.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -1928,7 +1928,7 @@
       "date": "2025-07-02",
       "endDate": "2025-07-09",
       "description": "A weekly decor challenge inspired by Hooked on DreamSnaps.",
-      "image": "/images/dreamsnaps/Hooked-on-DreamSnaps.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -1956,7 +1956,7 @@
       "date": "2025-06-25",
       "endDate": "2025-07-02",
       "description": "A weekly decor challenge inspired by Decorate with Pride.",
-      "image": "/images/dreamsnaps/Decorate-with-Pride.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -1984,7 +1984,7 @@
       "date": "2025-06-18",
       "endDate": "2025-06-25",
       "description": "A weekly outfit challenge inspired by Summer in Bloom.",
-      "image": "/images/dreamsnaps/Summer-in-Bloom.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2012,7 +2012,7 @@
       "date": "2025-06-11",
       "endDate": "2025-06-18",
       "description": "A weekly decor challenge inspired by Grand Banquet Extravaganza.",
-      "image": "/images/dreamsnaps/Grand-Banquet-Extravaganza.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2040,7 +2040,7 @@
       "date": "2025-06-04",
       "endDate": "2025-06-11",
       "description": "A weekly outfit challenge inspired by Master of Disguise.",
-      "image": "/images/dreamsnaps/Master-of-Disguise.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2068,7 +2068,7 @@
       "date": "2025-05-28",
       "endDate": "2025-06-04",
       "description": "A weekly decor challenge inspired by Limitless Landscapes.",
-      "image": "/images/dreamsnaps/Limitless-Landscapes.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2096,7 +2096,7 @@
       "date": "2025-05-21",
       "endDate": "2025-05-28",
       "description": "A weekly outfit challenge inspired by Mythological Chic.",
-      "image": "/images/dreamsnaps/Mythological-Chic.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2124,7 +2124,7 @@
       "date": "2025-05-14",
       "endDate": "2025-05-21",
       "description": "A weekly decor challenge inspired by Fairy Haven.",
-      "image": "/images/dreamsnaps/Fairy-Haven.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2152,7 +2152,7 @@
       "date": "2025-05-07",
       "endDate": "2025-05-14",
       "description": "A weekly outfit challenge inspired by Topsy-Turvy Tea Party.",
-      "image": "/images/dreamsnaps/Topsy-Turvy-Tea-Party.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2180,7 +2180,7 @@
       "date": "2025-04-30",
       "endDate": "2025-05-07",
       "description": "A weekly decor challenge inspired by Coziness Beyond the Stars.",
-      "image": "/images/dreamsnaps/Coziness-Beyond-the-Stars.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2208,7 +2208,7 @@
       "date": "2025-04-23",
       "endDate": "2025-04-30",
       "description": "A weekly outfit challenge inspired by Quirky Companions.",
-      "image": "/images/dreamsnaps/Quirky-Companions.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2236,7 +2236,7 @@
       "date": "2025-04-16",
       "endDate": "2025-04-23",
       "description": "A weekly decor challenge inspired by Daisy's Fashion Runway.",
-      "image": "/images/dreamsnaps/Daisy-s-Fashion-Runway.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2264,7 +2264,7 @@
       "date": "2025-04-09",
       "endDate": "2025-04-16",
       "description": "A weekly outfit challenge inspired by Hoppy Days.",
-      "image": "/images/dreamsnaps/Hoppy-Days.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2292,7 +2292,7 @@
       "date": "2025-04-02",
       "endDate": "2025-04-09",
       "description": "A weekly decor challenge inspired by Just Spring Things.",
-      "image": "/images/dreamsnaps/Just-Spring-Things.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2320,7 +2320,7 @@
       "date": "2025-03-26",
       "endDate": "2025-04-02",
       "description": "A weekly outfit challenge inspired by April Fools' Day.",
-      "image": "/images/dreamsnaps/April-Fools-Day.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2348,7 +2348,7 @@
       "date": "2025-03-19",
       "endDate": "2025-03-26",
       "description": "A weekly decor challenge inspired by My Lost Oasis.",
-      "image": "/images/dreamsnaps/My-Lost-Oasis.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2376,7 +2376,7 @@
       "date": "2025-03-12",
       "endDate": "2025-03-19",
       "description": "A weekly outfit challenge inspired by Going Green.",
-      "image": "/images/dreamsnaps/Going-Green.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2404,7 +2404,7 @@
       "date": "2025-03-05",
       "endDate": "2025-03-12",
       "description": "A weekly decor challenge inspired by Lights... Camera... Action!.",
-      "image": "/images/dreamsnaps/Lights-Camera-Action.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2432,7 +2432,7 @@
       "date": "2025-02-26",
       "endDate": "2025-03-05",
       "description": "A weekly outfit challenge inspired by Villagers on Parade.",
-      "image": "/images/dreamsnaps/Villagers-on-Parade.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2460,7 +2460,7 @@
       "date": "2025-02-19",
       "endDate": "2025-02-26",
       "description": "A weekly decor challenge inspired by My Cabinet of Curiosities.",
-      "image": "/images/dreamsnaps/My-Cabinet-of-Curiosities.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2488,7 +2488,7 @@
       "date": "2025-02-12",
       "endDate": "2025-02-19",
       "description": "A weekly outfit challenge inspired by Cupid's Runway.",
-      "image": "/images/dreamsnaps/Cupid-s-Runway.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2516,7 +2516,7 @@
       "date": "2025-02-05",
       "endDate": "2025-02-12",
       "description": "A weekly outfit challenge inspired by Take a Hike!.",
-      "image": "/images/dreamsnaps/Take-a-Hike.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2544,7 +2544,7 @@
       "date": "2025-01-29",
       "endDate": "2025-02-05",
       "description": "A weekly decor challenge inspired by Welcome to Toontown.",
-      "image": "/images/dreamsnaps/Welcome-to-Toontown.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2572,7 +2572,7 @@
       "date": "2025-01-22",
       "endDate": "2025-01-29",
       "description": "A weekly outfit challenge inspired by Bookworm Style.",
-      "image": "/images/dreamsnaps/Bookworm-Style.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2600,7 +2600,7 @@
       "date": "2025-01-15",
       "endDate": "2025-01-22",
       "description": "A weekly decor challenge inspired by The Lost Forest.",
-      "image": "/images/dreamsnaps/The-Lost-Forest.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2628,7 +2628,7 @@
       "date": "2025-01-08",
       "endDate": "2025-01-15",
       "description": "A weekly outfit challenge inspired by Fairy Fantasies.",
-      "image": "/images/dreamsnaps/Fairy-Fantasies.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2656,7 +2656,7 @@
       "date": "2025-01-01",
       "endDate": "2025-01-08",
       "description": "A weekly decor challenge inspired by New Year's Celebration.",
-      "image": "/images/dreamsnaps/New-Year-s-Celebration.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2684,7 +2684,7 @@
       "date": "2024-12-25",
       "endDate": "2025-01-01",
       "description": "A weekly outfit challenge inspired by Frosted Fashions.",
-      "image": "/images/dreamsnaps/Frosted-Fashions.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2712,7 +2712,7 @@
       "date": "2024-12-18",
       "endDate": "2024-12-25",
       "description": "A weekly decor challenge inspired by Dreamlight Holiday Market.",
-      "image": "/images/dreamsnaps/Dreamlight-Holiday-Market.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2740,7 +2740,7 @@
       "date": "2024-12-11",
       "endDate": "2024-12-18",
       "description": "A weekly outfit challenge inspired by Bibbidi Bobbidi YOU!.",
-      "image": "/images/dreamsnaps/Bibbidi-Bobbidi-YOU.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2768,7 +2768,7 @@
       "date": "2024-12-04",
       "endDate": "2024-12-11",
       "description": "A weekly decor challenge inspired by Future Visions.",
-      "image": "/images/dreamsnaps/Future-Visions.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2796,7 +2796,7 @@
       "date": "2024-11-27",
       "endDate": "2024-12-04",
       "description": "A weekly outfit challenge inspired by Harvest Celebration.",
-      "image": "/images/dreamsnaps/Harvest-Celebration.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2824,7 +2824,7 @@
       "date": "2024-11-20",
       "endDate": "2024-11-27",
       "description": "A weekly decor challenge inspired by Slumber Party.",
-      "image": "/images/dreamsnaps/Slumber-Party.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2852,7 +2852,7 @@
       "date": "2024-11-13",
       "endDate": "2024-11-20",
       "description": "A weekly outfit challenge inspired by Employee of the Month.",
-      "image": "/images/dreamsnaps/Employee-of-the-Month.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2880,7 +2880,7 @@
       "date": "2024-11-06",
       "endDate": "2024-11-13",
       "description": "A weekly decor challenge inspired by Hakuna Matata!.",
-      "image": "/images/dreamsnaps/Hakuna-Matata.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2908,7 +2908,7 @@
       "date": "2024-10-30",
       "endDate": "2024-11-06",
       "description": "A weekly outfit challenge inspired by Pumpkin Royalty.",
-      "image": "/images/dreamsnaps/Pumpkin-Royalty.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2936,7 +2936,7 @@
       "date": "2024-10-23",
       "endDate": "2024-10-30",
       "description": "A weekly decor challenge inspired by Valley Rock Show.",
-      "image": "/images/dreamsnaps/Valley-Rock-Show.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2964,7 +2964,7 @@
       "date": "2024-10-16",
       "endDate": "2024-10-23",
       "description": "A weekly outfit challenge inspired by Your Favorite Bag.",
-      "image": "/images/dreamsnaps/Your-Favorite-Bag.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -2992,7 +2992,7 @@
       "date": "2024-10-09",
       "endDate": "2024-10-16",
       "description": "A weekly decor challenge inspired by My Critter's Lair.",
-      "image": "/images/dreamsnaps/My-Critter-s-Lair.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3020,7 +3020,7 @@
       "date": "2024-10-02",
       "endDate": "2024-10-09",
       "description": "A weekly outfit challenge inspired by Dreamlight Western.",
-      "image": "/images/dreamsnaps/Dreamlight-Western.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3048,7 +3048,7 @@
       "date": "2024-09-25",
       "endDate": "2024-10-02",
       "description": "A weekly decor challenge inspired by Autumn's Magic.",
-      "image": "/images/dreamsnaps/Autumn-s-Magic.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3076,7 +3076,7 @@
       "date": "2024-09-18",
       "endDate": "2024-09-25",
       "description": "A weekly outfit challenge inspired by Dance Party!.",
-      "image": "/images/dreamsnaps/Dance-Party.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3104,7 +3104,7 @@
       "date": "2024-09-11",
       "endDate": "2024-09-18",
       "description": "A weekly decor challenge inspired by Back to New Orleans.",
-      "image": "/images/dreamsnaps/Back-to-New-Orleans.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3132,7 +3132,7 @@
       "date": "2024-09-04",
       "endDate": "2024-09-11",
       "description": "A weekly outfit challenge inspired by Make It Camp.",
-      "image": "/images/dreamsnaps/Make-It-Camp.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3160,7 +3160,7 @@
       "date": "2024-08-28",
       "endDate": "2024-09-04",
       "description": "A weekly decor challenge inspired by ¡Hola, Casita!.",
-      "image": "/images/dreamsnaps/Hola-Casita.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3188,7 +3188,7 @@
       "date": "2024-08-21",
       "endDate": "2024-08-28",
       "description": "A weekly outfit challenge inspired by Disney Princess Week.",
-      "image": "/images/dreamsnaps/Disney-Princess-Week.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3216,7 +3216,7 @@
       "date": "2024-08-14",
       "endDate": "2024-08-21",
       "description": "A weekly decor challenge inspired by Dreamlight Diamonds Showcase.",
-      "image": "/images/dreamsnaps/Dreamlight-Diamonds-Showcase.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3244,7 +3244,7 @@
       "date": "2024-08-07",
       "endDate": "2024-08-14",
       "description": "A weekly outfit challenge inspired by Picnic Day.",
-      "image": "/images/dreamsnaps/Picnic-Day.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3272,7 +3272,7 @@
       "date": "2024-07-31",
       "endDate": "2024-08-07",
       "description": "A weekly decor challenge inspired by Valley Views.",
-      "image": "/images/dreamsnaps/Valley-Views.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3300,7 +3300,7 @@
       "date": "2024-07-24",
       "endDate": "2024-07-31",
       "description": "A weekly outfit challenge inspired by Mulan's Welcome.",
-      "image": "/images/dreamsnaps/Mulan-s-Welcome.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3328,7 +3328,7 @@
       "date": "2024-07-17",
       "endDate": "2024-07-24",
       "description": "A weekly decor challenge inspired by DreamSnaps Annual Celebration.",
-      "image": "/images/dreamsnaps/DreamSnaps-Annual-Celebration.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3356,7 +3356,7 @@
       "date": "2024-07-10",
       "endDate": "2024-07-17",
       "description": "A weekly outfit challenge inspired by Timeless Magical Style.",
-      "image": "/images/dreamsnaps/Timeless-Magical-Style.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3384,7 +3384,7 @@
       "date": "2024-07-03",
       "endDate": "2024-07-10",
       "description": "A weekly decor challenge inspired by Dreamlight Art Gallery.",
-      "image": "/images/dreamsnaps/Dreamlight-Art-Gallery.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3412,7 +3412,7 @@
       "date": "2024-06-26",
       "endDate": "2024-07-03",
       "description": "A weekly outfit challenge inspired by Stitch-able Fashion.",
-      "image": "/images/dreamsnaps/Stitch-able-Fashion.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3440,7 +3440,7 @@
       "date": "2024-06-19",
       "endDate": "2024-06-26",
       "description": "A weekly outfit challenge inspired by Sugary Style.",
-      "image": "/images/dreamsnaps/Sugary-Style.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3468,7 +3468,7 @@
       "date": "2024-06-12",
       "endDate": "2024-06-19",
       "description": "A weekly decor challenge inspired by Dreamlight Market.",
-      "image": "/images/dreamsnaps/Dreamlight-Market.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3496,7 +3496,7 @@
       "date": "2024-06-05",
       "endDate": "2024-06-12",
       "description": "A weekly outfit challenge inspired by Cooking with Friends.",
-      "image": "/images/dreamsnaps/Cooking-with-Friends.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3524,7 +3524,7 @@
       "date": "2024-05-29",
       "endDate": "2024-06-05",
       "description": "A weekly decor challenge inspired by Treasure Trove.",
-      "image": "/images/dreamsnaps/Treasure-Trove.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3552,7 +3552,7 @@
       "date": "2024-05-22",
       "endDate": "2024-05-29",
       "description": "A weekly outfit challenge inspired by Your Luxe Look.",
-      "image": "/images/dreamsnaps/Your-Luxe-Look.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3580,7 +3580,7 @@
       "date": "2024-05-15",
       "endDate": "2024-05-22",
       "description": "A weekly decor challenge inspired by Theme Park Snack Bar.",
-      "image": "/images/dreamsnaps/Theme-Park-Snack-Bar.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3608,7 +3608,7 @@
       "date": "2024-05-08",
       "endDate": "2024-05-15",
       "description": "A weekly outfit challenge inspired by Top It All Off.",
-      "image": "/images/dreamsnaps/Top-It-All-Off.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3636,7 +3636,7 @@
       "date": "2024-05-01",
       "endDate": "2024-05-08",
       "description": "A weekly decor challenge inspired by Royal Celebration.",
-      "image": "/images/dreamsnaps/Royal-Celebration.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3664,7 +3664,7 @@
       "date": "2024-04-24",
       "endDate": "2024-05-01",
       "description": "A weekly decor challenge inspired by In Bloom.",
-      "image": "/images/dreamsnaps/In-Bloom.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3692,7 +3692,7 @@
       "date": "2024-04-17",
       "endDate": "2024-04-24",
       "description": "A weekly outfit challenge inspired by Monster-sona.",
-      "image": "/images/dreamsnaps/Monster-sona.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3720,7 +3720,7 @@
       "date": "2024-04-10",
       "endDate": "2024-04-17",
       "description": "A weekly decor challenge inspired by Moana's Village.",
-      "image": "/images/dreamsnaps/Moana-s-Village.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3748,7 +3748,7 @@
       "date": "2024-04-03",
       "endDate": "2024-04-10",
       "description": "A weekly outfit challenge inspired by Superhero for a Day.",
-      "image": "/images/dreamsnaps/Superhero-for-a-Day.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3776,7 +3776,7 @@
       "date": "2024-03-27",
       "endDate": "2024-04-03",
       "description": "A weekly decor challenge inspired by Ancient Aesthetics.",
-      "image": "/images/dreamsnaps/Ancient-Aesthetics.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3804,7 +3804,7 @@
       "date": "2024-03-20",
       "endDate": "2024-03-27",
       "description": "A weekly outfit challenge inspired by Chill Summer.",
-      "image": "/images/dreamsnaps/Chill-Summer.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3832,7 +3832,7 @@
       "date": "2024-03-13",
       "endDate": "2024-03-20",
       "description": "A weekly decor challenge inspired by DIY Theme Park.",
-      "image": "/images/dreamsnaps/DIY-Theme-Park.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3860,7 +3860,7 @@
       "date": "2024-03-06",
       "endDate": "2024-03-13",
       "description": "A weekly outfit challenge inspired by Fur, Feathers, Scales.",
-      "image": "/images/dreamsnaps/Fur-Feathers-Scales.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3888,7 +3888,7 @@
       "date": "2024-02-28",
       "endDate": "2024-03-06",
       "description": "A weekly decor challenge inspired by Villainous Lair.",
-      "image": "/images/dreamsnaps/Villainous-Lair.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3916,7 +3916,7 @@
       "date": "2024-02-21",
       "endDate": "2024-02-28",
       "description": "A weekly outfit challenge inspired by Savanna Style.",
-      "image": "/images/dreamsnaps/Savanna-Style.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3944,7 +3944,7 @@
       "date": "2024-02-14",
       "endDate": "2024-02-21",
       "description": "A weekly decor challenge inspired by Minnie Mouse's Festival of Hearts.",
-      "image": "/images/dreamsnaps/Minnie-Mouse-s-Festival-of-Hearts.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -3972,7 +3972,7 @@
       "date": "2024-02-07",
       "endDate": "2024-02-14",
       "description": "A weekly outfit challenge inspired by Freestyle!.",
-      "image": "/images/dreamsnaps/Freestyle.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4000,7 +4000,7 @@
       "date": "2024-01-31",
       "endDate": "2024-02-07",
       "description": "A weekly decor challenge inspired by It Came from Outer Space.",
-      "image": "/images/dreamsnaps/It-Came-from-Outer-Space.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4028,7 +4028,7 @@
       "date": "2024-01-24",
       "endDate": "2024-01-31",
       "description": "A weekly outfit challenge inspired by Sports Savvy.",
-      "image": "/images/dreamsnaps/Sports-Savvy.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4056,7 +4056,7 @@
       "date": "2024-01-17",
       "endDate": "2024-01-24",
       "description": "A weekly decor challenge inspired by Arendelle Showcase.",
-      "image": "/images/dreamsnaps/Arendelle-Showcase.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4084,7 +4084,7 @@
       "date": "2024-01-10",
       "endDate": "2024-01-17",
       "description": "A weekly outfit challenge inspired by Winter's Here!.",
-      "image": "/images/dreamsnaps/Winter-s-Here.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4112,7 +4112,7 @@
       "date": "2024-01-03",
       "endDate": "2024-01-10",
       "description": "A weekly decor challenge inspired by Out of the Toy Box.",
-      "image": "/images/dreamsnaps/Out-of-the-Toy-Box.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4140,7 +4140,7 @@
       "date": "2023-12-27",
       "endDate": "2024-01-03",
       "description": "A weekly outfit challenge inspired by A Day at Disney.",
-      "image": "/images/dreamsnaps/A-Day-at-Disney.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4170,7 +4170,7 @@
       "date": "2023-12-20",
       "endDate": "2023-12-27",
       "description": "A weekly decor challenge inspired by Holiday Cheer.",
-      "image": "/images/dreamsnaps/Holiday-Cheer.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4198,7 +4198,7 @@
       "date": "2023-12-13",
       "endDate": "2023-12-20",
       "description": "A weekly decor challenge inspired by Under the Sea.",
-      "image": "/images/dreamsnaps/Under-the-Sea.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4226,7 +4226,7 @@
       "date": "2023-12-06",
       "endDate": "2023-12-13",
       "description": "A weekly outfit challenge inspired by Jean Dreams.",
-      "image": "/images/dreamsnaps/Jean-Dreams.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4256,7 +4256,7 @@
       "date": "2023-11-29",
       "endDate": "2023-12-06",
       "description": "A weekly decor challenge inspired by Dreamers Unite.",
-      "image": "/images/dreamsnaps/Dreamers-Unite.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4284,7 +4284,7 @@
       "date": "2023-11-22",
       "endDate": "2023-11-29",
       "description": "A weekly outfit challenge inspired by Haus of Mouse.",
-      "image": "/images/dreamsnaps/Haus-of-Mouse.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4312,7 +4312,7 @@
       "date": "2023-11-15",
       "endDate": "2023-11-22",
       "description": "A weekly decor challenge inspired by Camp Dreamlight.",
-      "image": "/images/dreamsnaps/Camp-Dreamlight.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4340,7 +4340,7 @@
       "date": "2023-11-08",
       "endDate": "2023-11-15",
       "description": "A weekly outfit challenge inspired by WALL-E's Garden.",
-      "image": "/images/dreamsnaps/WALL-E-s-Garden.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4370,7 +4370,7 @@
       "date": "2023-11-01",
       "endDate": "2023-11-08",
       "description": "A weekly decor challenge inspired by Something Wicked.",
-      "image": "/images/dreamsnaps/Something-Wicked.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4398,7 +4398,7 @@
       "date": "2023-10-25",
       "endDate": "2023-11-01",
       "description": "A weekly outfit challenge inspired by Trick or Treat!.",
-      "image": "/images/dreamsnaps/Trick-or-Treat.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4426,7 +4426,7 @@
       "date": "2023-10-18",
       "endDate": "2023-10-25",
       "description": "A weekly decor challenge inspired by Bedroom Beauty.",
-      "image": "/images/dreamsnaps/Bedroom-Beauty.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4454,7 +4454,7 @@
       "date": "2023-10-11",
       "endDate": "2023-10-18",
       "description": "A weekly outfit challenge inspired by Swashbuckle 'n' Swagger.",
-      "image": "/images/dreamsnaps/Swashbuckle-n-Swagger.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4482,7 +4482,7 @@
       "date": "2023-10-04",
       "endDate": "2023-10-11",
       "description": "A weekly decor challenge inspired by Frightfully Festive.",
-      "image": "/images/dreamsnaps/Frightfully-Festive.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4510,7 +4510,7 @@
       "date": "2023-09-27",
       "endDate": "2023-10-04",
       "description": "A weekly outfit challenge inspired by Fun with Fall.",
-      "image": "/images/dreamsnaps/Fun-with-Fall.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4538,7 +4538,7 @@
       "date": "2023-09-20",
       "endDate": "2023-09-27",
       "description": "A weekly decor challenge inspired by Critter Love.",
-      "image": "/images/dreamsnaps/Critter-Love.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4566,7 +4566,7 @@
       "date": "2023-09-13",
       "endDate": "2023-09-20",
       "description": "A weekly outfit challenge inspired by Dapper Delights.",
-      "image": "/images/dreamsnaps/Dapper-Delights.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4594,7 +4594,7 @@
       "date": "2023-09-06",
       "endDate": "2023-09-13",
       "description": "A weekly decor challenge inspired by Dreamy Kitchen.",
-      "image": "/images/dreamsnaps/Dreamy-Kitchen.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4622,7 +4622,7 @@
       "date": "2023-08-30",
       "endDate": "2023-09-06",
       "description": "A weekly outfit challenge inspired by Forget Me Not.",
-      "image": "/images/dreamsnaps/Forget-Me-Not.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4650,7 +4650,7 @@
       "date": "2023-08-23",
       "endDate": "2023-08-30",
       "description": "A weekly decor challenge inspired by Dreamers Unite.",
-      "image": "/images/dreamsnaps/Dreamers-Unite-006.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4678,7 +4678,7 @@
       "date": "2023-08-16",
       "endDate": "2023-08-23",
       "description": "A weekly outfit challenge inspired by Rainbows.",
-      "image": "/images/dreamsnaps/Rainbows.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4704,7 +4704,7 @@
       "date": "2023-08-09",
       "endDate": "2023-08-16",
       "description": "A weekly decor challenge inspired by Fire and Water.",
-      "image": "/images/dreamsnaps/Fire-and-Water.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4732,7 +4732,7 @@
       "date": "2023-08-02",
       "endDate": "2023-08-09",
       "description": "A weekly outfit challenge inspired by Earth and Air.",
-      "image": "/images/dreamsnaps/Earth-and-Air.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4760,7 +4760,7 @@
       "date": "2023-07-26",
       "endDate": "2023-08-02",
       "description": "A weekly decor challenge inspired by Ocean Views.",
-      "image": "/images/dreamsnaps/Ocean-Views.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
@@ -4788,7 +4788,7 @@
       "date": "2023-07-19",
       "endDate": "2023-07-26",
       "description": "A weekly outfit challenge inspired by The Dreamlight Ball.",
-      "image": "/images/dreamsnaps/The-Dreamlight-Ball.svg",
+      "image": "/images/dreamsnaps/placeholder.svg",
       "score": 0,
       "ranking": 0,
       "rewards": {
