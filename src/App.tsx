@@ -61,13 +61,11 @@ function Icon({
 function MetricCard({
   label,
   value,
-  detail,
   icon,
   accent,
 }: {
   label: string;
   value: string;
-  detail: string;
   icon: 'image' | 'moon' | 'sparkle' | 'medal' | 'trophy';
   accent: string;
 }) {
@@ -78,7 +76,6 @@ function MetricCard({
         <Icon name={icon} />
       </div>
       <p className="metric-value">{value}</p>
-      <p className="metric-detail">{detail}</p>
     </article>
   );
 }
@@ -226,6 +223,7 @@ function App() {
 
   const metrics = useMemo(() => {
     const total = dreamsnaps.length;
+    const participatedCount = dreamsnaps.filter((snap) => snap.score > 0).length;
     const totalMoonstones = dreamsnaps.reduce(
       (sum, snap) => sum + snap.rewards.moonstones,
       0,
@@ -244,7 +242,7 @@ function App() {
       0,
     );
 
-    return { total, totalMoonstones, averageScore, bestRankingSnap, highestScore };
+    return { total, participatedCount, totalMoonstones, averageScore, bestRankingSnap, highestScore };
   }, [dreamsnaps]);
 
   const highscoreItems = useMemo(() => {
@@ -284,11 +282,7 @@ function App() {
             <div className="dashboard-layout">
               <div className="dashboard-overview">
                 <div className="section-heading">
-                  <div>
-                    <p className="eyebrow">DIT ARKIV I TAL</p>
-                    <h1 id="dashboard-title">Et overblik</h1>
-                  </div>
-                  <span className="updated-note"><Icon name="calendar" /> Dine minder, samlet ét sted</span>
+                  <h1 id="dashboard-title">Et overblik</h1>
                 </div>
                 {loadError && <p className="notice notice-error" role="alert">{loadError}</p>}
                 {!loadError && invalidCount > 0 && (
@@ -297,10 +291,10 @@ function App() {
                   </p>
                 )}
                 <div className="metrics-grid">
-                  <MetricCard accent="metric-lilac" detail="i dit galleri" icon="image" label="DreamSnaps" value={formatNumber(metrics.total)} />
-                  <MetricCard accent="metric-peach" detail="samlet fra dine resultater" icon="moon" label="Moonstones" value={formatNumber(metrics.totalMoonstones)} />
-                  <MetricCard accent="metric-blue" detail="på tværs af alle dine snaps" icon="sparkle" label="Gennemsnitlig score" value={formatNumber(metrics.averageScore)} />
-                  <MetricCard accent="metric-peach" detail="dit bedste resultat" icon="trophy" label="Højeste score" value={formatNumber(metrics.highestScore)} />
+                  <MetricCard accent="metric-lilac" icon="image" label="DreamSnaps" value={formatNumber(metrics.participatedCount)} />
+                  <MetricCard accent="metric-peach" icon="moon" label="Moonstones" value={formatNumber(metrics.totalMoonstones)} />
+                  <MetricCard accent="metric-blue" icon="sparkle" label="Gennemsnitlig score" value={formatNumber(metrics.averageScore)} />
+                  <MetricCard accent="metric-peach" icon="trophy" label="Højeste score" value={formatNumber(metrics.highestScore)} />
                 </div>
                 {loading && <p className="loading-message" role="status">Henter dine DreamSnaps…</p>}
               </div>
