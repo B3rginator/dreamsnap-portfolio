@@ -158,3 +158,34 @@ Hvis to DreamSnaps har samme værdi, skal sorteringen have en stabil sekundær s
 - Undgå at tilføje unødvendige dependencies.
 - JSON skal valideres, og alle billedstier skal pege på eksisterende filer.
 - Brug modern web guidance skills
+
+## Lokal udvikling
+
+Projektet bruger React, TypeScript og Vite. Kræver Node.js 22 eller nyere.
+
+```sh
+npm ci
+npm run dev
+```
+
+Byg og kontrollér produktionsversionen med:
+
+```sh
+npm run build
+npm run preview
+```
+
+`npm run build` validerer først JSON-strukturen, unikke ID'er og at alle
+billedstier peger på eksisterende filer.
+
+DreamSnap-data indlæses fra `public/data/dreamsnaps.json`. Ugyldige eller dublerede
+poster springes over og vises som en meddelelse i brugerfladen. En tom liste vises
+som en tom tilstand; der er ingen browserbaseret upload.
+
+## Publicering
+
+Workflowet i `.github/workflows/deploy.yml` bygger og publicerer automatisk ved
+push til `main`. Vælg **GitHub Actions** som *Build and deployment*-kilde under
+repositoryets **Settings → Pages**. Vite bruger automatisk repository-navnet
+som `base` i GitHub Actions, så data og billeder også virker på GitHub Pages'
+project-site-sti.
