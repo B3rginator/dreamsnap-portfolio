@@ -50,6 +50,7 @@ Når brugeren beder om at tilføje et DreamSnap, skal du følge denne procedure:
    - Hvis brugeren ikke har valgt en titel, må du gerne foreslå en titel, men gør det tydeligt, at den er et forslag.
    - Brug datoformatet `YYYY-MM-DD`; `date` er startdatoen, og `endDate` er valgfri slutdato.
    - `description` er valgfri og skal kun udfyldes, hvis brugeren har oplyst en beskrivelse.
+   - Sæt `isMine` til `true`, når brugeren har uploadet eller leveret billedet til sin DreamSnap; udelad feltet ellers.
    - `score`, `ranking`, `id` og `moonstones` skal være numeriske værdier.
    - `tags`, `mandatoryTags` og `bonusTags` skal være arrays af strings.
    - `tags` indeholder alle tags til søgning og filtrering; hold samtidig obligatoriske og bonus-tags adskilt i hver deres felt.
@@ -68,6 +69,7 @@ Når brugeren beder om at tilføje et DreamSnap, skal du følge denne procedure:
 - `endDate`: Valgfri challenge-slutdato i `YYYY-MM-DD`.
 - `description`: Valgfri challenge-beskrivelse.
 - `image`: Sti relativt til websitets public root, med filnavn baseret på titlen; brug `/images/dreamsnaps/placeholder.svg`, hvis billedet mangler. Tag højde for Vite `base`-konfigurationen i frontend-koden.
+- `isMine`: Valgfri boolean; brug `true`, når brugeren har uploadet eller leveret billedet til sin egen entry. Markér ikke entries med placeholder som brugerens.
 - `score`: DreamSnap-score som tal; brug `0`, hvis den mangler.
 - `ranking`: Placering som tal. Lavere tal betyder bedre placering; brug `0`, hvis den mangler.
 - `rewards.moonstones`: Antal modtagne Moonstones som tal; brug `0`, hvis de mangler.

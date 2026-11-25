@@ -6,6 +6,7 @@ export type DreamSnap = {
   endDate?: string;
   description?: string;
   image: string;
+  isMine?: boolean;
   score: number;
   ranking: number;
   rewards: {
@@ -72,6 +73,7 @@ function isDreamSnap(value: unknown): value is DreamSnap {
     (value.description === undefined || typeof value.description === 'string') &&
     typeof value.image === 'string' &&
     /^\/images\/dreamsnaps\/(?!.*\.\.)[^?#]+$/i.test(value.image) &&
+    (value.isMine === undefined || typeof value.isMine === 'boolean') &&
     typeof value.score === 'number' &&
     Number.isFinite(value.score) &&
     value.score >= 0 &&

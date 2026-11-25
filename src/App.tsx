@@ -363,7 +363,7 @@ function App() {
         );
       return (
         matchesQuery &&
-        (!participatedOnly || snap.score > 0) &&
+        (!participatedOnly || snap.score > 0 || snap.isMine) &&
         (!themeFilter || snap.theme === themeFilter) &&
         (!tagFilter || snap.tags.some((tag) => getTagName(tag) === tagFilter))
       );
@@ -378,7 +378,7 @@ function App() {
 
   const metrics = useMemo(() => {
     const total = dreamsnaps.length;
-    const participatedCount = dreamsnaps.filter((snap) => snap.score > 0).length;
+    const participatedCount = dreamsnaps.filter((snap) => snap.score > 0 || snap.isMine).length;
     const totalMoonstones = dreamsnaps.reduce(
       (sum, snap) => sum + snap.rewards.moonstones,
       0,

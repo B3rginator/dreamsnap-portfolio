@@ -1,6 +1,88 @@
 {
   "dreamsnaps": [
     {
+      "id": 176,
+      "title": "Golden Fall Farms",
+      "theme": "Golden Fall Farms",
+      "date": "2026-11-25",
+      "endDate": "2026-12-02",
+      "description": "Build an autumn farm scene around golden foliage, apple picking, or a pumpkin patch.",
+      "image": "/images/dreamsnaps/placeholder.svg",
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Rustic x2",
+        "Casual x2",
+        "Elegant x1",
+        "Lavish x1"
+      ],
+      "mandatoryTags": [
+        "Rustic x2",
+        "Casual x2",
+        "Elegant x1",
+        "Lavish x1"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 175,
+      "title": "Spun Sugar Dreams",
+      "theme": "Spun Sugar Dreams",
+      "date": "2026-11-18",
+      "endDate": "2026-11-25",
+      "description": "Create a candy-inspired outfit and a sweet dessert fantasy for your Valley.",
+      "image": "/images/dreamsnaps/Spun Sugar Dreams.jpg",
+      "isMine": true,
+      "score": 0,
+      "ranking": 0,
+      "rewards": {
+        "moonstones": 0
+      },
+      "tags": [
+        "Elegant x1",
+        "Quirky x2",
+        "Cute x2",
+        "Playful x1"
+      ],
+      "mandatoryTags": [
+        "Elegant x1",
+        "Quirky x2",
+        "Cute x2",
+        "Playful x1"
+      ],
+      "bonusTags": []
+    },
+    {
+      "id": 174,
+      "title": "The Enchanted Rose",
+      "theme": "The Enchanted Rose",
+      "date": "2026-11-11",
+      "endDate": "2026-11-18",
+      "image": "/images/dreamsnaps/The enchanted rose.jpg",
+      "isMine": true,
+      "score": 90.21,
+      "ranking": 662,
+      "rewards": {
+        "moonstones": 4000
+      },
+      "tags": [
+        "Elegant x1",
+        "Beauty and the Beast x1",
+        "Delicate x3",
+        "Wondrous x3"
+      ],
+      "mandatoryTags": [
+        "Elegant x1",
+        "Beauty and the Beast x1",
+        "Delicate x3",
+        "Wondrous x3"
+      ],
+      "bonusTags": []
+    },
+    {
       "id": 173,
       "title": "Resort Realms",
       "theme": "Resort Realms",

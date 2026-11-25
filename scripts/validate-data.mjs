@@ -69,6 +69,10 @@ if (!data || !Array.isArray(data.dreamsnaps)) {
       errors.push(`${label}.description skal være en string.`);
     }
 
+    if (snap.isMine !== undefined && typeof snap.isMine !== 'boolean') {
+      errors.push(`${label}.isMine skal være en boolean.`);
+    }
+
     for (const field of ['score', 'ranking']) {
       if (typeof snap[field] !== 'number' || !Number.isFinite(snap[field]) || snap[field] < 0) {
         errors.push(`${label}.${field} skal være et ikke-negativt tal.`);
